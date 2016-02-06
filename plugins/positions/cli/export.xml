@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <options>
+        <option>
+            <params name="HW_Module_Settings_page" method="append" prefix="positions_">
+                <params name="modules_position">
+                    <params name="hw-ml-slider">
+                        <param name="condition"></param>
+                        <param name="position"></param>
+                        <param name="page"></param>
+                    </params>
+                    <params name="breadcrumb">
+                        <param name="condition"></param>
+                        <param name="position"></param>
+                        <param name="page"></param>
+                    </params>
+                </params>
+
+            </params>
+        </option>
+    </options>
+</rss>

@@ -1,0 +1,8 @@
+- add new slider
+wp hw-ml-slider add_slider --width=700 --height=300 --source=exists --num=3 --title="slider name"
+
+# default width=730,height=280,source=upload,num=3, title = random
+wp hw-ml-slider add_slider
+
+# with config file
+wp hw-ml-slider add_slider --config=config.xml

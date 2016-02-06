@@ -1,2 +1,2 @@
-# hw-hoangweb-plugin
-hoangweb wordpress plugin
+"# Hoangweb Wordpress Plugin"
+Wordpress plugin by Hoangweb.com

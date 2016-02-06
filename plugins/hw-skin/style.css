@@ -1,0 +1,69 @@
+.hw-skin-hidden{display:none;}
+.hw-skin-preview{margin-top:5px;}
+.hw-skin-preview img{max-width:100%;height:auto;border:1px solid #dadada;padding:4px;background-color:#fff;}
+.hw-skin-list-container .hw-skin-current-thumb{
+	max-width:50px;
+	padding: 2px;
+  border: 2px solid red;
+  background: #fff;
+}
+.hwk-skins-list{
+	max-height:300px;
+	overflow: auto;
+	border:1px solid #C8C2C2;
+	
+}
+.hwk-skins-list .thumb img{
+	max-height:50px;
+}
+.hwk-skins-list .list-skin-files .group{
+	  background: #6F5858;
+  color: #fff;
+  padding: 3px;
+}
+.hwk-skins-list .list-skin-files tr:hover{
+	background:#dadada;
+	
+}
+.hwk-skins-list .list-skin-files .skin label{
+	width: 100%;height:100%;
+  	display: block;
+}
+.hw-skin-current{background:#dadada;}
+/*ddslick*/
+.dd-selected{
+	padding:2px !important;
+}
+.hw-skin-options-notice{color:red;padding:4px;background: #dadada;}
+.hw-skin-options-none input{display: none;}
+.hw-skin-options-none select{display: none;}
+
+/*skin options collapsible*/
+.hw-skin-options-holder h2 {
+    font-size: 14px;
+    font-weight: bold;
+    background: #B0E5B8;
+    border: 1px solid #628066;
+    border-width: 0 1px 0px 0;
+    padding:0px;
+}
+.hw-skin-options-holder h2 a{
+    font-size: 14px;
+    background: url("images/sprite.png") 9px 8px no-repeat;
+    display: block;
+    padding: 0px;
+    padding-left: 32px;
+    margin: 0;
+    color: #628066;
+    text-decoration: none;
+    font-weight: normal;
+    border-bottom: 1px solid #628066;
+}
+.hw-skin-options-holder h2.open a {
+    background-position: 10px -30px;
+}
+.hw-skin-options-holder{
+
+    overflow: hidden;
+    margin-bottom: 20px;
+}

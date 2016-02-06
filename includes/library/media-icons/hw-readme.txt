@@ -1,0 +1,1 @@
+cover from plugin "menu-icons"

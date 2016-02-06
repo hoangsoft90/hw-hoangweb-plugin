@@ -1,0 +1,1 @@
+http://webcloud.se/jQuery-Collapse/

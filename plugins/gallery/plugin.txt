@@ -1,0 +1,9 @@
+/**
+Plugin Name: HW Gallery
+Plugin URI: http://hoangweb.com
+Description: manage gallery by hoangweb
+Author: Hoangweb.com
+Version: 1.0
+Text Domain: hoangweb
+Domain Path: /languages
+ */

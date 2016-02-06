@@ -1,0 +1,69 @@
+.travel-box .item-box {
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    margin: 10px 25px 10px 0;
+    width: 30%;
+    clear:none !important;
+}
+.travel-box .category-item {
+    padding-bottom: 8px;
+}
+.travel-box .category-item .picture {
+    text-align: center;
+    overflow: hidden;
+}
+.travel-box a {
+    color: #009aa4;
+}
+.travel-box a {
+    color: #569343;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.travel-box .category-item .picture img {
+    height: 160px;
+    width: 100%;
+}
+.travel-box .picture-shadow {
+    background: url(images/shadow.png) repeat scroll 0 -210px transparent;
+    height: 14px;
+    margin: auto;
+    /*width: 300px;*/
+    background-size: 100%;
+}
+.travel-box .category-item .title {
+    font-weight: 700;
+    font-size: 22px;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    padding: 0;
+    margin: 0px !important;
+    border-bottom:0px !important;
+}
+.travel-box h2, h3 {
+    font-size: 1.8em;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.travel-box a {
+    color: #009aa4;
+}
+.travel-box a {
+    color: #569343;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+.travel-box .category-item .category-description {
+    text-align: justify;
+    padding: 10px 0;
+    height: 37px;
+    overflow: hidden;
+    line-height: 16px;
+}
+.travel-box .edit-link{font-size:10px;
+    clear: both;
+    display: block;
+    text-align: left;
+}

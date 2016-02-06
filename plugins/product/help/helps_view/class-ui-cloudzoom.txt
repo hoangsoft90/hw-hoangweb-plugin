@@ -1,0 +1,46 @@
+<pre class="brush:php">
+<?php
+HW_Cloudzoom::register('name1', array(..)); //options
+
+$inst=HW_Cloudzoom::get('name1');
+
+$inst=HW_Cloudzoom::init(); //single instance
+
+$inst->load_images(array('12','56','87'));
+
+//get all images attached to current post (single template)
+$inst->load_images_from_post();
+
+//get all images attached to post id 23
+$inst->load_images_from_post('23');
+
+/**
+Filters/Hooks from class-ui.php
+*/
+//params
+add_filter('HW_Cloudzoom_params', 'filter_params');
+function filter_params($params) {
+    return $params;
+}
+//options
+add_filter('HW_Cloudzoom_options', 'filter_options');
+function filter_options($options) {
+    return $options;
+}
+
+?>
+</pre>
+<pre class="brush:php">
+<!-- render HTML -->
+<div class="ProductThumb" style="overflow: visible;">
+    <div class="ProductThumbImage" style="width: 220px; height: 220px; text-align:center; overflow:visible;">
+    <?php $inst->display_thumbImage()?>
+    </div>
+    <div class="small-images">
+    <?php $int->display_thumbImage()?>
+    </div>
+</div>
+
+<!-- display cloudzoom method 2 -->
+<?php $inst->display()?>
+</pre>

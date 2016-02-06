@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <sidebars>
+
+    </sidebars>
+    <options>
+        <option>
+            <params name="HW_Module_Settings_page" method="append" prefix="counter_">
+                <param name="statsmechanic_style"><![CDATA[image/calculator]]></param>
+            </params>
+        </option>
+    </options>
+    <widgets>
+        <hw:widget sidebar="sidebar-1" id_base="hw_statsmechanic">
+            <param name="title"><![CDATA[Bo dem]]></param>
+            <param name="font_color"><![CDATA[]]></param>
+            <param name="count_start"><![CDATA[1]]></param>
+            <param name="hits_start"><![CDATA[1]]></param>
+            <param name="today_view"><![CDATA[on]]></param>
+            <param name="yesterday_view"><![CDATA[on]]></param>
+            <param name="month_view"><![CDATA[on]]></param>
+
+        </hw:widget>
+    </widgets>
+</rss>

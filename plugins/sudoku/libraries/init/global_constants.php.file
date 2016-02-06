@@ -1,0 +1,4 @@
+﻿/*
+	Copy nội dung file này vào file cấu hình (ie: biến, hằng..) trong ứng dụng của bạn.
+*/
+define('app_libs','libs/');	//chuyển thư mục chứa thư viện cho ứng dụng của bạn.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+
+    <skins>
+        <hw:skin name="mlslider">
+            <!-- <skin:apply_plugin>hw-ml-slider</skin:apply_plugin> -->
+            <skin:default_skin_path>themes</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>mlslider-skin.php</skin:skin_name>
+            <skin:other_folder>hw_mlslider_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:options>
+                <param name="enable_skin_file">0</param>
+                <param name="enable_skin_tpl">1</param>
+            </skin:options>
+            <skin:list>
+                <param name="skin-1">Skin 1</param>
+            </skin:list>
+        </hw:skin>
+    </skins>
+</rss>

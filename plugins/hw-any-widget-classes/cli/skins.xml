@@ -1,0 +1,22 @@
+<rss version="2.0"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <skins>
+        <!-- any widget classes -->
+        <hw:skin name="awc">
+            <!-- <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin> -->
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hwawc-skin.php</skin:skin_name>
+            <skin:other_folder>hw_awc_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+            <skin:options>
+                <param name="enable_skin_file">1</param>
+                <param name="enable_skin_tpl">0</param>
+            </skin:options>
+        </hw:skin>
+    </skins>
+</rss>

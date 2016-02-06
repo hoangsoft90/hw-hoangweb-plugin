@@ -1,0 +1,4 @@
+<div style='position:fixed; border:1px solid gray;background:#ffffff;opacity:0.5;filter:alpha(opacity=50);'>
+<div style='background:gray;color:#ffffff;'>debugger</div>
+<div style='overflow:auto;width:300;height:400;'>sdf</div>
+</div>

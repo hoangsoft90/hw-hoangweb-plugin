@@ -1,0 +1,18 @@
+<div class="hwml-slider-container">
+    <div class="slider-wrapper theme-default" id="nivo-slider-{{ slider_id }}" class="skitter" >
+        {% if query is defined %}
+        {% for post in posts %}
+            <a href="{{ post.get_field('hw-ml-slider_url')|default('#') }}">
+                <img src="{{ post.thumbnail.src }}" alt="{{ post.excerpt }}" data-thumb="{{ post.thumbnail.src }}" data-transition="" alt="{{ post.excerpt }}" title="{{ post.excerpt }}"  />
+            </a>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(window).load(function () {    //because it render directly so please don't wrapper in jquery event that will make ui crash & any lib (here is nivoSlider) not work
+        jQuery('#nivo-slider-{{ slider_id }}').nivoSlider({{ options }});
+    });
+
+
+</script>

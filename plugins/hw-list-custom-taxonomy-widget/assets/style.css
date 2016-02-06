@@ -1,0 +1,10 @@
+/*draft*/
+li.cat-item .children
+{
+    display: none;
+}
+li.cat-item .current-cat > .children,
+li.cat-item li.current-cat-ancestor > .children
+{
+    display: list-item;
+}

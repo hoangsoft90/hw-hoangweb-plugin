@@ -1,0 +1,31 @@
+.yk-item-tog .tog-bar{
+	background:gray;padding:3px;color:#fff;font-weight:bold;cursor:pointer;
+	border-bottom:1px solid #fafafa;
+}
+.yk-item-tog .tog-bar .togbar{
+	background:red;
+	  float: right;
+  width: 20px;
+  height: 20px;
+}
+.yk-item-tog .collapse-button.open{
+	background:url('images/minus.png');
+	  background-repeat: no-repeat;
+	  background-position: center center;
+}
+.yk-item-tog .collapse-button.closed{
+	background:url('images/plus.png');
+	background-position: center center;
+	  background-repeat: no-repeat;
+}
+.yk-loading{
+	background:url('images/loading.gif') center no-repeat;
+	background-size:20px;
+	width: 20px;
+	height:20px;
+	display: inline-block;
+}
+.yk-status-preview{border:1px solid #dadada;}
+.positionText{
+	background:#9B9B9A; color:#FFF !important; padding:2px 5px;
+}

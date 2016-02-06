@@ -1,0 +1,11 @@
+.hw-langs-switcher{float: right;}
+.qtrans_language_chooser li.active a{
+    border: 3px solid red;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.qtrans_language_chooser li.active a{
+    border: 3px solid red;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}

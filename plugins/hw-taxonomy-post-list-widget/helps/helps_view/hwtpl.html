@@ -1,0 +1,10 @@
+<code>
+/**
+ * filter query data arguments
+ */
+add_filter('htpl_query_args', '_htpl_query_args', 10,2);
+function _htpl_query_args($args, $instance) {
+    $args['post_status'] = 'draft';
+    return $args;
+}
+</code>

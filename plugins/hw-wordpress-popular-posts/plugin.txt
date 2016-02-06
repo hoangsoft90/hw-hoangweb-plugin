@@ -1,0 +1,11 @@
+﻿/*
+Plugin Name: HW Bài viết xem nhiều
+Plugin URI: 
+Description: Hiển thị bài viết phổ biến, xem nhiều trên website.
+Version: 3.2.2
+Text Domain: wordpress-popular-posts
+Domain Path: /lang/
+Network: false
+License: GPLv2 or later
+author: http://wordpress.org/extend/plugins/wordpress-popular-posts
+*/

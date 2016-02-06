@@ -1,0 +1,36 @@
+- Chèn vào code hàm sau để hiển thị bài viết liên quan: <code><?php hwrp_display_related()?></code>.
+Tắt tùy chọn hiển thị tự động cho các loại post types ở cài đặt "Display options for your website" trên.
+<img src='{HELP_VIEW_URL}/disable-auto-display-yarpp.jpg'/>
+<a href='#'>more</a>
+
+- Chọn template riêng cho post type, vào <strong>Settings->Hoangweb cấu hình</strong>.
+Hiển thị tiêu đề nội dung liên quan nếu trong template chưa có (sử dụng template ngoài).
+<pre class="brush:php">
+/**
+* before display related content
+*/
+add_action('hw_yarpp_results_before','hw_yarpp_results_before');
+function hw_yarpp_results_before($hwrp) {
+    #if(isset($hwrp->options_data)) $title = $hwrp->options_data['title'];
+    #else $title = $hwrp->title;
+
+    echo '<h3>'.$hwrp->title.'</h3>';
+}
+/**
+* after display related content
+*/
+add_action('hw_yarpp_results_after', 'hw_yarpp_results_after');
+function hw_yarpp_results_after($hwrp) {
+    //do something...
+}
+</pre>
+<pre class="brush:php">
+add_filter('hw_related_posts_title', '_hw_related_posts_title');
+function _hw_related_posts_title($title) {
+    global $wp_query;
+    #if($wp_query->have_posts){
+    //return "<h3 class='title-sp'>{$title}</h3>";
+    #}
+    return;
+}
+</pre>

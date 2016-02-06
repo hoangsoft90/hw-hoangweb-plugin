@@ -1,0 +1,7 @@
+/*
+Plugin Name: HW Weather Exchange rate widget
+Author: Hoangweb.com
+Author URI:http://www.hoangweb.com
+Description: display weather, exchange rate in sidebar widget
+Version: 1.0
+*/

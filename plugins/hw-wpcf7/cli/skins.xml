@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+
+    <skins>
+        <!-- contact form 7 -->
+        <hw:skin name="hwcf7">
+            <!-- <skin:apply_plugin>hw-wpcf7</skin:apply_plugin> -->
+            <skin:default_skin_path>themes</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-wpcf7-skin.php</skin:skin_name>
+            <skin:other_folder>hw_navmenu_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:options>
+                <param name="enable_skin_file">1</param>
+                <param name="enable_skin_tpl">0</param>
+            </skin:options>
+            <skin:list>
+                <param name="skin-1">Skin 1</param>
+                <param name="skin-2"/>
+                <param name="skin-3"/>
+            </skin:list>
+        </hw:skin>
+        <hw:skin name="hwcf7_images">
+            <!-- <skin:apply_plugin>hw-wpcf7</skin:apply_plugin> -->
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:skin_type>link</skin:skin_type>
+            <skin:skin_name>hw-wcf7-ajax-image.php</skin:skin_name>
+            <skin:group>ajaxLoading</skin:group>
+            <skin:other_folder>hw_wpcf7_ajax_images</skin:other_folder>
+            <skin:enable_external_callback></skin:enable_external_callback>
+        </hw:skin>
+    </skins>
+</rss>

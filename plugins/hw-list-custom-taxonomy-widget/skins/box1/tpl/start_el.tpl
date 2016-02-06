@@ -1,0 +1,20 @@
+{#
+    filter 'raw' keep print extract quote character
+#}
+{{indent}}<li {{ id|raw }} class="{{ classes|raw }}">
+    {{args.before|raw}} {{args.submenu_before|raw}}
+        {{image_img|raw}}   {#  menu item image #}
+{% if remove_link_parent == false %}
+        <a {{ attributes | raw }}>
+            {{args.link_before | raw}} {{args.submenu_link_before|raw}}
+{% else %}
+<p><strong>
+{% endif %}
+            {{(title | raw)}}
+{% if remove_link_parent == false %}
+            {{args.submenu_link_after|raw}} {{args.link_after | raw}}
+{% else %}
+</strong></p>
+{% endif %}
+        </a>
+    {{args.submenu_after|raw}} {{args.after|raw}}

@@ -1,0 +1,7 @@
+<div id="container"></div>
+
+<script>
+var p=new HW_ProgressInstaller();
+p.start("http://localhost/2.php");
+p.set_progressbar('#container');
+</script>

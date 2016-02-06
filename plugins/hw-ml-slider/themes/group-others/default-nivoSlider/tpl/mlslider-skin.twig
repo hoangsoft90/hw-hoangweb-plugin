@@ -1,0 +1,18 @@
+<div class="slider-wrapper theme-{{ slider_theme }}">
+    <div class="ribbon"></div>
+    <div id="nivo-slider-{{ slider_id }}" class="nivoSlider" >
+        {% if query is defined %}
+        {% for post in posts %}
+            <a href="{{ post.get_field('hw-ml-slider_url')|default('#') }}">
+                <img src="{{ post.thumbnail.src }}" alt="{{ post.excerpt }}" data-thumb="{{ post.thumbnail.src }}" data-transition="" alt="" title="{{ post.excerpt }}"  />
+                {% if show_title %} {{ post.title }} {% endif %}
+            </a>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(window).load(function () {
+        jQuery('#nivo-slider-{{ slider_id }}').nivoSlider({{ options }});
+    });
+</script>

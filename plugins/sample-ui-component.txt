@@ -1,0 +1,51 @@
+class HW_Cloudzoom extends HW_UI_Component{
+    /**
+     * construct method
+     * @param $args
+     * @param $options
+     */
+    public function __construct($args = array(), $options = array()) {
+        parent::__construct($args, $options);
+        //valid
+        if(!is_array($args)) $args = array();
+
+        //params
+
+        $default_params = array(
+            'container_id' => 'cloudzoom-container',
+            'container_class' => '',
+            'thumb_anchor_class' => 'cloudzoom-thumb-anchor-class',
+            'thumb_img_class' => 'cloudzoom-thumb-img-class',
+
+            'smallthumb_container_class' => 'cloudzoom-smallthumb-container',
+            'smallthumb_class'=> 'cloudzoom-smallthumb-class',
+            'smallthumb_item_class' => 'cloudzoom-smallthumb-item-class',
+            'smallthumb_anchor_class' => 'cloudzoom-smallthumb-anchor-class',
+            'smallthumb_img_class'=> 'cloudzoom-smallthumb-img-class'
+        );
+        if(class_exists('HW_Module_Cloudzoom') && HW_Module_Cloudzoom::is_active()) {
+            $setting = HW_Module_Cloudzoom::get();
+            $params['container_id'] = $setting->get_field_value('container_id');
+            $params['container_class'] = $setting->get_field_value('container_class');
+            $params['thumb_anchor_class'] = $setting->get_field_value('thumb_anchor_class');
+            $params['thumb_img_class'] = $setting->get_field_value('thumb_img_class');
+            $params['smallthumb_container_class'] = $setting->get_field_value('smallthumb_container_class');
+            $params['smallthumb_class'] = $setting->get_field_value('smallthumb_class');
+            $params['smallthumb_item_class'] = $setting->get_field_value('smallthumb_item_class');
+            $params['smallthumb_anchor_class'] = $setting->get_field_value('smallthumb_anchor_class');
+            $params['smallthumb_img_class'] = $setting->get_field_value('smallthumb_img_class');
+
+        }
+        $this->set_params ($default_params);
+        if(is_array($args)) {
+            $this->set_params ( $args);
+        }
+        //cloud options
+        if(is_array($options)) $this->set_options( $options);
+    }
+    public function example() {
+        //usage
+        $this->get_params();
+    }
+}
+

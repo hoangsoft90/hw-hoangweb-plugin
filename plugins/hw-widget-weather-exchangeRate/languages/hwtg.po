@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hw-widget-\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-12 16:44-0800\n"
+"PO-Revision-Date: 2015-08-15 11:13+0700\n"
+"Last-Translator: Hoangweb <hoangsoft90@gmail.com>\n"
+"Language-Team: Hoangweb.COM\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr_e;esc_attr__;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.7.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "Version"
+msgstr "Version"
+
+#: ../mappress.php:130
+msgid "Sory, please install HW Hoangweb plugin first before active this plugin."
+msgstr "Xin lỗi, bạn cần kích hoạt plugin hw-hoangweb trước hoặc kích hoạt lại plugin này."
+
+msgid "Weather, exchange rate widget"
+msgstr "Thời tiết, tỉ giá"
+
+msgid "Add exchange rate widget & weather information"
+msgstr "Chèn tỷ giá, thông tin thời tiết"
+
+msgid "Humidity"
+msgstr "Độ ẩm"
+
+msgid "Wind speed"
+msgstr "Tốc độ gió"
+
+msgid "Update weather, exchange rates, gold prices from vnexpress"
+msgstr "Cập nhật thời tiết,tỷ giá,giá vàng từ vnexpress"
+
+msgid "Gold price"
+msgstr "Giá vàng"
+
+msgid "The weather"
+msgstr "Thời tiết"
+
+msgid "Exchange rate"
+msgstr "Tỷ giá"
+
+msgid "Location"
+msgstr "KV"
+
+msgid "Item"
+msgstr "Loại"
+
+msgid "Buy"
+msgstr "Mua vào"
+
+msgid "Sell"
+msgstr "Bán ra"
+
+msgid "fetching error Resource"
+msgstr "Lỗi tài nguyên"
+
+msgid "Title"
+msgstr "Tiêu đề"
+
+msgid "Display:"
+msgstr "Hiển thị:"
+
+msgid "Transfer"
+msgstr "Chuyển khoản"
+
+msgid "Source"
+msgstr "Nguồn"
+
+msgid "Fields"
+msgstr "Trường"
+
+msgid "Enable scrollbar"
+msgstr "Hiển thị thanh cuộn"
+
+msgid "Default location"
+msgstr "Mặc định khu vực"
+
+msgid "Manual"
+msgstr "Tự động"

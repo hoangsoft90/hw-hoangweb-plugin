@@ -1,0 +1,19 @@
+<theme version="2.0"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <channel>
+        <hw:title>Dien thoai</hw:title>
+
+    </channel>
+    <modules>
+        <module name="product" status="1"/>
+        <module name="cloudzoom" status="1"/>
+    </modules>
+    <plugins>
+        <plugin name="akismet" status="1"/>
+    </plugins>
+</theme>

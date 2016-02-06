@@ -1,0 +1,349 @@
+<packages
+   xmlns:hw="http://hoangweb.com/export/1.0/"
+   xmlns:module="http://hoangweb.com/export/1.0/" version="2.0"
+        >
+    <!-- system modules -->
+    <module>
+        <hw:name><![CDATA[PHP Libraries]]></hw:name>
+        <hw:slug><![CDATA[php-libraries]]></hw:slug>
+        <hw:description><![CDATA[Manage PHP Libraries]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[0]]></hw:can_export>
+        <hw:position><![CDATA[0]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[Điều kiện (system)]]></hw:name>
+        <hw:slug><![CDATA[condition]]></hw:slug>
+        <hw:description><![CDATA[Tạo ràng buộc điều kiện sử dụng cho các plugins.]]></hw:description>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[1]]></hw:can_export>
+        <hw:position><![CDATA[1]]></hw:position>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW HELP]]></hw:name>
+        <hw:slug><![CDATA[hw-helps]]></hw:slug>
+        <hw:description><![CDATA[hoangweb help]]></hw:description>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[0]]></hw:can_export>
+        <hw:position><![CDATA[2]]></hw:position>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW SKIN]]></hw:name>
+        <hw:slug><![CDATA[hw-skin]]></hw:slug>
+        <hw:description><![CDATA[Tạo và quản lý giao diện.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[0]]></hw:can_export>
+        <hw:position><![CDATA[3]]></hw:position>
+    </module>
+
+    <module>
+        <hw:name><![CDATA[Quản lý skins]]></hw:name>
+        <hw:slug><![CDATA[skins-setting]]></hw:slug>
+        <hw:description><![CDATA[Quản lý stylesheets/scripts cho skins]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[1]]></hw:can_export>
+        <hw:position><![CDATA[4]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[Tùy biến Sidebar Widget]]></hw:name>
+        <hw:slug><![CDATA[hw-any-widget-classes]]></hw:slug>
+        <hw:description><![CDATA[Tùy biến giao diện widget và sidebar.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[1]]></hw:can_export>
+        <hw:position><![CDATA[hw-skin]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW Importer]]></hw:name>
+        <hw:slug><![CDATA[hw-importer]]></hw:slug>
+        <hw:description><![CDATA[Import/export data]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[0]]></hw:can_export>
+        <hw:position><![CDATA[5]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[Twig Timber]]></hw:name>
+        <hw:slug><![CDATA[timber-engine]]></hw:slug>
+        <hw:description><![CDATA[Template System maintain by Timber]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[0]]></hw:can_export>
+        <hw:position><![CDATA[6]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[Vị trí hiển thị Modules]]></hw:name>
+        <hw:slug><![CDATA[positions]]></hw:slug>
+        <hw:description><![CDATA[Quản lý vị trí hiển thị module]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[1]]></hw:can_export>
+        <hw:position><![CDATA[7]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[Theme Options]]></hw:name>
+        <hw:slug><![CDATA[theme-options]]></hw:slug>
+        <hw:description><![CDATA[Tùy chỉnh theme options.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[1]]></hw:can_export>
+        <hw:position><![CDATA[8]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[My Tooltip]]></hw:name>
+        <hw:slug><![CDATA[tooltip]]></hw:slug>
+        <hw:description><![CDATA[Kích hoạt thư viện Tooltip.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[0]]></hw:can_export>
+        <hw:position><![CDATA[9]]></hw:position>
+        <hw:required>1</hw:required>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW API]]></hw:name>
+        <hw:slug><![CDATA[api]]></hw:slug>
+        <hw:description><![CDATA[API Interface.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[0]]></hw:can_export>
+        <hw:position><![CDATA[]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[jQuery noConflict]]></hw:name>
+        <hw:slug><![CDATA[jquery-noconflict]]></hw:slug>
+        <hw:description><![CDATA[Sử lý lỗi jquery undefined.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:force_activation><![CDATA[1]]></hw:force_activation>
+        <hw:can_export><![CDATA[0]]></hw:can_export>
+        <hw:position><![CDATA[]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[Translate]]></hw:name>
+        <hw:slug><![CDATA[translation]]></hw:slug>
+        <hw:description><![CDATA[Module đa ngôn ngữ]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:require_wp_plugin><![CDATA[qtranslate-x/qtranslate.php]]></hw:require_wp_plugin>
+    </module>
+    <module>
+        <hw:name><![CDATA[Download Attachments]]></hw:name>
+        <hw:slug><![CDATA[download-attachments]]></hw:slug>
+        <hw:description><![CDATA[Download attachments]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:require_wp_plugin><![CDATA[download-attachments/download-attachments.php]]></hw:require_wp_plugin>
+        <hw:can_export><![CDATA[]]></hw:can_export>
+        <hw:position><![CDATA[]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[Visual Editor widget]]></hw:name>
+        <hw:slug><![CDATA[visual-editor]]></hw:slug>
+        <hw:description><![CDATA[Visual Editor widget]]></hw:description>
+        <hw:version>1.0</hw:version>
+
+    </module>
+    <module>
+        <hw:name><![CDATA[Marquee widget]]></hw:name>
+        <hw:slug><![CDATA[widget-marquee]]></hw:slug>
+        <hw:description><![CDATA[Module chữ chạy.]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[video]]></hw:name>
+        <hw:slug><![CDATA[video]]></hw:slug>
+        <hw:description><![CDATA[Quản lý Video]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[wp polls]]></hw:name>
+        <hw:slug><![CDATA[wp-polls]]></hw:slug>
+        <hw:description><![CDATA[Module thăm dò.]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[CloudZoom]]></hw:name>
+        <hw:slug><![CDATA[cloudzoom]]></hw:slug>
+        <hw:description><![CDATA[Module phóng ảnh Cloudzoom.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:can_export><![CDATA[1]]></hw:can_export>
+        <hw:position><![CDATA[]]></hw:position>
+    </module>
+    <module>
+        <hw:name><![CDATA[Tabs UI]]></hw:name>
+        <hw:slug><![CDATA[tabs]]></hw:slug>
+        <hw:description><![CDATA[Tabs UI on frontend.]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[Product]]></hw:name>
+        <hw:slug><![CDATA[product]]></hw:slug>
+        <hw:description><![CDATA[Module sản phẩm.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:can_export><![CDATA[1]]></hw:can_export>
+    </module>
+    <module>
+        <hw:name><![CDATA[Raw HTML]]></hw:name>
+        <hw:slug><![CDATA[rawhtml]]></hw:slug>
+        <hw:description><![CDATA[Plugin https://wordpress.org/plugins/raw-html]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[Colorbox]]></hw:name>
+        <hw:slug><![CDATA[colorbox]]></hw:slug>
+        <hw:description><![CDATA[Colorbox - a jQuery lightbox (http://www.jacklmoore.com/colorbox/)]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[Google Map]]></hw:name>
+        <hw:slug><![CDATA[map]]></hw:slug>
+        <hw:description><![CDATA[Module bản đồ.]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[Gallery]]></hw:name>
+        <hw:slug><![CDATA[gallery]]></hw:slug>
+        <hw:description><![CDATA[Module Gallery]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <!-- <hw:require_wp_plugin>envira-gallery-lite/envira-gallery-lite.php</hw:require_wp_plugin> -->
+    </module>
+    <module>
+        <hw:name><![CDATA[Phân trang]]></hw:name>
+        <hw:slug><![CDATA[pagination]]></hw:slug>
+        <hw:description><![CDATA[Module tạo giao diện phân trang, yêu cầu cài đặt plugin wp-pagenavi]]></hw:description>
+        <hw:require_wp_plugin><![CDATA[wp-pagenavi/wp-pagenavi.php]]></hw:require_wp_plugin>
+        <hw:can_export>1</hw:can_export>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[Thanh định hướng (breadcrumb)]]></hw:name>
+        <hw:slug><![CDATA[breadcrumb]]></hw:slug>
+        <hw:description><![CDATA[Quản lý giao diện breadcrumb. Yêu cầu cài đặt plugin breadcrumb-navxt]]></hw:description>
+        <hw:require_wp_plugin><![CDATA[breadcrumb-navxt/breadcrumb-navxt.php]]></hw:require_wp_plugin>
+        <hw:version>1.0</hw:version>
+        <hw:can_export>1</hw:can_export>
+    </module>
+    <module>
+        <hw:name><![CDATA[Bài viết liên quan]]></hw:name>
+        <hw:slug><![CDATA[hw-yarpp]]></hw:slug>
+        <hw:description><![CDATA[Hoangweb cấu hình plugin tạo bài viết liên quan YARPP.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <!-- <hw:require_wp_plugin><![CDATA[yet-another-related-posts-plugin/yarpp.php]]></hw:require_wp_plugin> #moved yarpp plugin into this module -->
+        <hw:can_export>1</hw:can_export>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW WPCF7]]></hw:name>
+        <hw:slug><![CDATA[hw-wpcf7]]></hw:slug>
+        <hw:description><![CDATA[Thêm chức năng cho contact-form-7 Hỗ trợ Contact Form 7 ]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:require_wp_plugin><![CDATA[contact-form-7/wp-contact-form-7.php]]></hw:require_wp_plugin>
+        <hw:can_export>1</hw:can_export>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW Yahoo Skype Status Pro]]></hw:name>
+        <hw:slug><![CDATA[hw-yahoo-and-skype-status]]></hw:slug>
+        <hw:description><![CDATA[<strong>Display yahoo skype status</strong> on the website by using widget.]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW Social Share]]></hw:name>
+        <hw:slug><![CDATA[hw-social-sharing]]></hw:slug>
+        <hw:description><![CDATA[Social sharing]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:can_export>1</hw:can_export>
+    </module>
+    <module>
+        <hw:name><![CDATA[Easy PHP Sudoku Game]]></hw:name>
+        <hw:slug><![CDATA[sudoku]]></hw:slug>
+        <hw:description><![CDATA[play sudoku game]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW Livechat]]></hw:name>
+        <hw:slug><![CDATA[hw-livechat]]></hw:slug>
+        <hw:description><![CDATA[Tiện ích Chat trực tuyến.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:can_export>1</hw:can_export>
+    </module>
+    <module>
+        <hw:name><![CDATA[Slider]]></hw:name>
+        <hw:slug><![CDATA[hw-ml-slider]]></hw:slug>
+        <hw:description><![CDATA[Quản lý slider]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:can_export>1</hw:can_export>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW Menu]]></hw:name>
+        <hw:slug><![CDATA[hw-menu]]></hw:slug>
+        <hw:description><![CDATA[Quản lý giao diện Menu.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:can_export>1</hw:can_export>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW Widget Liệt kê danh mục/Taxonomy]]></hw:name>
+        <hw:slug><![CDATA[hw-list-custom-taxonomy-widget]]></hw:slug>
+        <hw:description><![CDATA[Widget liệt kê danh mục hoặc taxonomy terms.]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW ngrok hoangweb]]></hw:name>
+        <hw:slug><![CDATA[hw-ngrok-hoang]]></hw:slug>
+        <hw:description><![CDATA[bring localhost expose to the internet]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW Bài viết xem nhiều]]></hw:name>
+        <hw:slug><![CDATA[hw-wordpress-popular-posts]]></hw:slug>
+        <hw:description><![CDATA[Hiển thị bài viết phổ biến, xem nhiều trên website.]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+
+    <module>
+        <hw:name><![CDATA[HW Post Views Counter]]></hw:name>
+        <hw:slug><![CDATA[hw-post-views-counter]]></hw:slug>
+        <hw:description><![CDATA[Forget WP-PostViews. Display how many times a post, page or custom post type had been viewed in a simple, fast and reliable way.]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[Social Sharing]]></hw:name>
+        <hw:slug><![CDATA[hw-social-sharing]]></hw:slug>
+        <hw:description><![CDATA[]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW Hiển thị nội dung theo chuyên mục]]></hw:name>
+        <hw:slug><![CDATA[hw-taxonomy-post-list-widget]]></hw:slug>
+        <hw:description><![CDATA[Module hiển thị nội dung theo chuyên mục.]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[HW Weather Exchange rate widget]]></hw:name>
+        <hw:slug><![CDATA[hw-widget-weather-exchangeRate]]></hw:slug>
+        <hw:description><![CDATA[display weather, exchange rate in sidebar widget]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+
+    <module>
+        <hw:name><![CDATA[Bình luận]]></hw:name>
+        <hw:slug><![CDATA[comment]]></hw:slug>
+        <hw:description><![CDATA[Module bình luận (Facebook, google +)]]></hw:description>
+        <hw:version>1.0</hw:version>
+    </module>
+    <module>
+        <hw:name><![CDATA[Bộ đếm]]></hw:name>
+        <hw:slug><![CDATA[counter]]></hw:slug>
+        <hw:description><![CDATA[Module hiển thị lượt truy cập cho website.]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:can_export>1</hw:can_export>
+    </module>
+    <module>
+        <hw:name><![CDATA[Test module]]></hw:name>
+        <hw:slug><![CDATA[test-module]]></hw:slug>
+        <hw:description><![CDATA[just test]]></hw:description>
+        <hw:version>1.0</hw:version>
+        <hw:can_export>1</hw:can_export>
+    </module>
+
+</packages>

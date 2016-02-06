@@ -1,0 +1,9 @@
+/**
+Plugin Name: HW Help
+Plugin URI: http://hoangweb.com
+Description: hoangweb help
+Author: Hoangweb.com
+Version: 1.0
+Text Domain: hoangweb
+Domain Path: /languages
+ */

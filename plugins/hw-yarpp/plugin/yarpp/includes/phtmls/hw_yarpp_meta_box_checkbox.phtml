@@ -1,0 +1,12 @@
+<div class="hw_yarpp_form_row hw_yarpp_form_checkbox <?php echo $class ?>">
+    <div scope="row">
+        <input 
+            type="checkbox" 
+            name="<?php echo $option ?>" 
+            id="hw-yarpp-<?php echo $option ?>"
+            value="true" 
+            <?php checked(hw_yarpp_get_option($option)) ?>
+        />
+        <label for="hw-yarpp-<?php echo $option ?>"><?php echo $desc ?></label>
+    </div>
+</div>

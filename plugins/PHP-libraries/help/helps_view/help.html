@@ -1,0 +1,20 @@
+- load library.
+<pre class="brush:php">
+//from plugin hw-livechat
+//load mobile detector library
+if(function_exists('hwlib_load_library')) {
+    $mobile_detect = hwlib_load_library('HW_Mobile_Detect');    //
+    if($mobile_detect->object->isMobile() && !hw_livechat_option('active_on_mobile')) {
+        return ;    //do not show chatbox on mobile device
+    }
+}
+</pre>
+
+- register new  library.
+<pre class="brush:php">
+hwlib_register(
+    'HW_Mobile_Detect',     //class name
+    'mobile_detect' //'mobile_detect' == /PHP-Libraries/includes/library/mobile_detect
+);
+</pre>
+see: simple_captcha

@@ -1,0 +1,25 @@
+{% set gallery_id = '#makeMeScrollable-' ~ sanitize_html_class( args.wrapper_id ) %}
+<div id="{{ args.wrapper_id }}" class="hw-smoothdivscroll hw-jgallery-container {{ args.wrapper_class }}">
+    <!-- <div class="album" data-jgallery-album-title="Album 1"> -->
+    {% for item in galleries %}
+    <a href="{{ esc_url(item.img_src) }}"><img src="{{ esc_url(item.thumb_src) }}" alt="{{ item.title }}" /></a>
+    {% endfor %}
+    <!-- </div> -->
+
+</div>
+<script>
+    jQuery(document).ready( function($) {
+        jQuery( '{{ gallery_id }}' ).smoothDivScroll({{ json_options }});
+        {% if options.pause_on_hover is not empty %}
+            // Mouse over
+            jQuery("{{ gallery_id }}").bind("mouseover", function(){
+                $(this).smoothDivScroll("stopAutoScrolling");
+            });
+
+            // Mouse out
+            jQuery("{{ gallery_id }}").bind("mouseout", function(){
+                $(this).smoothDivScroll("startAutoScrolling");
+            });
+        {% endif %}
+    } );
+</script>

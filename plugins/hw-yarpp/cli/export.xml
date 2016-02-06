@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+
+    <posts>
+        <wp:wxr_version>1.2</wp:wxr_version>
+
+    </posts>
+    <!-- #skins -->
+    <skins>
+        <hw:skin name="yarpp">
+            <skin:apply_plugin>hw-yarpp</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-relatedposts-skin.php</skin:skin_name>
+            <skin:other_folder>hw_relatedposts_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="default">Default</param>
+                <param name="skin1"/>
+            </skin:list>
+        </hw:skin>
+    </skins>
+
+    <options>
+        <!-- yarpp settings page -->
+        <option>
+            <params name="hw-yarpp">
+                <param name="threshold"><![CDATA[3]]></param>
+                <param name="limit"><![CDATA[42]]></param>
+                <param name="excerpt_length"><![CDATA[10]]></param>
+                <param name="recent"><![CDATA[]]></param>
+                <param name="before_title"><![CDATA[<li>]]></param>
+                <param name="after_title"><![CDATA[</li>]]></param>
+                <param name="before_post"><![CDATA[<small>]]></param>
+                <param name="after_post"><![CDATA[</small>]]></param>
+                <param name="before_related"><![CDATA[<h3>Related posts:</h3><ol>]]></param>
+                <param name="after_related"><![CDATA[</ol>]]></param>
+                <param name="no_results"><![CDATA[<p>No related posts.</p>]]></param>
+                <param name="order"><![CDATA[score DESC]]></param>
+                <param name="rss_limit"><![CDATA[3]]></param>
+                <param name="rss_excerpt_length"><![CDATA[10]]></param>
+                <param name="rss_before_title"><![CDATA[<li>]]></param>
+                <param name="rss_after_title"><![CDATA[</li>]]></param>
+                <param name="rss_before_post"><![CDATA[<small>]]></param>
+                <param name="rss_after_post"><![CDATA[</small>]]></param>
+                <param name="rss_before_related"><![CDATA[<h3>Related posts:</h3><ol>]]></param>
+                <param name="rss_after_related"><![CDATA[</ol>]]></param>
+                <param name="rss_no_results"><![CDATA[<p>No related posts.</p>]]></param>
+                <param name="rss_order"><![CDATA[score DESC]]></param>
+                <param name="past_only"><![CDATA[]]></param>
+                <param name="show_excerpt"><![CDATA[]]></param>
+                <param name="rss_show_excerpt"><![CDATA[]]></param>
+                <param name="template"><![CDATA[]]></param>
+                <param name="rss_template"><![CDATA[]]></param>
+                <param name="show_pass_post"><![CDATA[]]></param>
+                <param name="cross_relate"><![CDATA[]]></param>
+                <param name="rss_display"><![CDATA[]]></param>
+                <param name="rss_excerpt_display"><![CDATA[]]></param>
+                <param name="myisam_override"><![CDATA[]]></param>
+                <param name="exclude"><![CDATA[]]></param>
+                <params name="weight">
+                    <params name="tax">
+                        <param name="category"><![CDATA[1]]></param>
+                        <param name="post_tag"><![CDATA[1]]></param>
+                        <param name="tax2"><![CDATA[1]]></param>
+                    </params>
+                </params>
+                <params name="require_tax">
+
+                </params>
+                <param name="optin"><![CDATA[]]></param>
+                <param name="thumbnails_heading"><![CDATA[Related posts:]]></param>
+                <param name="thumbnails_default"><![CDATA[plugin/yarpp/images/default.png]]></param>
+                <param name="rss_thumbnails_heading"><![CDATA[Related posts:]]></param>
+                <param name="rss_thumbnails_default"><![CDATA[plugin/yarpp/images/default.png]]></param>
+                <param name="display_code"><![CDATA[]]></param>
+                <param name="auto_display_archive"><![CDATA[]]></param>
+                <params name="auto_display_post_types"></params>
+                <params name="pools"><![CDATA[]]></params>
+                <param name="manually_using_thumbnails"><![CDATA[]]></param>
+                <params name="hwrp_allow_post_types">
+                    <param>post</param>
+                </params>
+                <params name="hwrp_skins">
+                    <params name="post"><!-- for 'post' -->
+                        <param name="active"><![CDATA[]]></param>
+                        <param name="widget_config"><![CDATA[]]></param>
+                        <param name="box_skin"><![CDATA[hw-sidebar-data]]></param>
+                        <param name="box_widget_skin"><![CDATA[skin_default]]></param>
+                        <param name="title"><![CDATA[Tin lien quan]]></param>
+                        <param name="filter_terms"><![CDATA[on]]></param>
+
+                        <params:skin_encoded name="skin" instance="yarpp">
+                            <skin:skin><![CDATA[skin1]]></skin:skin>
+                            <skin:source>plugin</skin:source>
+                        </params:skin_encoded>
+                        <params:skin_instance name="hwskin_config" instance="yarpp">
+
+                        </params:skin_instance>
+                    </params>
+                    <params name="san-pham"><!-- for 'san-pham' custom post type -->
+                        <param name="active"><![CDATA[]]></param>
+                        <param name="widget_config"><![CDATA[]]></param>
+                        <param name="box_skin"><![CDATA[hw-sidebar-data]]></param>
+                        <param name="box_widget_skin"><![CDATA[skin_default]]></param>
+                        <param name="title"><![CDATA[Tin lien quan]]></param>
+                        <param name="filter_terms"><![CDATA[on]]></param>
+
+                        <params:skin_encoded name="skin" instance="yarpp">
+                            <skin:skin><![CDATA[skin1]]></skin:skin>
+                            <skin:source>plugin</skin:source>
+                        </params:skin_encoded>
+                        <params:skin_instance name="hwskin_config" instance="yarpp">
+
+                        </params:skin_instance>
+                    </params>
+                </params>
+
+            </params>
+        </option>
+        <option>
+            <params name="widget_hw_yarpp_widget">
+                <params name="2">
+                    <param name="template"><![CDATA[]]></param>
+                    <param name="title"><![CDATA[Lien quan]]></param>
+                    <param name="thumbnails_heading"><![CDATA[Related posts:]]></param>
+                    <param name="awc_clear_widget_title"><![CDATA[0]]></param>
+                </params>
+            </params>
+        </option>
+        <option>
+            <param name="hw_yarpp_fulltext_disabled">1</param>
+        </option>
+    </options>
+</rss>

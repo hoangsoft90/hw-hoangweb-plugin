@@ -1,0 +1,45 @@
+<div class="hw-footer footer">
+    <div class="master-wrapper-content">
+        <div class="footer-address">
+            {% if col is defined %}
+                {{ sidebar.display(col) }}
+            {% else %}
+                {{ hw_option('footer') }}
+            {% endif %}
+        </div>
+        <div class="footer-menu-wrapper">
+            {% if col_1 is defined %}
+                {{ sidebar.display(col_1) }}
+            {% endif %}
+        </div>
+        <div class="footer-disclaimer">
+
+            <div id="Powerby">
+                Thiết kế bởi <a href='http://www.hoangweb.com' title='Thiết kế web giá rẻ' target='_blank'><strong>Hoangweb</strong></a>
+            </div>
+        </div>
+        <div class="follow-us">
+            <ul>
+                <li class="facebook">
+                    <a href="<?php echo hw_option('fb_url')?>" target="_blank">
+                        <img src="{{ _current_skin.get_skin_url('images/facebook.png') }}" alt="Facebook">
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a href="{{ hw_option('twitter_url') }}" target="_blank"><img src="{{ _current_skin.get_skin_url('images/twitter.png') }}" alt="Twitter"></a>
+                </li>
+                <li class="rss"><a href="#"><img src="{{ _current_skin.get_skin_url('images/rss.png') }}" alt="Rss"></a></li>
+                <li class="youtube"><a href="{{ hw_option('youtube_url') }}" target="_blank"><img src="{{ _current_skin.get_skin_url('images/youtube.png') }}" alt="You Tube"></a></li>
+                <li class="google-plus"><a href="{{ hw_option('gplus_url') }}" target="_blank"><img src="{{ _current_skin.get_skin_url('images/gplus.png') }}" alt="Googel PLus"></a></li>
+            </ul>
+        </div>
+        <div>
+            <p><a href="{{ site.url }}"><img src="{{ site.logo }}" alt="home" width="94" height="47"></a>&nbsp; &nbsp;</p>
+        </div>
+
+
+       {{ fn('wp_footer') }}
+
+    </div>
+
+</div>

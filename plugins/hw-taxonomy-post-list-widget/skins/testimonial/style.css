@@ -1,0 +1,174 @@
+/*jcarousellite */
+.hwtpl-wrapper .jcarousellite *{
+    box-sizing: content-box;    /* My theme uses border-box for whatever reason, I don't know. I am switching it to the standard content-box here */
+}
+.hwtpl-wrapper .jcarousellite {
+    border: 1px solid #bababa;
+/*width:100% !important;*/
+    /* Needed for rendering without flicker */
+   position: relative;
+    visibility: hidden;
+    left: -5000px;
+
+}
+.hwtpl-wrapper .jcarousellite>ul {}
+.hwtpl-wrapper .jcarousellite>ul>li {}
+.hwtpl-wrapper .jcarousellite>ul>li>img,
+.hwtpl-wrapper .jcarousellite>ul>li>p {
+    /* mandatory */
+
+    vertical-align:middle;
+}
+.hwtpl-wrapper .jcarousellite>ul>li>p {
+    /* mandatory */
+    width: 130px;
+    height: 98px;
+
+    border: 1px solid #808080;
+    line-height: normal;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.hwtpl-wrapper .jcarousellite ul, .hwtpl-wrapper .jcarousellite ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+.hwtpl-wrapper .jcarousellite ul li{
+    background:none !important;
+
+}
+
+/*testimonial */
+
+.hwtpl-wrapper.testimonial-list-homepage {
+    background: none repeat scroll 0 0 #efeee6;
+    border: 2px solid #ebebeb;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.hwtpl-wrapper.testimonial-list-homepage .bx-wrapper {
+    position: relative;
+    margin: 0 auto 10px;
+    padding: 0;
+}
+.hwtpl-wrapper.testimonial-list-homepage .bx-wrapper .bx-viewport {
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+}
+.hwtpl-wrapper.testimonial-list-homepage .testimonial-items {
+    padding: 0 10px 0 4px;
+    background: none !important;
+}
+.hwtpl-wrapper.testimonial-list-homepage .testimonial-items {
+    margin: 0 5px;
+    padding: 0;
+}
+.hwtpl-wrapper.testimonial-list-homepage .testimonial-items .item {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    /*clear: both;
+    overflow: auto;*/
+}
+.hwtpl-wrapper.testimonial-list-homepage .item {
+    padding: 10px 18px 10px 6px;
+}
+.hwtpl-wrapper.testimonial-list-homepage .testimonial-items .item .picture {
+    background-color: transparent;
+    border: 2px solid #ededed;
+    border-radius: 100%;
+    float: left;
+    padding: 3px;
+    margin-right: 10px;
+}
+.hwtpl-wrapper.testimonial-list-homepage a {
+    color: #5c5b5b;
+    text-decoration: none;
+    font-weight: normal;
+
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.hwtpl-wrapper.testimonial-list-homepage .testimonial-items .item .picture .circularAvatar {
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+}
+.hwtpl-wrapper.testimonial-list-homepage .bx-wrapper img {
+    max-width: 100%;
+    display: block;
+}
+.hwtpl-wrapper.testimonial-list-homepage h2, h3 {
+    font-size: 1.8em;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.hwtpl-wrapper.testimonial-list-homepage .testimonial-items a.testimonial-title {
+    color: #ff9002;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.hwtpl-wrapper.testimonial-list-homepage .testimonial-items .testimonial-details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: justify;
+}
+.hwtpl-wrapper.testimonial-list-homepage .testimonial-details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    overflow: hidden;
+    font-family: "Felipa",Arial;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.hwtpl-wrapper.testimonial-list-homepage .testimonial-items .submited-date {
+    color: #9a9a9a;
+    font-style: italic;
+    float: left;
+}
+.hwtpl-wrapper.testimonial-list-homepage .testimonial-items .guest-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0;
+    float: right;
+    color: #000;
+}
+
+
+.hwtpl-wrapper.testimonial-list-homepage .edit-link{display:block;clear:both;}
+
+/* navigation */
+
+.hwtpl-wrapper.testimonial-list-homepage .bx-controls-direction .bx-prev {
+    left: 5px;
+    background: url(controls.png) no-repeat -5px -32px;
+}
+.hwtpl-wrapper.testimonial-list-homepage .bx-controls-direction .bx-next {
+    right: 5px;
+    background: url(controls.png) no-repeat -48px -32px;
+}
+.hwtpl-wrapper.testimonial-list-homepage .bx-controls-direction a {
+    position: absolute !important;
+    top: 50% !important;
+    margin-top: -16px !important;
+    outline: 0 !important;
+    width: 24px !important;
+    height: 32px !important;
+    text-indent: -9999px !important;
+    z-index: 9999 !important;
+}

@@ -1,0 +1,10 @@
+.hw-skin-preview{clear:both;display: block;}
+.hw-menu-item-icon{max-width: 40px;max-height: 40px;}
+.hw-btn-navitem-image-picker {
+    height: 50px !important;
+    width: 70px !important;
+    background: url('../images/upload.png') no-repeat center !important;
+}
+.hw-menu-icon-setting span{
+    color:#ffffff !important;
+}

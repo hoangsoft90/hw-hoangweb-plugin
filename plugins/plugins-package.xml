@@ -1,0 +1,401 @@
+<plugins xmlns:hw="http://hoangweb.com/export/1.0/">
+    <!-- admin custom columns plugins list -->
+    <plugin>
+        <hw:name><![CDATA[Admin Columns]]></hw:name>
+        <hw:slug><![CDATA[codepress-admin-columns]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Admin Menu Editor]]></hw:name>
+        <hw:slug><![CDATA[admin-menu-editor]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Adminimize]]></hw:name>
+        <hw:slug><![CDATA[adminimize]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- custom fields plugins list -->
+    <plugin>
+        <hw:name><![CDATA[Advanced Custom Fields]]></hw:name>
+        <hw:slug><![CDATA[advanced-custom-fields]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[ACF qTranslate]]></hw:name>
+        <hw:slug><![CDATA[acf-qtranslate]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- contact forms plugins -->
+    <plugin>
+        <hw:name><![CDATA[Contact Form 7]]></hw:name>
+        <hw:slug><![CDATA[contact-form-7]]></hw:slug>
+        <hw:required><![CDATA[1]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Contact Form 7 Datepicker]]></hw:name>
+        <hw:slug><![CDATA[contact-form-7-datepicker]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Contact Form 7 - Dynamic Text Extension]]></hw:name>
+        <hw:slug><![CDATA[contact-form-7-dynamic-text-extension]]></hw:slug>
+        <hw:required><![CDATA[1]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Really Simple CAPTCHA]]></hw:name>
+        <hw:slug><![CDATA[really-simple-captcha]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- create custom post type -->
+    <plugin>
+        <hw:name><![CDATA[Custom Post Type UI]]></hw:name>
+        <hw:slug><![CDATA[custom-post-type-ui]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- gallery -->
+    <plugin>
+        <hw:name><![CDATA[Gallery Metabox]]></hw:name>
+        <hw:slug><![CDATA[gallery-metabox]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Multi Image Metabox]]></hw:name>
+        <hw:slug><![CDATA[multi-image-metabox]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Envira Gallery Lite]]></hw:name>
+        <hw:slug><![CDATA[envira-gallery-lite]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- frameworks -->
+    <plugin>
+        <hw:name><![CDATA[Pods - Custom Content Types and Fields]]></hw:name>
+        <hw:slug><![CDATA[pods-master]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Pods Frontier]]></hw:name>
+        <hw:slug><![CDATA[pods-frontier-1.0.x]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Pods SEO]]></hw:name>
+        <hw:slug><![CDATA[pods-seo]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- import export data -->
+    <plugin>
+        <hw:name><![CDATA[Widget Importer & Exporter]]></hw:name>
+        <hw:slug><![CDATA[widget-importer-exporter]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WordPress Importer]]></hw:name>
+        <hw:slug><![CDATA[wordpress-importer]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WordPress Database Reset]]></hw:name>
+        <hw:slug><![CDATA[wordpress-database-reset]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[The WXR File Splitter]]></hw:name>
+        <hw:slug><![CDATA[wxrsplitter]]></hw:slug>
+        <hw:required><![CDATA[1]]></hw:required>
+        <hw:external_url><![CDATA[http://rangerpretzel.com/wxrsplitter.zip]]></hw:external_url>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Attachment Importer]]></hw:name>
+        <hw:slug><![CDATA[attachment-importer]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Wordpress Ajax Importer]]></hw:name>
+        <hw:slug><![CDATA[wordpress-ajax-importer]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+        <hw:external_url>https://github.com/socd-io/wordpress-importer</hw:external_url>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Export Categories]]></hw:name>
+        <hw:slug><![CDATA[export-categories]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WP Export Categories & Taxonomies]]></hw:name>
+        <hw:slug><![CDATA[wp-export-categories-taxonomies]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[CSV Importer]]></hw:name>
+        <hw:slug><![CDATA[csv-importer]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- user reviews -->
+    <plugin>
+        <hw:name><![CDATA[WP-PostRatings]]></hw:name>
+        <hw:slug><![CDATA[wp-postratings]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WP Customer Reviews]]></hw:name>
+        <hw:slug><![CDATA[wp-customer-reviews]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- widgets -->
+    <!-- Widget Logic lets you control on which pages widgets appear using WP's conditional tags. It also adds a 'widget_content' filter. -->
+    <!--
+    <plugin>
+        <hw:name><![CDATA[Widget Logic]]></hw:name>
+        <hw:slug><![CDATA[widget-logic]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Display Widgets]]></hw:name>
+        <hw:slug><![CDATA[display-widgets]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[amr shortcode any widget]]></hw:name>
+        <hw:slug><![CDATA[amr-shortcode-any-widget]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    -->
+    <plugin>
+        <hw:name><![CDATA[Dynamic Widgets]]></hw:name>
+        <hw:slug><![CDATA[dynamic-widgets]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WP Page Widget]]></hw:name>
+        <hw:slug><![CDATA[wp-page-widget]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Widget Wrangler]]></hw:name>
+        <hw:slug><![CDATA[widget-wrangler]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- demo data -->
+    <plugin>
+        <hw:name><![CDATA[WP Fake Image Replacer]]></hw:name>
+        <hw:slug><![CDATA[wp-fake-image-replacer]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WP Example Content]]></hw:name>
+        <hw:slug><![CDATA[wp-example-content]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Demo Data Creator]]></hw:name>
+        <hw:slug><![CDATA[demo-data-creator]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- wiziwig editor -->
+    <plugin>
+        <hw:name><![CDATA[Black Studio TinyMCE Widget]]></hw:name>
+        <hw:slug><![CDATA[black-studio-tinymce-widget]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Rich Tax Description Editor]]></hw:name>
+        <hw:slug><![CDATA[rich-tax-description-editor]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- sliders, slideshow -->
+    <plugin>
+        <hw:name><![CDATA[Wonder plugin Slider]]></hw:name>
+        <hw:slug><![CDATA[wordpress-slider]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- User -->
+    <plugin>
+        <hw:name><![CDATA[WP User Avatar]]></hw:name>
+        <hw:slug><![CDATA[wp-user-avatar]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- video manager -->
+    <plugin>
+        <hw:name><![CDATA[TubePress]]></hw:name>
+        <hw:slug><![CDATA[tubepress]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[YouTube Channel Gallery]]></hw:name>
+        <hw:slug><![CDATA[youtube-simplegallery]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[YouTube Channel Gallery]]></hw:name>
+        <hw:slug><![CDATA[youtube-channel-gallery]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WordPress Video Gallery (best)]]></hw:name>
+        <hw:slug><![CDATA[contus-video-gallery]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Video Gallery (premium)]]></hw:name>
+        <hw:slug><![CDATA[gallery-video]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- comments -->
+    <plugin>
+        <hw:name><![CDATA[Facebook Comments]]></hw:name>
+        <hw:slug><![CDATA[facebook-comments-plugin]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Disqus Comment System]]></hw:name>
+        <hw:slug><![CDATA[disqus-comment-system]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Comments Evolved for WordPress]]></hw:name>
+        <hw:slug><![CDATA[gplus-comments]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- socials -->
+    <plugin>
+        <hw:name><![CDATA[Facebook]]></hw:name>
+        <hw:slug><![CDATA[facebook]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- optimize, cache -->
+    <plugin>
+        <hw:name><![CDATA[WP Smush]]></hw:name>
+        <hw:slug><![CDATA[wp-smushit]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[W3 TOTAL CACHE]]></hw:name>
+        <hw:slug><![CDATA[w3-total-cache]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Quick Cache (Speed Without Compromise)]]></hw:name>
+        <hw:slug><![CDATA[quick-cache]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- analystic -->
+    <plugin>
+        <hw:name><![CDATA[Google Analytics by Yoast]]></hw:name>
+        <hw:slug><![CDATA[]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+        <hw:source><![CDATA[https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.latest-stable.zip]]></hw:source>
+    </plugin>
+    <!-- SEO -->
+    <plugin>
+        <hw:name><![CDATA[GOOGLE XML SITEMAPS]]></hw:name>
+        <hw:slug><![CDATA[google-sitemap-generator]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Google XML Sitemaps v3 for qTranslate]]></hw:name>
+        <hw:slug><![CDATA[google-xml-sitemaps-v3-for-qtranslate]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WordPress SEO by Yoast]]></hw:name>
+        <hw:slug><![CDATA[wordpress-seo]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Yoast SEO & qTranslate-X]]></hw:name>
+        <hw:slug><![CDATA[wp-seo-qtranslate-x]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WP Social SEO]]></hw:name>
+        <hw:slug><![CDATA[wp-social-seo]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- security plugins -->
+    <plugin>
+        <hw:name><![CDATA[iThemes Security (formerly Better WP Security)]]></hw:name>
+        <hw:slug><![CDATA[better-wp-security]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- essencial plugins -->
+    <plugin>
+        <hw:name><![CDATA[Breadcrumb NavXT]]></hw:name>
+        <hw:slug><![CDATA[breadcrumb-navxt]]></hw:slug>
+        <hw:required><![CDATA[1]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[mqtranslate]]></hw:name>
+        <hw:slug><![CDATA[mqtranslate]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[qtranslate X]]></hw:name>
+        <hw:slug><![CDATA[qtranslate-x]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WP-dTree]]></hw:name>
+        <hw:slug><![CDATA[wp-dtree-30]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WP-PageNavi]]></hw:name>
+        <hw:slug><![CDATA[wp-pagenavi]]></hw:slug>
+        <hw:required><![CDATA[1]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Download Attachments]]></hw:name>
+        <hw:slug><![CDATA[download-attachments]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[FeedBurner Email Subscription]]></hw:name>
+        <hw:slug><![CDATA[feedburner-email-subscription]]></hw:slug>
+        <hw:required><![CDATA[1]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Menu Icons]]></hw:name>
+        <hw:slug><![CDATA[menu-icons]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WP-Polls]]></hw:name>
+        <hw:slug><![CDATA[wp-polls]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[HELLO BAR]]></hw:name>
+        <hw:slug><![CDATA[]]></hw:slug>
+        <hw:source><![CDATA[https://www.hellobar.com/]]></hw:source>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[WORDPRESS POPUP]]></hw:name>
+        <hw:slug><![CDATA[wordpress-popup]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Custom Options Plus]]></hw:name>
+        <hw:slug><![CDATA[custom-options-plus]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[InfiniteWP Client]]></hw:name>
+        <hw:slug><![CDATA[iwp-client]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <!-- improve wordpress core -->
+    <plugin>
+        <hw:name><![CDATA[Enhanced Linking]]></hw:name>
+        <hw:slug><![CDATA[enhanced-linking]]></hw:slug>
+        <hw:required><![CDATA[0]]></hw:required>
+    </plugin>
+    <plugin>
+        <hw:name><![CDATA[Duplicate Post]]></hw:name>
+        <hw:slug><![CDATA[duplicate-post]]></hw:slug>
+        <hw:required><![CDATA[1]]></hw:required>
+    </plugin>
+
+</plugins>

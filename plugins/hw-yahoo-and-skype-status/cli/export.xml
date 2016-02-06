@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <skins>
+        <hw:skin name="yk">
+            <skin:apply_plugin>hw-yahoo-and-skype-status</skin:apply_plugin>
+            <skin:default_skin_path><![CDATA[skins]]></skin:default_skin_path>
+            <skin:default_skin><![CDATA[default/]]></skin:default_skin>
+            <skin:skin_type><![CDATA[file]]></skin:skin_type>
+            <skin:skin_name><![CDATA[yahooskype.php]]></skin:skin_name>
+            <skin:other_folder><![CDATA[hw_yahooskype]]></skin:other_folder>
+            <skin:group><![CDATA[]]></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+        </hw:skin>
+    </skins>
+    <widgets>
+        <hw:widget sidebar="sidebar-1" id_base="hw_yahoo_skype_status">
+            <param name="title"><![CDATA[Support chat]]></param>    <!-- #each widget import have different title -->
+            <param name="addition_text"><![CDATA[Email: hotro@hoangweb.com]]></param>
+            <param name="enable_demo_data"><![CDATA[]]></param>
+            <param name="phone_icon"><![CDATA[]]></param>
+            <param name="mail_icon"><![CDATA[]]></param>
+            <param name="yahoo_icon"><![CDATA[]]></param>
+            <param name="skype_icon"><![CDATA[]]></param>
+            <params name="items">
+                <params>
+                    <param name="nick"><![CDATA[quachhoang_2005]]></param>
+                    <param name="is_show_name"><![CDATA[1]]></param>
+                    <param name="nick_name"><![CDATA[Tu van 1]]></param>
+                    <param name="avatar"><![CDATA[]]></param>
+                    <param name="group"><![CDATA[]]></param>
+                    <param name="nick_type"><![CDATA[yahoo]]></param>
+                    <param name="phone"><![CDATA[01663.930.250]]></param>
+                    <param name="email"><![CDATA[hoangsoft90@gmail.com]]></param>
+                    <param name="yahoo_status_type"><![CDATA[2]]></param>
+                    <param name="skype_status_type"><![CDATA[2]]></param>
+                    <param name="pos"><![CDATA[1]]></param>
+                </params>
+                <params>
+                    <param name="nick"><![CDATA[oneloveme90]]></param>
+                    <param name="is_show_name"><![CDATA[1]]></param>
+                    <param name="nick_name"><![CDATA[Tu van 2]]></param>
+                    <param name="avatar"><![CDATA[]]></param>
+                    <param name="group"><![CDATA[]]></param>
+                    <param name="nick_type"><![CDATA[skype]]></param>
+                    <param name="phone"><![CDATA[01663.930.250]]></param>
+                    <param name="email"><![CDATA[hoangsoft90@gmail.com]]></param>
+                    <param name="yahoo_status_type"><![CDATA[2]]></param>
+                    <param name="skype_status_type"><![CDATA[2]]></param>
+                    <param name="pos"><![CDATA[2]]></param>
+                </params>
+                <params>
+                    <param name="nick"><![CDATA[quanghuy_20062001]]></param>
+                    <param name="is_show_name"><![CDATA[1]]></param>
+                    <param name="nick_name"><![CDATA[Tu van 3]]></param>
+                    <param name="avatar"><![CDATA[]]></param>
+                    <param name="group"><![CDATA[]]></param>
+                    <param name="nick_type"><![CDATA[yahoo]]></param>
+                    <param name="phone"><![CDATA[0910.126.910]]></param>
+                    <param name="email"><![CDATA[hotro@hoangweb.com]]></param>
+                    <param name="yahoo_status_type"><![CDATA[2]]></param>
+                    <param name="skype_status_type"><![CDATA[2]]></param>
+                    <param name="pos"><![CDATA[3]]></param>
+                </params>
+
+            </params>
+            <params name="skin" export="hash_skin">
+                <params:skin_encoded name="hash_skin" instance="yk">
+                    <skin:skin><![CDATA[default]]></skin:skin>
+                    <skin:source>plugin</skin:source>
+                </params:skin_encoded>
+            </params>
+
+        </hw:widget>
+    </widgets>
+
+</rss>

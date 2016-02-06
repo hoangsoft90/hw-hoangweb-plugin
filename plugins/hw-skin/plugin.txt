@@ -1,0 +1,64 @@
+/**
+Plugin Name: HW SKIN
+Plugin URI: http://hoangweb.com
+Description: Help you to Extend widget skins
+Author: Hoangweb.com
+Author URI: http://hoangweb.com
+Version: 1.0
+*@ HW_SKIN Class created by hoangweb.com
+* note: create default skin located in plugin folder by /skins/default
+*/
+
+$this->skin->create_total_skin_selector('_envira_gallery[hw_skin]', $current_skin,null, array(
+         'show_main_skin' =>0, 'show_config_field' => 1, 'show_condition_field' => 1,
+         'show_skin_options' => 1
+     ));
+
+//sample options.php
+// list fields definition here
+$theme_options[] = array(
+    'name' => 'template_file',
+    'type' => 'template',
+    'title' => 'Chọn template',
+    'description' => 'CHọn template sử dụng cho dữ liệu slideshow hiện tại.',
+    'value' => 'default value'
+);
+// html content
+$theme_options[] = array(
+   'type' => 'string',
+   'description' => '<hr/>'
+);
+//input text
+$theme_options[] = array(
+   'name' => 'txt1',
+   'type' => 'text',
+   'title' => 'title',
+   'description' => 'sdfdgdfg'
+);
+//input text with default value & how to override exists option value from theme setting
+$theme_options[] = array(
+    'name' => 'ex_separator',
+    'type' => 'text',
+    'title' => 'Ngăn mỗi menu item',
+    'value'=> '<span class="separator"></span>',
+    'method' => 'override'
+);
+//append to exists option value
+$theme_options[] = array(
+    'name' => 'submenu_container_class',
+    'type' => 'text',
+    'title' => 'Thêm class vào container submenu.',
+    'value'=> '',
+    'method' => 'append'
+);
+
+//select tag
+$theme_options = array(
+
+);
+//checkbox
+$theme_options[] = array(
+    'name' => 'show_items_separator',
+    'type' => 'checkbox',
+    'title' => 'Thêm Ngăn mỗi menu item',
+);

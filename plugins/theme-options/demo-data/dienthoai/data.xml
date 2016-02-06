@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+
+    <posts>
+        <!-- authors -->
+        <wp:author>
+            <wp:author_id>2</wp:author_id>
+            <wp:author_login>hoangbaby</wp:author_login>
+            <wp:author_email>quachhoang_2005@yahoo.com</wp:author_email>
+            <wp:author_display_name><![CDATA[hoangbaby]]></wp:author_display_name>
+            <wp:author_first_name><![CDATA[]]></wp:author_first_name>
+            <wp:author_last_name><![CDATA[]]></wp:author_last_name>
+        </wp:author>
+        <!-- terms definition: <hw:import_term name="tin-tuc"/> -->
+        <wp:category >
+            <!-- <wp:term_id>2</wp:term_id> -->
+            <wp:category_nicename>tin-tuc</wp:category_nicename>
+            <wp:category_parent></wp:category_parent>
+            <wp:cat_name><![CDATA[Tin tức]]></wp:cat_name>
+        </wp:category>
+        <wp:category>
+            <wp:category_nicename>khuyen-mai</wp:category_nicename>
+            <wp:category_parent>
+                <hw:params export="ab">
+                    <param name="ab"><hw:import_term name="tin-tuc" field="term_id" filter="test_filter_import_result"/></param>
+                </hw:params>
+            </wp:category_parent>
+            <wp:cat_name><![CDATA[Khuyến mại]]></wp:cat_name>
+        </wp:category>
+        <wp:tag>
+            <wp:tag_slug>du-lich</wp:tag_slug>
+            <wp:tag_name><![CDATA[du lịch]]></wp:tag_name>
+        </wp:tag>
+        <wp:tag>
+            <wp:tag_slug>lan-ho-diep</wp:tag_slug>
+            <wp:tag_name><![CDATA[lan hồ điệp]]></wp:tag_name>
+        </wp:tag>
+        <wp:tag><wp:tag_slug>tag-1</wp:tag_slug><wp:tag_name><![CDATA[tag 1]]></wp:tag_name></wp:tag>
+        <wp:tag><wp:tag_slug>tag-2</wp:tag_slug><wp:tag_name><![CDATA[tag 2]]></wp:tag_name></wp:tag>
+        <wp:tag><wp:tag_slug>tag-3</wp:tag_slug><wp:tag_name><![CDATA[tag 3]]></wp:tag_name></wp:tag>
+        <wp:tag><wp:tag_slug>tag-4</wp:tag_slug><wp:tag_name><![CDATA[tag 4]]></wp:tag_name></wp:tag>
+        <wp:tag><wp:tag_slug>tag-5</wp:tag_slug><wp:tag_name><![CDATA[tag 5]]></wp:tag_name></wp:tag>
+
+        <item>
+            <wp:post_type>attachment</wp:post_type>
+            <hw:attachment>
+                <hw:_id>sfsdf</hw:_id>
+                <hw:url>images/image-1448009462-image-techz-1442486599.jpg</hw:url>
+                <hw:thumbnail>1</hw:thumbnail>
+            </hw:attachment>
+            <wp:postmeta>
+                <wp:meta_key></wp:meta_key>
+                <wp:meta_value></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item update="1">
+            <hw:_id>post1</hw:_id>
+            <title>Top smartphone độc đáo nhất được trình làng trong năm 2015</title>
+            <description></description>
+            <content:encoded><![CDATA[Tưởng chừng như cuộc chiếc smartphone cao cấp đã đến giai đoạn nhàm chán khi các hãng điện thoại tập trung vào việc nâng cao trải nghiệm của người dùng bằng những nâng cấp về cấu hình, màn hình và camera. Ngay cả về thiết kế, nhiều khi mọi thứ cũng dần trở nên bão hòa. Song, chính sự thay đổi lớn về mặt tư duy đã giúp nhiều nhà sản xuất đem tới thị trường những smartphone vô cùng độc đáo, vượt xa sự tưởng tượng của người dùng.
+
+            XXNăm 2014, những chiếc điện thoại màn hình cong đầu tiên được giới thiệu nhưng chúng chỉ nằm ở mức trình diễn, khả năng tương tác cũng như trải nghiệm chưa được đặt lên hàng đầu. Tuy nhiên, năm 2015 lại là một câu chuyện khác, một câu chuyện mà chúng ta cần phải tôn vinh những sự thay đổi độc đáo, mang tính cách mạng. Nững sản phẩm dưới đây sẽ cho chúng ta thấy rõ được điều này.
+
+            <h2>SMARPHONE MÀN HÌNH CONG SAMSUNG GALAXY S6 EDGE VÀ S6 EDGE +</h2>
+            Khó có thể nói Galaxy Round trong năm 2014 là một sản phẩm mang tính đột phá và ấn tượng khi màn hình cong chỉ dừng ở mức trình diễn. Không có quá nhiều điểm nổi bật về tính năng và trải nghiệm, điều duy nhất mà Round mang lại chỉ là khả năng bảo vệ màn hình tốt hơn mà thôi. Đến với hai chiếc điện thoại cong năm nay là S6 Edge và S6 Edge , mọi chuyện đã thay đổi.
+
+            [hw_image]images/image-1448009462-image-techz-1442486599.jpg[/hw_image]
+
+            Thiết kế mới nhờ khung kim loại chắc chắn và mặt kính cường lực siêu bền đã giúp Samsung tạo ra hai sản phẩm độc đáo với màn hình cong tràn về hai phía và có những tính năng rất đặc biệt và hữu ích bao gồm kích hoạt nhanh ứng dụng, hiển thị thông báo nhanh mà không cần mở toàn bộ màn hình hay nhận biết người gọi đến.
+            <h2>SMARTPHONE DẠNG TRƯỢT BLACKBERRY PRIV</h2>
+            Chiếc smartphone chạy Android đầu tiên của BlackBerry đã được trình làng sau rất nhiều sự mong mỏi của giới công nghệ cũng như người tiêu dùng. Tất nhiên, ngoài việc lựa chọn hệ điều hành phổ biến nát thế giới, BlackBerry còn làm người ta “sững sờ” và chú ý nhờ thiết kế vô cùng độc đáo.
+
+             Kiểu dáng vuông vắn, nam tính hơn Galaxy S6 edge và S6 edge+, nhưng BlackBerry cũng sở hữu một màn hình cảm ứng cỡ lớn với độ phân giải 2K và cong tràn về hai mép viền. Tuy nhiên, điểm thú vị ở Priv là còn có bàn phím QWERTY nằm ẩn ở bên dưới, xuất hiện khi đẩy màn hình trượt lên.
+
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[Ngoài cuộc chạy đua về cấu hình cũng như công nghệ trang bị trên smartphone, nhiều nhà sản xuất còn mang đến những thiết bị sở hữu thiết kế độc đáo, ấn tượng và không kém phần hữu dụng.]]></excerpt:encoded>
+            <wp:status>publish</wp:status>
+            <wp:post_type>post</wp:post_type>
+
+            <category domain="category" nicename="tin-tuc"><![CDATA[Tin tức]]></category>
+            <category domain="post_tag" nicename="lan-ho-diep"><![CDATA[lan hồ điệp]]></category>
+
+            <hw:attachment>
+                <hw:_id>sf</hw:_id>
+                <hw:url>images/image-1448009462-image-techz-1442486599.jpg</hw:url>
+                <hw:thumbnail>1</hw:thumbnail>
+            </hw:attachment>
+
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params export="as">
+                        <param name="as">
+                            <!-- <hw:import_result type="attachment" name="abc" id="t1" filter="sdfndgfg"/> -->
+                            <hw:attachment name="abc" _id="sf" filter="test_filter_attachment"/>
+                        </param>
+
+                    </hw:params>
+                </wp:meta_value>
+            </wp:postmeta>
+		</item>
+
+        <item update="1" _id="post2">
+            <!-- <hw:_id>post2</hw:_id> -->
+            <title>HTC Desire 626G tiếp tục điều chỉnh giá bán</title>
+            <description></description>
+            <content:encoded><![CDATA[Để nhằm chuẩn bị cho dịp mua sắm cuối năm cũng như đẩy mạnh hàng tồn kho chào đón đợt thiết bị mới vào đầu năm 2016, các hãng điện thoại đang dần điều chỉnh giá bán cho các mẫu smartphone của mình. Mới đây, HTC cũng đã điều chỉnh giá bán chiếc 626G xuống còn 4,29 triệu đồng, giảm 600.000 đồng so với trước đó.
+
+            [hw_image caption="HTC Desire 626G tiếp tục điều chỉnh về giá bán. Ảnh: Internet"]images/image-1448004769-htc-desire-626g-2.jpg[/hw_image]
+
+            Với mức giá mới, HTC Desire 626G trở thành một sản phẩm đáng lưu ý cho dịp mua sắm lần này với thiết kế trẻ trung cùng chất lượng gia công tốt. Desire 626G có thiết kế kiểu dual-tone tạo cảm giác thời trang và trẻ trung. Màn hình 5 inches độ phân giải HD và chạy nền tảng vi xử lý 8 nhân của MediaTek.
+
+            Đặc biệt, mẫu smartphone của HTC được trang bị camera sau lên tới 13MP và camera 5MP, nâng cao trải nghiệm selfie của người dùng. Các chi tiết kỹ thuật khác của máy bao gồm 1GB RAM, bộ nhớ trong 8GB và có thể mở rộng bằng thẻ nhớ microSD. Desire 626G cũng có 2 khe cắm SIM cùng pin dung lượng 2000mAh.
+
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[Mẫu smartphone tầm trung Desire 626G của HTC tiếp tục được điều chỉnh về giá bán.]]></excerpt:encoded>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="tin-tuc"><![CDATA[Tin tức]]></category>
+            <category domain="post_tag" nicename="tag-1"><![CDATA[tag 1]]></category>
+            <hw:attachment>
+                <hw:_id>thumb2</hw:_id>
+                <hw:url>images/image-1448004769-htc-desire-626g-2.jpg</hw:url>
+                <hw:thumbnail>1</hw:thumbnail>
+            </hw:attachment>
+
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+            <!--
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params export="attach">
+                        <param name="attach">
+                            <hw:attachment _id="thumb2"/>
+                        </param>
+                    </hw:params>
+                </wp:meta_value>
+            </wp:postmeta>
+            -->
+        </item>
+        <item update="1" _id="post3">
+            <title><![CDATA[Trên tay HTC Desire 728G Dual Sim: Chiếc smartphone tầm trung có loa Boom Sound]]></title>
+            <description></description>
+            <content:encoded><![CDATA[HTC Desire 728G Dual Sim là chiếc smartphone đầu tiên thuộc dòng Desire 7xx của HTC. Từ cách đặt tên nay, có thể thấy Desire 728 Dual Sim sẽ sở hữu nhiều điểm khác biệt so với những người tiền nhiệm thuộc dòng Desire 6xx hay 8xx mà chúng ta đã quen thuộc trước đây.
+            Desire 728G hiện được bán chính hãng tại nước ta với mức giá khoảng 5,6 triệu đồng, lấp đầy những khoảng trống về giá ở phân khúc tầm trung của HTC và hứa hẹn sẽ mang đến cho người dùng một lựa chọn mới ở tầm giá hơn 5 triệu đồng này.
+            [hw_image caption=""]images/image-1447938831-htc-desire-728-techz-04669.jpg[/hw_image]
+
+            Điểm khác biệt chính của Desire 728 nằm ở ngoại hình sản phẩm. Thay vì phong cách trẻ trung quen thuộc với vật liệu nhựa bao trùm thân máy, trên Desire 728, HTC sử dụng kiểu thiết kế “sang” hơn, với khung viền riêng biệt làm “xương sống” cho sản phẩm. Phiên bản mà chúng tôi có ở đây là màu Xám-Đen, tức viền màu Xám và 2 mặt trước sau màu Đen, ngoài ra còn có phiên bản sử dụng viền màu Vàng Gold và 2 mặt màu Trắng (chưa bán tại Việt Nam). Kiểu thiết kế này từng xuất hiện trên khá nhiều smartphone cao cấp hiện nay, mang đến cảm giác về một chiếc máy mỏng hơn, nhưng lại chắc chắn hơn.
+
+            Viền của Desire 728 thực chất là nhựa giả kim loại, tuy nhiên cách hoàn thiện sản phẩm của HTC tốt đến kinh ngạc. Nếu nhà sản xuất không công bố, có lẽ hầu hết chúng ta sẽ tưởng đây là kim loại thực sự: nước sơn lỳ chắc chắn bên ngoài một khung viền bằng nhựa cứng. Các mép cũng như cổng kết nối được cắt gọt tỉ mỉ, đẹp mắt. Tuy vậy, vẫn còn một chi tiết “kém đẹp” mà hầu hết các điện thoại tầm trung, vỏ nhựa của HTC đều mắc phải, đó là khe cắm SIM.
+
+            2 khay SIM Nano cùng khe cắm thẻ nhớ của Desire 728 đặt sát nhau và được che đạy bằng một miếng nhựa duy nhất. Nếu như nhà sản xuất Đài Loan sử dụng cách thiết kế khay đựng SIM dùng que chọc thì có lẽ sản phẩm sẽ đẹp mắt hơn rất nhiều.
+
+Với cách thiết kế dùng khung viền, mặt trước của Desire 728 cũng khác với những chiếc Desire trước đây. Chúng ta có một mặt kính lớn bao trùm toàn bộ mặt trước. 2 đầu trên-dưới được dành cho cụm loa kép Boom Sound cùng logo HTC. Có lẽ vì vậy, viền màn hình của máy mang đến cảm giác tương đối dày. Máy có màn hình Super LCD 2, kích thước 5,5” độ phân giải HD 720p. Điểm cộng nằm ở kích thước lớn, nhưng độ phân giải lại là một điểm trừ của Desire 728 bởi rất nhiều máy ở phân khúc thấp hơn cũng đã được trang bị màn hình độ phân giải FullHD.
+
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[Thêm một lựa chọn mới cho người yêu thích thương hiệu HTC và cần một chiếc smartphone màn hình lớn, cấu hình mạnh mẽ.]]></excerpt:encoded>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>post</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="category" nicename="tin-tuc"><![CDATA[Tin tức]]></category>
+            <category domain="post_tag" nicename="tag-2"><![CDATA[tag 2]]></category>
+            <hw:attachment>
+                <hw:_id>thumb3</hw:_id>
+                <hw:url>images/image-1447938831-htc-desire-728-techz-04669.jpg</hw:url>
+                <hw:thumbnail>1</hw:thumbnail>
+            </hw:attachment>
+
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+            <!--
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params export="attach1">
+                        <param name="attach1">
+                            <hw:attachment _id="thumb3"/>
+                        </param>
+                    </hw:params>
+                </wp:meta_value>
+            </wp:postmeta>
+            -->
+        </item>
+        <item update="1" _id="post4">
+            <title><![CDATA[Lối đi nào cho Windows Phone để có thể vượt lên chính mình?]]></title>
+            <content:encoded><![CDATA[Theo thông tin từ hãng nghiên cứu thị trường Gartner, tính đến quý 3/2015, thị phần của Windows Phone (WP) trên toàn cầu chỉ còn khoảng 1,7%. Miếng bánh thị phần vốn đã nhỏ bé của WP nay càng co rút lại dưới sự bành trướng của binh đoàn giá rẻ Android.
+
+Việc Microsoft suốt ngày chỉ thích "lo chuyện bao đồng" nâng cấp phần mềm cho iOS và Android, càng làm nhiều người hoài nghi về tương lai của hệ điều hành Windows Phone. "Tử huyệt" của Windows Phone bấy lâu nay cả thế giới đều biết: Ứng dụng nghèo nàn.
+
+Với thị phần vượt trội, rõ ràng Android và iOS luôn được ưu ái trước nhất cho một bản cập nhật hay một phần mềm mới. Còn Windows Phone? Từ từ xếp hàng cái đã! Vậy là Windows Phone rơi vào vòng luẩn quẩn: Ứng dụng ít không thu hút được người dùng, kéo theo sự chán nản cho các lập trình viên không muốn viết ứng dụng. Bản thân Microsoft cũng lắng nghe người dùng để hoàn thiện WP và cũng có nhiều động thái để thu hút các lập trình viên, nhưng những nỗ lực đó liệu có đủ (đúng)?
+
+    [hw_image]images/lumia.jpg[/hw_image]
+
+Trước khi nghĩ đến việc “làm giàu” kho ứng dụng, hãy đảm bảo kho ứng dụng đó đáp ứng những nhu cầu tối thiểu của người dùng. Hãy nhìn Instagram, đã có mặt trên Store vài năm và vẫn chưa được cập nhật (vẫn ở dạng Beta), so với ứng dụng trên Play Store hay App Store thì chỉ là đồ cổ. Tương tự, ứng dụng Facebook trên Windows Phone cũng là thảm họa chẳng kém Facebook trên Blackberry. Nhiều nhà phát hành khác cũng ngừng cập nhật hoặc thậm chí gỡ bỏ hẳn ứng dụng của họ khỏi WP Store. Thậm chí, các ứng dụng “cây nhà lá vườn” như Microsoft Office và Skype trên Windows Phone còn cho trải nghiệm tệ hơn hẳn so với những gì ở trên Android và cả iOS. Vậy nên, thay vì mơ mộng đến việc trọng đại, Microsoft nên làm tốt những điều nhỏ nhặt trước.
+
+Một nguyên nhân khác có lẽ nằm ở việc “sáng nắng chiều mưa” của Microsoft. Phải nhớ rằng Windows Mobile ngày trước trên các thiết bị pocket PC luôn có một thị phần ổn định. Sau đó là sự ra mắt Windows Phone 7 với nhiều tính năng nâng cấp hoàn toàn mới. Đột nhiên Microsoft thông báo ra mắt Windows Phone 8 – hệ điều hành di động mới gần như độc lập với hệ điều hành cũ, hệ quả là tất cả các thiết bị chạy Windows Phone 7 không thể nâng cấp lên Windows Phone 8 (do sự khác biệt trong lõi kiến trúc hệ điều hành) và các ứng dụng cũ cũng không thể chạy trên Windows Phone 8. Điều này làm Windows Phone mất 1 lượng lớn người dùng và lập trình viên khi họ cảm thấy không được tôn trọng đúng mức và bị “lừa dối”. Động thái sau đó của Microsoft là tung ra bản cập nhật WP7.8 dường như chỉ là nỗ lực trong tuyệt vọng nhằm kéo dài thời gian sử dụng của các thiết bị Windows Phone cũ. Giờ đây, sau khi đã ra mắt WP8.1 và sắp tới là Windows 10 Mobile, họ cần nhớ lại bài học cũ để đảm bảo sự liên kết và kế thừa giữa các phiên bản với nhau.
+
+Để đối chọi lại binh đoàn Android giá rẻ đến từ Trung Quốc, Microsoft cũng tung ra các “chiến binh” Windows Phone đánh vào phân khúc bình dân, có thể kể đến như Lumia 430 với mức giá 1.590.000 đồng. Nhưng dường như gã khổng lồ phần mềm quá sa đà vào cuộc chiến này khi ra mắt “sòn sòn” 4 đến 5 thiết bị Windows Phone giá rẻ chẳng có gì nổi trội. Nếu bạn là một người dùng Android đang có ý định chuyển sang Windows Phone, chắc chắn bạn khó có thể phân biệt nổi sự khác nhau giữa Lumia 532, 540 và 640. Việc sở hữu một thiết kế quá giống nhau, không có chức năng nổi bật để phân biệt, cộng với một hệ điều hành có sức cá nhân hóa cực thấp, thất bại là điều không quá khó để dự đoán. Cách duy nhất để không chìm nghỉm giữa đám đông là phải có điều gì đó thật sự nổi trội để tạo sự khác biệt.
+]]></content:encoded>
+            <excerpt:encoded><![CDATA[Theo thông tin từ hãng nghiên cứu thị trường Gartner, tính đến quý 3/2015, thị phần của Windows Phone (WP) trên toàn cầu chỉ còn khoảng 1,7%. Miếng bánh thị phần vốn đã nhỏ bé của WP nay càng co rút lại dưới sự bành trướng của binh đoàn giá rẻ Android.]]></excerpt:encoded>
+            <wp:post_type>post</wp:post_type>
+            <category domain="category" nicename="tin-tuc"><![CDATA[Tin tức]]></category>
+            <category domain="post_tag" nicename="tag-3"><![CDATA[tag 3]]></category>
+            <hw:attachment>
+                <hw:_id>thumb4</hw:_id>
+                <hw:url>images/lumia.jpg</hw:url>
+                <hw:thumbnail>1</hw:thumbnail>
+            </hw:attachment>
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+            <!--
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params export="attach1">
+                        <param name="attach1">
+                            <hw:attachment _id="thumb4"/>
+                        </param>
+                    </hw:params>
+                </wp:meta_value>
+            </wp:postmeta>
+            -->
+        </item>
+        <item update="1" _id="post5">
+            <title><![CDATA[Giới công nghệ Việt bất ngờ với khả năng sạc cực nhanh của Infinix HotNote]]></title>
+            <content:encoded><![CDATA[Infinix HotNote X551 là thương hiệu điện thoại tầm trung mới nhất tại thị trường Việt Nam. Thiết bị thuộc sở hữu của nhà sản xuất đến từ Hồng Kông và có bộ phận thiết kế đặt tại Pháp. HotNote X551 là một trong những model smartphone chủ lực của Infinix vốn rất thành công tại thị trường châu Âu, châu Phi, Trung Đông và một số nước Đông Nam Á.
+
+            [hw_image caption="sạc cực nhanh của Infinix HotNote"]images/img20151126173543679.jpg[/hw_image]
+Đúng 11h trưa nay 27.11, Lazada sẽ là đơn vị độc quyền phân phối thiết bị này tại Việt Nam ở mức giá chỉ 2.499.000đ. Đây là cơ hội lớn để người dùng, đặc biệt là giới trẻ được sở hữu chiếc smartphone lõi tám, màn hình 5.5inch HD, camera 8MP và đặc biệt dung lượng pin siêu khủng lên đến 4000mAh.
+Theo một số nguồn tin thì hiện tại, sản phẩm đã nhận được hàng ngàn lượt đăng ký đặt mua và dự kiến sẽ hết hàng trong thời gian sớm. Xem thông tin NGAY TẠI ĐÂY.
+
+Cùng điểm qua 3 lý do chính giúp Infinix HotNote là lựa chọn sáng giá trong phân khúc thị trường smartphone tầm trung:
+
+1. Cấu hình mạnh mẽ
+Trong khi phần lớn các smartphone tầm giá dưới 3 triệu trên thị trường hiện nay đều chỉ được trang bị chip 4 nhân thì Infinix HotNote đã tích hợp chip Mediatek lõi 8 MT6592M 1.4GHz, RAM 2GB cùng đồ họa Mali 450. Chip đa nhân sẽ giúp tối ưu hóa khả năng xử lý các tác vụ, đem đến cho người dùng trải nghiệm mượt mà hơn.
+
+Thiết bị sở hữu màn hình rộng đến 5.5inch độ phân giải HD cùng công nghệ chống chói IPS giúp gia tăng góc nhìn và đem đến những hình ảnh sáng rõ, kể cả khi sử dụng ngoài trời.
+Điểm nổi bật nhất của Infinix HotNote X551 chính là dung lượng pin Li-Polymer 4000mAh. Máy cho thời lượng sử dụng đến 2 ngày liên tục, có thể tương đương 21h đàm thoại, 8h xem video, 40h nghe nhạc và 6.3h lướt web. Thời lượng pin này vượt hẳn so với pin 3000mAh của Galaxy Note 5 và chỉ kém một chút so với dung lượng 4100mAh của Huawei Ascend Mate 7.
+
+Sở hữu cảm biến hình ảnh OV8865 8MP, camera thế hệ mới của Infinix cho chất lượng cân bằng sáng được tăng cường thêm 5%, đồng thời chất lượng ảnh chụp đêm được cải thiện đến 50% so với thế hệ trước. Camera trước 2MP với góc chụp rộng 75 độ hỗ trợ selfie rõ nét.
+
+2. Thiết kế sang trọng, cao cấp
+Một trong những điểm cộng lớn dành cho Infinix HotNote chính là thiết kế. Phần lưng sử dụng chất liệu nhựa với họa tiết giả kim loại phay xước nhìn rất cao cấp. Tại Việt Nam, Infinix được bán ra với 2 màu Đen Carbon và Vàng Champagne.
+So với các dòng máy 5.5inch khác, HotNote là thiết bị có thiết kế gọn nhẹ nhất khi đạt độ mỏng chỉ 8.9mm và nặng 172g.
+
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[Những ngày vừa qua, thông tin về việc Infinix – Hãng điện thoại đến từ Hồng Kông sẽ chính thức đổ bộ vào Việt Nam đã khiến giới công nghệ trong nước khá hứng thú.]]></excerpt:encoded>
+            <wp:post_type>post</wp:post_type>
+            <category domain="category" nicename="tin-tuc"><![CDATA[Tin tức]]></category>
+            <category domain="post_tag" nicename="tag-3"><![CDATA[tag 3]]></category>
+            <category domain="post_tag" nicename="tag-4"><![CDATA[tag 4]]></category>
+            <hw:attachment>
+                <hw:_id>thumb6</hw:_id>
+                <hw:url>images/img20151126173543679.jpg</hw:url>
+                <hw:thumbnail>1</hw:thumbnail>
+            </hw:attachment>
+        </item>
+        <item update="1" _id="post6">
+            <title><![CDATA[Tablet Windows sắp trở thành một thế lực đáng gờm, đe doạ iPad]]></title>
+            <content:encoded><![CDATA[Theo một báo cáo gần đây của hãng nghiên cứu thị trường Strategy Analytics, việc các hãng sản xuất thiết bị di động cho ra mắt nhiều mẫu máy tính bảng chạy hệ điều hành Windows sẽ giúp Microsoft nắm giữ 18% thị trường hệ điều hành dành cho thiết bị này.
+
+Theo công ty nghiên cứu này, thị trường máy tính bảng thời gian gần đây đang ngày càng bị thu hẹp do sự phổ biến của các smartphone màn hình to (hay còn gọi là phablet). Tuy nhiên, bất chấp sự sụt giảm, có những dấu hiệu cho thấy các nhà sản xuất máy tính bảng vẫn chưa bỏ cuộc chiến.
+
+Kể từ khi Microsoft ra mắt Windows 8 một vài năm trước đây, hệ điều hành của công ty đã có những tiến bộ vững chắc trong thị trường máy tính bảng. So với các máy tính bảng Android, máy tính bảng Windows vượt trội hơn nhiều ở năng suất làm việc do máy có khả năng chạy các ứng dụng Windows như các máy tính để bàn. Điều đó cũng dẫn đến sự ưu ái của các doanh nghiệp đối với sản phẩm này.
+
+Strategy Analytics còn cho biết số lượng máy tính bảng Windows được bán ra đã tăng vọt 58% trong 9 tháng đầu năm 2015 so với cùng kỳ năm trước. Với đà phát triển này, công ty ước tính sẽ có thêm 22 triệu chiếc máy tính bảng Windows được bán hết vào cuối năm nay, giúp dòng sản phẩm này chiếm được 10% tổng doanh số máy tính bảng bán ra trong năm 2015.
+
+[hw_image caption="Biểu đồ thể hiện sự tăng trưởng của máy tính bảng Windows"]images/windows-tablet.jpg[/hw_image]
+
+Cũng theo công ty nghiên cứu này, máy tính bảng Windows sẽ vẫn còn tiếp tục phát triển nhờ sự ủng hộ của các doanh nghiệp. Thực tế là cho đến hôm nay, vẫn chưa có một hệ điều hành nào có thể thay thế được Windows trong các công ty do đa số phần mềm chuyên dụng chỉ có thể sử dụng được trên hệ điều hành này. Do đó, để phục vụ công việc thì máy tính bảng Windows là sự lựa chọn tốt nhất.
+
+Đến cuối năm 2019, Strategy Analytics dự đoán rằng Windows sẽ nắm giữ 18% thị phần hệ điều hành máy tính bảng toàn cầu trong khi Apple iOS là 23%. Nếu dự đoán này là chính xác thì tuy chưa thể so sánh với Android nhưng talbet Windows đã gần như đuổi kịp tablet iOS của Apple trong cuộc đua ở thị trường tablet. Bất chất Apple là hãng đi tiên phong ra mắt chiếc máy tính bảng đầu tiên.
+]]></content:encoded>
+            <excerpt:encoded><![CDATA[Theo công ty nghiên cứu này, thị trường máy tính bảng thời gian gần đây đang ngày càng bị thu hẹp do sự phổ biến của các smartphone màn hình to (hay còn gọi là phablet). Tuy nhiên, bất chấp sự sụt giảm, có những dấu hiệu cho thấy các nhà sản xuất máy tính bảng vẫn chưa bỏ cuộc chiến.]]></excerpt:encoded>
+            <wp:post_type>post</wp:post_type>
+            <category domain="category" nicename="tin-tuc"><![CDATA[Tin tức]]></category>
+            <category domain="post_tag" nicename="tag-4"><![CDATA[tag 4]]></category>
+            <category domain="post_tag" nicename="tag-5"><![CDATA[tag 5]]></category>
+            <hw:attachment>
+                <hw:_id>thumb5</hw:_id>
+                <hw:url>images/win10-tablet.jpg</hw:url>
+                <hw:thumbnail>1</hw:thumbnail>
+            </hw:attachment>
+            <wp:postmeta>
+                <wp:meta_key>_edit_last</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+            <!--
+            <wp:postmeta>
+                <wp:meta_key>_thumbnail_id</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params export="attach1">
+                        <param name="attach1">
+                            <hw:attachment _id="thumb5"/>
+                        </param>
+                    </hw:params>
+                </wp:meta_value>
+            </wp:postmeta>
+            -->
+        </item>
+
+        <item update="1" _id="post7">
+            <title><![CDATA[HTC công bố One A9 tại Việt Nam]]></title>
+            <content:encoded><![CDATA[Đột phá hoàn toàn từ những đường nét thiết kế rất đặc trưng của dòng One, HTC One A9 lấy cảm hứng từ thiên nhiên với tông màu sắc độc đáo, rực rỡ - còn gọi là “metalmorphics” (tạm dịch là ngôn ngữ thiết kế mang cảm hứng từ thiên nhiên). Các đường cong, vát cạnh tinh tế và các đường cắt chính xác trên phím nguồn kết hợp với khung kim loại siêu mỏng tạo cảm giác thanh mảnh tự nhiên. Sau cùng là màn hình rực rỡ kết hợp giữa kính và kim loại, công nghệ AMOLED, lớn 5 inch với đường viền cực sát cạnh, công nghệ kính 2.5D Corning Gorilla Glass cho hình ảnh sáng và rực rỡ hơn.
+
+[hw_image]images/screen_shot_2015-11-27_at_4.21.53_pm.png[/hw_image]
+Máy sử dụng bộ vi xử lí Qualcomm Snapdragon 617 mới nhất, octa-core 64-bit, hỗ trợ mạng 4G LTE, HTC One A9 được thiết kế để mang lại sự kết hợp hoàn hảo từ hiệu suất mạnh mẽ, kết nối siêu tốc đến khả năng sử dụng pin tối ưu. Với khả năng hỗ trợ mạng 4G LTE thế hệ mới, khả năng kết nối không dây cực nhanh, HTC One A9 giúp người dùng có thể xem phim trực tuyến chất lượng HD một cách mượt mà, âm thanh sống động chuẩn mực và lưu trữ tối đa trên các dịch vụ trực tuyến đám mây. Máy có tổng dung lượng bộ nhớ trong 16 GB, hỗ trợ thẻ nhớ ngoài microSD lên đến 2 TB.
+
+Chiếc máy ảnh tốt nhất đề cao tính tiện dụng cho phép bạn bắt lấy bất kì khoảnh khắc nào một cách nhanh nhất. Máy ảnh Selfie và máy ảnh chính trên HTC One A9 được hỗ trợ công cụ chỉnh sửa mạnh mẽ mà đơn giản chỉ với thao tác chạm. Máy ảnh chính 13 Mpx với tính năng chống rung quang học (OIS) thế hệ mới, tự động nhận biết và giảm thiểu tối đa cho các rung động nhằm mang lại những bức ảnh rõ nét nhất. Trong khi đó, máy ảnh Selfie - UltraPixel với khả năng thu sáng nhiều hơn đến 300% so với smartphone thông thường. Với chế độ chụp ảnh Pro, bạn có thể ghi lại những hình ảnh hoàn hảo kể cả khi không phải là nhiếp ảnh gia chuyên nghiệp.
+
+[hw_image]images/screen_shot_2015-11-27_at_4.22.29_pm.png[/hw_image]
+
+HTC One A9 sẽ có mặt tại thị trường Việt Nam vào ngày 27/11/2015 với các tông màu thời trang: Xám Carbon, Vàng Topaz & Bạc ngọc Opal. Sản phẩm sẽ được phân phối đến tay người tiêu dùng qua tất cả hệ thống kênh và cửa hàng bán lẻ điện thoại di động trên toàn quốc với giá bán lẻ đề xuất là 11.900.000 VNĐ.
+            ]]></content:encoded>
+            <excerpt:encoded><![CDATA[Ngày 24/11, trong vòng một tháng sau buổi ra mắt tại thành phố New York - Mỹ, hôm nay HTC One A9 đã được HTC Việt Nam chính thức giới thiệu đến người tiêu dùng trong nước.]]></excerpt:encoded>
+            <wp:post_type>post</wp:post_type>
+            <category domain="category" nicename="tin-tuc"><![CDATA[Tin tức]]></category>
+            <category domain="post_tag" nicename="tag-2"><![CDATA[tag 2]]></category>
+            <category domain="post_tag" nicename="tag-5"><![CDATA[tag 5]]></category>
+            <hw:attachment>
+                <hw:_id>thumb6</hw:_id>
+                <hw:url>images/screen_shot_2015-11-27_at_4.21.53_pm.png</hw:url>
+                <hw:thumbnail>1</hw:thumbnail>
+            </hw:attachment>
+        </item>
+        <!--
+        <item update="1">
+            <title><![CDATA[]]></title>
+            <content:encoded><![CDATA[]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_type>post</wp:post_type>
+            <category domain="category" nicename="tin-tuc"><![CDATA[Tin tức]]></category>
+            <hw:attachment>
+                <hw:_id>thumb5</hw:_id>
+                <hw:url>images/win10-tablet.jpg</hw:url>
+                <hw:thumbnail>1</hw:thumbnail>
+            </hw:attachment>
+        </item>
+        -->
+	</posts>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<hw-widget-weather-exchangeRate
+        xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+        xmlns:param="http://hoangweb.com/export/1.0/param/"
+        xmlns:params="http://hoangweb.com/export/1.0/params/"
+        xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:wp="http://wordpress.org/export/1.2/"
+        xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <init_widgets>
+        <params>
+            <param name="import">cli/export.xml</param>
+        </params>
+    </init_widgets>
+
+</hw-widget-weather-exchangeRate>

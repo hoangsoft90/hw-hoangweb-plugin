@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<hw-taxonomy-post-list-widget>
+    <prepare_widgets >
+        <params name="load-widgets">
+            <param name="wxr" value="export.xml"/>
+        </params>
+    </prepare_widgets>
+
+</hw-taxonomy-post-list-widget>

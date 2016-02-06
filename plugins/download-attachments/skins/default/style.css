@@ -1,0 +1,11 @@
+.hw-download-attachments-table table, .hw-download-attachments-table th ,.hw-download-attachments-table td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.hw-download-attachments-table table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+.hw-download-attachments-table table tr:nth-child(even) {
+    background-color: #ffffff;
+}

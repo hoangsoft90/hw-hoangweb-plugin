@@ -1,0 +1,22 @@
+<ul class="{{ marquee_wrapper }}" id="{{ marquee_id }}">
+    {%  if(data is not empty){ %}
+        {% for post in data.get_posts() %}
+
+    {# $thumb = wp_get_attachment_image_src($query->post->ID,'thumbnail'); //wp_get_attachment_image #}
+    {# $img = wp_get_attachment_image_src($query->post->ID,'full'); #}
+    {# $excerpt = str_replace(array("\r","\n"),"",$query->post->post_excerpt); #right way #}
+    {# $url=get_post_meta($query->post->ID,'hw-ml-slider_url',true); #}
+
+    ?>
+    <li><img src="{{ post.thumbnail.src('full') }}" width="" height="" alt="{{ excerpt }}"></li>
+    {% endfor %}
+    {% endif %}
+</ul>
+<script type="text/javascript">
+    (function($) {
+        $(function() {
+            $("#{{ marquee_id }}").simplyScroll({{ json_config }});
+        });
+    })(jQuery);
+
+</script>

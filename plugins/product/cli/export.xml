@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <posts>
+        <wp:term>
+            <wp:term_taxonomy>pa_color</wp:term_taxonomy>
+            <wp:term_slug>black</wp:term_slug>
+            <wp:term_name><![CDATA[Black]]></wp:term_name>
+        </wp:term>
+        <wp:term>
+            <wp:term_taxonomy>product_type</wp:term_taxonomy>
+            <wp:term_slug>external</wp:term_slug>
+            <wp:term_name><![CDATA[external]]></wp:term_name>
+        </wp:term>
+        <wp:term>
+            <wp:term_taxonomy>product_cat</wp:term_taxonomy>
+            <wp:term_slug>clothing</wp:term_slug>
+            <wp:term_name><![CDATA[Clothing]]></wp:term_name>
+        </wp:term>
+
+        <item update="1">
+            <title><![CDATA[Cart]]></title>
+            <content:encoded><![CDATA[[woocommerce_cart]]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_type>page</wp:post_type>
+        </item>
+        <item update="1">
+            <title><![CDATA[Checkout]]></title>
+            <content:encoded><![CDATA[[woocommerce_checkout]]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_type>page</wp:post_type>
+        </item>
+        <item update="1">
+            <title><![CDATA[My Account]]></title>
+            <content:encoded><![CDATA[[woocommerce_my_account]]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_type>page</wp:post_type>
+        </item>
+        <item update="1">
+            <title><![CDATA[Shop]]></title>
+            <content:encoded><![CDATA[]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:post_type>page</wp:post_type>
+        </item>
+
+        <item update="1">
+            <title>Woo Logo</title>
+            <content:encoded><![CDATA[Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.]]></content:encoded>
+            <excerpt:encoded><![CDATA[Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.]]></excerpt:encoded>
+            <wp:status>publish</wp:status>
+            <wp:post_type>product</wp:post_type>
+            <category domain="product_cat" nicename="clothing"><![CDATA[Clothing]]></category>
+            <category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
+            <category domain="product_cat" nicename="t-shirts"><![CDATA[T-shirts]]></category>
+
+            <hw:attachment>
+                <hw:_id>p1</hw:_id>
+                <hw:url>images/image-1448009462-image-techz-1442486599.jpg</hw:url>
+                <hw:thumbnail>1</hw:thumbnail>
+            </hw:attachment>
+            <wp:postmeta>
+                <wp:meta_key>_stock_status</wp:meta_key>
+                <wp:meta_value><![CDATA[instock]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>total_sales</wp:meta_key>
+                <wp:meta_value><![CDATA[0]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_downloadable</wp:meta_key>
+                <wp:meta_value><![CDATA[no]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_virtual</wp:meta_key>
+                <wp:meta_value><![CDATA[no]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_product_image_gallery</wp:meta_key>
+                <wp:meta_value><![CDATA[17]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_regular_price</wp:meta_key>
+                <wp:meta_value><![CDATA[20]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_sale_price</wp:meta_key>
+                <wp:meta_value><![CDATA[18]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_tax_status</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_tax_class</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_purchase_note</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_featured</wp:meta_key>
+                <wp:meta_value><![CDATA[no]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_weight</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_length</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_width</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_height</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_sku</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_product_attributes</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params>
+                        <params name="pa_color">
+                            <param name="name">pa_color</param>
+                            <param name="value"></param>
+                            <param name="position">0</param>
+                            <param name="is_visible">0</param>
+                            <param name="is_variation">1</param>
+                            <param name="is_taxonomy">1</param>
+                        </params>
+                        <params name="pa_attr-1">
+                            <param name="name">pa_attr-1</param>
+                            <param name="value"></param>
+                            <param name="position">1</param>
+                            <param name="is_visible">1</param>
+                            <param name="is_variation">1</param>
+                            <param name="is_taxonomy">1</param>
+                        </params>
+
+                    </hw:params>
+                </wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_sale_price_dates_from</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_sale_price_dates_to</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_price</wp:meta_key>
+                <wp:meta_value><![CDATA[18]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_sold_individually</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_stock</wp:meta_key>
+                <wp:meta_value><![CDATA[5]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_backorders</wp:meta_key>
+                <wp:meta_value><![CDATA[no]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_manage_stock</wp:meta_key>
+                <wp:meta_value><![CDATA[yes]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_upsell_ids</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params>
+                        <param>60</param>
+                    </hw:params>
+                </wp:meta_value>
+            </wp:postmeta>
+        </item>
+    </posts>
+    <!-- options -->
+    <options>
+        <option ><!-- cloudzoom -->
+            <params name="HW_Module_Settings_page" method="append" prefix="product_">
+                <params name="cloudzoom">
+                    <param name="zoombig_width"><![CDATA[]]>]</param>
+                    <param name="zoombig_height"><![CDATA[]]>]</param>
+                    <param name="container_id"><![CDATA[]]>]</param>
+                    <param name="container_class"><![CDATA[]]>]</param>
+                    <param name=""><![CDATA[]]>]</param>
+                </params>
+            </params>
+        </option>
+    </options>
+</rss>

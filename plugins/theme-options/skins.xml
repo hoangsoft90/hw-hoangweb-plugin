@@ -1,0 +1,19 @@
+<rss version="2.0"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <skins>
+        <!-- list custom taxonomy widget -->
+        <hw:skin name="lct">
+            <skin:apply_plugin>hw-list-custom-taxonomy-widget</skin:apply_plugin>
+            <skin:default_skin_path><![CDATA[skins]]></skin:default_skin_path>
+            <skin:default_skin><![CDATA[default/]]></skin:default_skin>
+            <skin:skin_type><![CDATA[file]]></skin:skin_type>
+            <skin:skin_name><![CDATA[hwlct-skin.php]]></skin:skin_name>
+            <skin:other_folder><![CDATA[hw_lct_skins]]></skin:other_folder>
+            <skin:group><![CDATA[]]></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+        </hw:skin>
+
+    </skins>
+</rss>

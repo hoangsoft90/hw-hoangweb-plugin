@@ -1,0 +1,14 @@
+.hw-active-icon{
+    background: url('images/enable.png') no-repeat;
+    width: 135px;
+    height: 26px;
+    display: block;
+    padding-left: 32px;
+}
+.hw-inactive-icon{
+    background: url('images/disable.png') no-repeat;
+    width: 135px;
+    height: 26px;
+    display: block;
+    padding-left: 32px;
+}

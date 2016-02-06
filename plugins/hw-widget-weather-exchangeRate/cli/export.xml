@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+
+    <posts>
+        <wp:wxr_version>1.2</wp:wxr_version>
+
+    </posts>
+    <!-- #skins -->
+    <skins>
+
+    </skins>
+
+    <widgets>
+        <hw:widget sidebar="sidebar-1" id_base="hw_wexr">
+            <param name="title"><![CDATA[Weather, exchange rate widget]]></param>    <!-- #each widget import have different title -->
+            <params name="show_opts">
+                <param name="c_weather"><![CDATA[on]]></param>
+                <param name="c_weather_source"><![CDATA[yahoo]]></param>
+                <param name="c_weather_def_location"><![CDATA[hochiminh]]></param>
+                <param name="c_exr"><![CDATA[on]]></param>
+                <param name="c_exr_source"><![CDATA[vietcombank]]></param>
+                <params name="c_exr_fields">
+                    <param>buy</param>
+                    <param>transfer</param>
+                    <param>sell</param>
+                </params>
+                <params name="c_exr_opts">
+                    <param name="width">0</param>
+                    <param name="height">0</param>
+                </params>
+                <param name="c_giavang"><![CDATA[on]]></param>
+                <param name="c_giavang_source"><![CDATA[sjc]]></param>
+
+            </params>
+        </hw:widget>
+      </widgets>
+  </rss>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--For reference only. Only one request every 5 minutes!-->
+<ExrateList>
+  <DateTime>12/2/2015 2:41:39 PM</DateTime>
+  <Exrate CurrencyCode="AUD" CurrencyName="AUST.DOLLAR" Buy="16299.27" Transfer="16397.66" Sell="16544.07" />
+  <Exrate CurrencyCode="CAD" CurrencyName="CANADIAN DOLLAR" Buy="16581.63" Transfer="16732.22" Sell="16949.28" />
+  <Exrate CurrencyCode="CHF" CurrencyName="SWISS FRANCE" Buy="21670.87" Transfer="21823.64" Sell="22018.5" />
+  <Exrate CurrencyCode="DKK" CurrencyName="DANISH KRONE" Buy="0" Transfer="3155.93" Sell="3254.94" />
+  <Exrate CurrencyCode="EUR" CurrencyName="EURO" Buy="23723.37" Transfer="23794.75" Sell="24007.21" />
+  <Exrate CurrencyCode="GBP" CurrencyName="BRITISH POUND" Buy="33519.78" Transfer="33756.07" Sell="34057.47" />
+  <Exrate CurrencyCode="HKD" CurrencyName="HONGKONG DOLLAR" Buy="2863.29" Transfer="2883.47" Sell="2920.87" />
+  <Exrate CurrencyCode="INR" CurrencyName="INDIAN RUPEE" Buy="0" Transfer="331.7" Sell="345.54" />
+  <Exrate CurrencyCode="JPY" CurrencyName="JAPANESE YEN" Buy="180.4" Transfer="182.22" Sell="183.85" />
+  <Exrate CurrencyCode="KRW" CurrencyName="SOUTH KOREAN WON" Buy="0" Transfer="18.56" Sell="19.56" />
+  <Exrate CurrencyCode="KWD" CurrencyName="KUWAITI DINAR" Buy="0" Transfer="72751.1" Sell="75033.55" />
+  <Exrate CurrencyCode="MYR" CurrencyName="MALAYSIAN RINGGIT" Buy="0" Transfer="5302.7" Sell="5371.49" />
+  <Exrate CurrencyCode="NOK" CurrencyName="NORWEGIAN KRONER" Buy="0" Transfer="2569.92" Sell="2650.55" />
+  <Exrate CurrencyCode="RUB" CurrencyName="RUSSIAN RUBLE" Buy="0" Transfer="327.71" Sell="375.37" />
+  <Exrate CurrencyCode="SAR" CurrencyName="SAUDI RIAL" Buy="0" Transfer="5819.34" Sell="6184.8" />
+  <Exrate CurrencyCode="SEK" CurrencyName="SWEDISH KRONA" Buy="0" Transfer="2560.02" Sell="2624.54" />
+  <Exrate CurrencyCode="SGD" CurrencyName="SINGAPORE DOLLAR" Buy="15785.52" Transfer="15896.8" Sell="16103.02" />
+  <Exrate CurrencyCode="THB" CurrencyName="THAI BAHT" Buy="616.45" Transfer="616.45" Sell="642.18" />
+  <Exrate CurrencyCode="USD" CurrencyName="US DOLLAR" Buy="22460" Transfer="22460" Sell="22530" />
+  <Source>Joint Stock Commercial Bank for Foreign Trade of Vietnam - Vietcombank</Source>
+</ExrateList>

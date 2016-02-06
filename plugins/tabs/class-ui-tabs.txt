@@ -1,0 +1,68 @@
+$opts = array(
+    'container_id' => 'menu_tabs',
+    'container_class' => 'tabs-container',
+    'current_tab_class'=>'current',
+    'tabs_menu_class' => 'tabs',
+    'tab_content_class' => 'content'
+);
+//load class
+//HW_HOANGWEB::load_class('HW_Tabs');
+
+$tab = HW_Tabs::init($opts);
+//add tabs menu
+$tab->add_tab('tab1','Tab 1');
+$tab->add_tab('tab2','Tab 2');
+$tab->add_tab('tab3','Tab 3');
+
+//add tab content
+$tab->add_tab_content('tab1', '[shortcode1]');
+$tab->add_tab_content('tab2', 'simple text');
+$tab->add_tab_content('tab3', 'callback_name');
+
+//easytabs option
+$tab->options=array('animate'=>false,..);
+
+
+/**
+ * hooks
+*/
+add_filter('hw_tabs_info', '_hw_tabs_info');
+function _hw_tabs_info($info) {
+    return $info;
+}
+
+add_action('hw_tab_content_before', '_hw_tab_content_before', 10, 3);
+function _hw_tab_content_before($tab, $title, $inst) {
+    echo '<div class="ttalbun">
+          <h2 class="bgname imgancu" id="pro_de">'.$title.'</h2>
+          </div>';
+}
+add_action('hw_tab_content_after', '_hw_tab_content_after' , 10,3);
+function _hw_tab_content_after($tab, $title, $inst) {
+    if($tab=='pro_tab_2') {
+        echo do_shortcode('[hwml_slider id="68"]');
+    }
+    if($tab=='pro_tab_3'){
+        echo do_shortcode('[contact-form-7 id="71" title="product"]');
+    }
+}
+
+//display tabs & it's content
+$tab->display();
+$tab->display(array('show_tabs'=>0, 'use_default_css'=>0));
+$tab->display(null,array(...));  //override easytabs options
+
+//render scroll tabs
+$tab->display_scrolltabs();
+$tab->display_scrolltabs(array('show_tabs'=>0));    //params
+$tab->display_scrolltabs(null,array('debug'=>true,'tabs_topSpacing'=>10));  //override options
+
+//render tabs menu
+echo $tab->render_tabs_menu();
+
+//render tabs content
+echo $tab->render_tabs_content();
+
+#------------------------multiple instances------------------------------
+HW_Tabs::register('tab1', $opts);
+$tab=HW_Tabs::get('tab1');

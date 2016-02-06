@@ -1,0 +1,22 @@
+{% set gallery_id = 'gallery-' ~ sanitize_html_class( args['wrapper_id'] ) %}
+{% if options.css is not empty %}
+    {{ _callStatic('HW_Libraries::get','pikachoose-96').enqueue_styles(options.css) }}
+{% endif %}
+<div class="pikachoose {{ sanitize_html_class( args['wrapper_class'] ) }}" id="{{ gallery_id }}">
+
+    <ul class="pikame" >
+        {%  for id,item in galleries %}
+        <li>
+            <a href="{{ item.url|esc_url()|default('#') }}"><img src="{{ item['img_src'] }}"/></a>
+            <span>{{ item.title }}</span>
+        </li>
+        {% endfor %}
+
+    </ul>
+</div>
+<script>
+    jQuery(document).ready( function($) {
+        jQuery( '#{{ gallery_id }} .pikame' ).PikaChoose({{ json_options }});
+
+    } );
+</script>

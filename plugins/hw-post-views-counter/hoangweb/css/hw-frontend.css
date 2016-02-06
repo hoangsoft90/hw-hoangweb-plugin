@@ -1,0 +1,9 @@
+.hw-post-views-icon .post-views-count.preloading{
+    background-image: url('../images/loading-oval.GIF');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.hw-hidden{display: none;}

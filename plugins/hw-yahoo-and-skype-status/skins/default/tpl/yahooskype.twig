@@ -1,0 +1,54 @@
+{% autoescape false %}
+<style>
+    .support-online .phone-icon{
+        background:url({% if _current_skin.get_skin_instance('phone_icons') %} {{ _current_skin.get_skin_instance('phone_icons').get_skin_link(instance.phone_icon) }}{% endif %} );
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 25px;
+    }
+    .support-online .email-icon{
+        background:url({% if _current_skin.get_skin_instance('mail_icons') %} {{ _current_skin.get_skin_instance('mail_icons').get_skin_link(instance['mail_icon']) }}{% endif %} );
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 25px;
+    }
+    .support-online{text-align: center;}
+</style>
+{{ before_widget }}
+{{ before_title ~ instance["title"] ~ after_title }}
+{% if instance["addition_text"] %}
+<div style="text-align:center;padding:10px;">{{ instance["addition_text"] }}</div>
+{% endif %}
+
+<div class='support-online' >
+
+{% for phone,item in data %}
+<div style="" class="">
+    <strong>{{ item.nick_name }}</strong><br/>
+    <span style="color: #ff0000;font-size: 16px;"><strong class="phone-icon">{{ phone }}</strong></span><br/>
+    <span><strong class="email-icon">{{ item.email }}</strong></span><br/>
+				<span>
+				    {% if item['avatar'] is defined %}<img src="{{ item.avatar }}"/>{% endif %}
+				</span>
+    {% for type,value in item.services %}
+
+        {% if type == 'yahoo' %}
+        <div >
+            {{ yk.nick_yahoo_status_link(item[type]) }}
+        </div>
+        {% endif %}
+        {% if type == 'skype' %}
+        <div >
+            {{  yk.nick_skype_status_link(attribute(item,type)) }}
+        </div>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endfor %}
+</div>
+{{ after_widget }}
+{% endautoescape %}

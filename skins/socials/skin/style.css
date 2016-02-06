@@ -1,0 +1,45 @@
+.link-Connect{
+
+}
+.link-social.wifi {
+    background-image: url('images/footer-rss.png');
+    background-position: 50% 0px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+.link-social {
+    width: 35px;
+    height: 28px;
+    background-image: url('images/footer-twet.png');
+    background-position: 50% 0px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+a {
+    color: #0082f3;
+    text-decoration: underline;
+}
+a {
+    background-color: transparent;
+}
+.link-social.fb {
+    background-image: url('images/footer-fb.png');
+    background-position: 50% 0px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+}
+.fb {
+    margin-top: 23px;
+}
+.link-social.gg {
+    background-image: url('images/footer-google.png');
+    background-size: 24px;
+}
+.link-social.tw {
+    background-image: url('images/footer-pin.png');
+    background-size: 25px;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <skins>
+        <hw:skin name="pagination">
+            <!-- <skin:apply_plugin>pagination</skin:apply_plugin> -->
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-pagenavi-skin.php</skin:skin_name>
+            <skin:other_folder>hw_pagenavi_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+            <skin:options>
+                <param name="enable_skin_file">1</param>
+                <param name="enable_skin_tpl">0</param>
+            </skin:options>
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="default">Default</param>
+                <param name="skin1"/>
+            </skin:list>
+        </hw:skin>
+    </skins>
+</rss>

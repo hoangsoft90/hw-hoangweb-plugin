@@ -1,0 +1,22 @@
+* Mặc định plugin tạo 3 navmenu:
+<code>
+//loại trừ thuộc tính 'menu'
+hw_wp_nav_menu(array(
+    'container'=>false,
+    'menu_id'=>'nav',
+    'menu_class'=>'mainmenu',
+    'before'=>'',
+    'after'=>'',
+    #'walker'=>new hoangweb_walker_nav_menu()
+),
+    'top'       //3 menu: top, footer, main
+    );
+</code>
+* Hiển thị search form trên menu.
+Sửa nội dung form search, sử dụng filter 'hw_navmenu_get_search_form'.
+<code>
+    add_filter('hw_navmenu_get_search_form', '_hw_navmenu_get_search_form');
+    function _hw_navmenu_get_search_form($form) {
+        return $form;
+    }
+</code>

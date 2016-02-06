@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<hw-livechat>
+    <setup_livechat >
+        <params name="default">
+            <param name="wxr" value="export.xml"/>
+        </params>
+    </setup_livechat>
+    <setup_livechat id="b">
+        <params name="b">
+            <param name="wxr" value="export1.xml"/>
+        </params>
+    </setup_livechat>
+
+    <disable_livechat></disable_livechat>
+</hw-livechat>

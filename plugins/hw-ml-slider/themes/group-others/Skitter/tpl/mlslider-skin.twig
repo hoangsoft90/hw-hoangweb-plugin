@@ -1,0 +1,19 @@
+<div class="hwml-slider-container">
+    <div class="box_skitter box_skitter_large" id="skitter-slider-{{ slider_id }}" class="skitter" >
+        <ul>
+            {% if query is defined %}
+{% for post in posts %}
+    <li>
+        <a href="{{ post.get_field('hw-ml-slider_url')|default('#') }}"><img src="{{ post.thumbnail.src }}" alt="{{ post.excerpt }}" data-thumb="{{ post.thumbnail.src }}" data-transition="" alt="" title="{{ post.excerpt }}"  /></a>
+        <div class="label_text"><p>{{ post.excerpt }}</p></div>
+    </li>
+{% endfor %}
+            {% endif %}
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $('#skitter-slider-{{ slider_id }}').skitter({{ options }});
+    });
+</script>

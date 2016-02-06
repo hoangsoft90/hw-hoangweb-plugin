@@ -1,0 +1,21 @@
+<code>
+//filter message when no any item found.
+add_filter('hwlct_show_option_none', '_hwlct_show_option_none');
+function _hwlct_show_option_none($option_none) {
+    return $option_none;
+}
+/**
+ * filter wp list categories args
+ */
+add_filter('hwlct_wp_list_categories_args', '_hwlct_wp_list_categories_args');
+function _hwlct_wp_list_categories_args($args, $instance){
+    return $args;
+}
+add_filter('hwlct_wp_dropdown_categories', 'hwlct_wp_dropdown_categories');
+function hwlct_wp_dropdown_categories($output, $args, $instance){return $output;}
+
+add_filter('hwlct_wp_list_categories', 'hwlct_wp_list_categories');
+function hwlct_wp_list_categories($output, $args, $instance){
+    return $output;
+}
+</code>

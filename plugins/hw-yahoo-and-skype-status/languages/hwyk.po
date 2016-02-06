@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hw-yahoo-skype-status\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-12 16:44-0800\n"
+"PO-Revision-Date: 2015-08-15 08:55+0700\n"
+"Last-Translator: Hoangweb <hoangsoft90@gmail.com>\n"
+"Language-Team: Hoangweb.COM\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr_e;esc_attr__;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.7.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "Version"
+msgstr "Version"
+
+#: ../mappress.php:130
+msgid "Sory, please install HW Hoangweb plugin first before active this plugin."
+msgstr "Xin lỗi, bạn cần kích hoạt plugin hw-hoangweb trước hoặc kích hoạt lại plugin này."
+
+msgid "Display yahoo skype status widget"
+msgstr "Tạo danh sách hỗ trợ với nick yahoo, skype."
+
+msgid "Online yahoo skype status"
+msgstr "Hỗ trợ trực tuyến"
+
+msgid "Support chat"
+msgstr "Hỗ trợ trực tuyến"
+
+msgid "Title"
+msgstr "Tiêu đề"
+
+msgid "Skin"
+msgstr "Giao diện"
+
+msgid "Phone icon"
+msgstr "Biểu tượng phone"
+
+msgid "Yahoo icon"
+msgstr "Hình yahoo thay thế"
+
+msgid "Skype icon"
+msgstr "Hình skype thay thế"
+
+msgid "Other content"
+msgstr "Nội dung khác"
+
+msgid "Note: You can group nicks by matching phone for those items."
+msgstr "Có thể nhóm nhiều nicks dưới một nhân viên tư vấn theo số điện thoại trùng nhau."
+
+msgid "Empty"
+msgstr "Rỗng"
+
+msgid "Display name"
+msgstr "Hiển thị tên"
+
+msgid "Fullname"
+msgstr "Họ & Tên"
+
+msgid "Group"
+msgstr "Nhóm/bộ phận"
+
+msgid "Service"
+msgstr "Dịch vụ"
+
+msgid "Use icon above"
+msgstr "Sử dụng ảnh thay thế."
+
+msgid "Enable demo data"
+msgstr "Sử dụng dữ liệu mẫu"
+
+msgid "Demo data refreshed, but this option will be turn off automatically for security."
+msgstr "Bạn đã kích hoạt dữ liệu mẫu trước đó, lưu ý: tính năng này tự động được tắt để bạn sửa dữ liệu thêm."

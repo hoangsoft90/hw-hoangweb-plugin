@@ -1,0 +1,21 @@
+.hw-apf-upload-image-preview{
+    font-size: 30px;
+    top: 100px;
+    left: 100px;
+    width: 250px;
+    height: 230px;
+    text-align: center;
+    line-height: 180px;
+    font-weight: bold;
+    color: #C0C0C0;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+#selectImage{
+    padding: 19px 21px 14px 15px;
+    position: absolute;
+    bottom: 0px;
+    width: 414px;
+    background-color: #FEFFED;
+    border-radius: 10px;
+}

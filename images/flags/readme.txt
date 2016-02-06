@@ -1,0 +1,1 @@
+copy all flag images from mqtranslate plugin.

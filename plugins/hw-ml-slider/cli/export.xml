@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <!-- #skins -->
+    <skins>
+
+        <hw:skin name="tpl-pagination">
+            <skin:apply_plugin>hw-taxonomy-post-list-widget</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hwtpl-pagination.php</skin:skin_name>
+            <skin:other_folder></skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="skin-1">Skin 1</param>
+            </skin:list>
+        </hw:skin>
+
+    </skins>
+
+</rss>

@@ -1,0 +1,1 @@
+place this folder  in path of wp-content/ or {current-theme}/

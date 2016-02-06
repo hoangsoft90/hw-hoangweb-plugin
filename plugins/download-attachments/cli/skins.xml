@@ -1,0 +1,31 @@
+<rss version="2.0"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <!-- #skins -->
+    <skins>
+        <hw:skin name="da">
+            <!-- <skin:apply_plugin>download-attachments</skin:apply_plugin> -->
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-da-skin.php</skin:skin_name>
+            <skin:other_folder>hw_da_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:options>
+                <param name="enable_skin_file">0</param>
+                <param name="enable_skin_tpl">1</param>
+            </skin:options>
+            <skin:list>
+                <param name="skin1">Skin 1</param>
+                <param name="default"/>
+            </skin:list>
+        </hw:skin>
+
+    </skins>
+</rss>

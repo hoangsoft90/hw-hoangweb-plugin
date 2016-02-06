@@ -1,0 +1,32 @@
+{{ args.content_before }}
+<table class="hw-download-attachments-table">
+    <tr>
+        {% for label,name in headers %}
+            {% if name != 'id' %}
+            <td class="{{name}}"><strong>{{label}}</strong></td>
+            {% endif %}
+        {% endfor %}
+    </tr>
+
+{% for id,file in attachments %}
+
+    <tr class="{{ file.class }}">
+        <td>{{ file.index }} {# id #}</td>
+
+        <td>{{ file.icon }} {{ file.link_before }} {{ file.link }} {{ file.link_after }}</td>
+
+        {% if file.caption is not empty %} <td>{{ file.caption }} {{ file['description'] }}</td> {% endif %}
+
+        {% if file['date'] is not empty %} <td>{{ file['date'] }}</td> {% endif %}
+
+        {% if file['user'] is not empty %} <td>{{ file['user'] }}</td>{% endif %}
+
+        {% if file['size'] is not empty %} <td>{{ file['size'] }}</td>{% endif %}
+
+        {% if file['count'] is not empty %} <td>{{ file['count'] }}</td>{% endif %}
+
+    </tr>
+{% endfor %}
+</table>
+
+{{ args.content_after }}

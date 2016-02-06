@@ -1,0 +1,77 @@
+
+.jcarousel-skin1 .jcarousellite *{
+    box-sizing: content-box;    /* My theme uses border-box for whatever reason, I don't know. I am switching it to the standard content-box here */
+}
+.jcarousel-skin1 .jcarousellite {
+    border: 1px solid #bababa;
+    width: 100%;
+    background-color: ghostwhite;
+    float: left;
+
+    /* Needed for rendering without flicker */
+    position: relative;
+    visibility: hidden;
+    left: -5000px;
+
+    
+}
+.jcarousel-skin1 .jcarousellite>ul {}
+.jcarousel-skin1 .jcarousellite>ul>li {}
+.jcarousel-skin1 .jcarousellite>ul>li>img,
+.jcarousel-skin1 .jcarousellite>ul>li>p {
+    /* mandatory */
+    /*width: 150px;
+    height: 118px;*/
+    vertical-align:middle;
+
+    /* optional */
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+}
+.jcarousel-skin1 .jcarousellite>ul>li>p {
+    /* mandatory */
+    width: 130px;
+    height: 98px;
+
+    border: 1px solid #808080;
+    line-height: normal;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.jcarousel-skin1 .jcarousellite ul, .jcarousel-skin1 .jcarousellite ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+.jcarousel-skin1 .jcarousellite ul li{
+    background:none !important;
+    width: 300px;
+    height:200px !important;/*note: sync with "Scroll Height" option from box "Cuộn nội dung"*/
+    text-align: center;
+    position: relative;
+}
+.jcarousel-skin1 .navigate-btn{
+    transition: opacity 0.5s ease 0s;
+    opacity: 0.4;
+    height: 70px;
+    background: url(images/arrows_white_new3.png) no-repeat;
+    width: 45px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+.jcarousel-skin1 .prev{
+    left: 20px;
+    background-position: 0 0;
+}
+.jcarousel-skin1  .next{
+    right: 20px;
+    background-position: 100% 0;
+}
+.jcarousel-skin1{
+    position: relative;
+    display: inline-block;
+}

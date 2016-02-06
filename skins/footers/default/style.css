@@ -1,0 +1,93 @@
+.hw-footer.footer {
+    clear: both;
+    height: auto;
+    margin: 0;
+    padding: 15px 10px 0;
+    background: none repeat scroll 0 0 #559242;
+    text-align: center;
+    border-top: 6px solid #3e8a26;
+    color: #fff;
+}
+.hw-footer.footer .master-wrapper-content {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: left;
+    /* overflow: hidden; */
+}
+.hw-footer.footer .footer-address {
+    color: #fff;
+    width: 30%;
+    float: left;
+}
+.hw-footer h2, h3 {
+    font-size: 1.8em;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.hw-footer h1, h2, h3, h4, h5, h6 {
+    font-family: "Trade Gothic W01 Cn 18";
+}
+.hw-footer .footer-address .widget_text {
+    margin-bottom: 10px;
+}
+.hw-footer .footer-menu-wrapper {
+    zoom: 1;
+    overflow: auto;
+    width: 68%;
+    float: right;
+}
+.hw-footer .footer-menu-wrapper .column {
+    float: left;
+    text-align: left;
+    width: 25%;
+}
+.hw-footer .footer-menu-wrapper .column ul {
+    margin: 13px 0;
+    padding: 0;
+    list-style: none outside none;
+}
+.hw-footer .footer-menu-wrapper .column ul li {
+    line-height: 150%;
+    margin-bottom: 3px;
+}
+.hw-footer .footer-menu-wrapper .column a {
+    color: #fff;
+    text-decoration: none;
+}
+.hw-footer.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+.hw-footer a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.hw-footer .after-footer-menu {
+    clear: both;
+}
+.hw-footer .after-footer-menu .widget_text {
+    float: left;
+    min-height: 175px;
+    margin-right: 10px;
+}
+.hw-footer .footer-disclaimer {
+    font-size: 11px;
+    padding: 10px 0;
+    border-top: 2px solid #eee;
+    clear: both;
+    color: #fff;
+}
+.hw-footer.footer .follow-us {
+    float: right;
+}
+.hw-footer.footer .follow-us li {
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+.hw-footer.footer .follow-us a {
+    display: block;
+}

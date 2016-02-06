@@ -1,0 +1,17 @@
+<div id="envira-gallery-{{ sanitize_html_class( args['wrapper_id'] ) }}" class="envira-gallery-public envira-gallery-{{ sanitize_html_class( args['wrapper_class'] ) }}-columns envira-clear isotope" data-envira-columns="{{ args['columns_class'] }}">
+    <div class="body">
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        PhotoWall.init(
+                {{ json_options }}
+        );
+        // Max image width form Picasa
+        // 94, 110, 128, 200, 220, 288, 320, 400, 512, 576, 640, 720, 800, 912,
+        // 1024, 1152, 1280, 1440, 1600
+
+        PhotoWall.load({{ photos|json_encode() }} );
+
+    });
+</script>

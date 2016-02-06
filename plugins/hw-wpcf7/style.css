@@ -1,0 +1,28 @@
+.hwcf-hidden{display:none;}
+.hwcf-parse-gform-result{
+	border:1px solid red;padding:10px;
+}
+.hwcf-parse-gform-result .g-field{border-bottom:1px solid #dadada;padding-bottom:3px;}
+.hw-wpcf7-settings #preview_skin img{
+	max-width:400px;
+}
+.hw-wpcf7-settings table tr td{
+	border-right:1px solid #dadada;
+}
+.hw-wpcf7-settings table tr td:last-child{border:0px;}
+.hw-wpcf7-settings .gform-special-field{
+	background:#dadada;
+}
+.hw-wpcf7-settings .special-fields-label{
+	background:red;color:#fff;font-weight:bold;
+}
+div.save-contact-form{z-index:10000;background:none !important;}
+div.save-contact-form input[type=submit]{
+	border: 2px solid red;
+  padding: 5px;
+  height: 44px;
+  width: 72px;
+  font-size: 15px;
+}
+.hw-wpcf7-settings ul li{padding-left:0px !important;margin:5px !important;list-style-type:circle !important;}
+.hw-wpcf7-settings ul {padding-left: 10px;}

@@ -1,0 +1,26 @@
+<rss name="theme 1"
+       xmlns:param="http://hoangweb.com/export/1.0/param/"
+       xmlns:params="http://hoangweb.com/export/1.0/params/"
+       xmlns:hw="http://hoangweb.com/export/1.0/"
+       xmlns:wp="http://wordpress.org/export/1.2/"
+        >
+<posts>
+    <item>
+        <hw:title>HTC Desire 626G tiếp tục điều chỉnh giá bán</hw:title>
+
+        <hw:excerpt>Để nhằm chuẩn bị cho dịp mua sắm cuối năm cũng như đẩy mạnh hàng tồn kho chào đón đợt thiết bị mới vào đầu năm 2016, các hãng điện thoại đang dần điều chỉnh giá bán cho các mẫu smartphone của mình. Mới đây, HTC cũng đã điều chỉnh giá bán chiếc 626G xuống còn 4,29 triệu đồng, giảm 600.000 đồng so với trước đó.</hw:excerpt>
+
+        <hw:content>Để nhằm chuẩn bị cho dịp mua sắm cuối năm cũng như đẩy mạnh hàng tồn kho chào đón đợt thiết bị mới vào đầu năm 2016, các hãng điện thoại đang dần điều chỉnh giá bán cho các mẫu smartphone của mình. Mới đây, HTC cũng đã điều chỉnh giá bán chiếc 626G xuống còn 4,29 triệu đồng, giảm 600.000 đồng so với trước đó.
+
+                             [hw_image caption="HTC Desire 626G tiếp tục điều chỉnh về giá bán. Ảnh: Internet"]images/image-1448004769-htc-desire-626g-2.jpg[/hw_image]
+
+                             Với mức giá mới, HTC Desire 626G trở thành một sản phẩm đáng lưu ý cho dịp mua sắm lần này với thiết kế trẻ trung cùng chất lượng gia công tốt. Desire 626G có thiết kế kiểu dual-tone tạo cảm giác thời trang và trẻ trung. Màn hình 5 inches độ phân giải HD và chạy nền tảng vi xử lý 8 nhân của MediaTek.
+
+                             Đặc biệt, mẫu smartphone của HTC được trang bị camera sau lên tới 13MP và camera 5MP, nâng cao trải nghiệm selfie của người dùng. Các chi tiết kỹ thuật khác của máy bao gồm 1GB RAM, bộ nhớ trong 8GB và có thể mở rộng bằng thẻ nhớ microSD. Desire 626G cũng có 2 khe cắm SIM cùng pin dung lượng 2000mAh.
+        </hw:content>
+        <hw:category nicename="tin-tuc"><![CDATA[Tin tức]]></hw:category>
+        <hw:category nicename="khuyen-mai"><![CDATA[Khuyến mại]]></hw:category>
+
+    </item>
+</posts>
+</rss>

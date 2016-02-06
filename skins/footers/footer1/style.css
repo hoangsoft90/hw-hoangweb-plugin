@@ -1,0 +1,93 @@
+#fullbottom {
+    float: left;
+    width: 100%;
+    background: url(images/bg-bottom.gif) repeat-x #279fda;
+}
+#page {
+    margin: 0 auto;
+    width: 1000px;
+}
+#contentbottom {
+    float: left;
+    width: 980px;
+    margin: 5px 0 0px 9px;
+}
+.top15 {
+    padding-top: 20px;
+}
+.boxD {
+    float: left;
+    width: 320px;
+    height: 227px;
+}
+h5 {
+    color: #7bd4ff;
+    font-family: "Times New Roman";
+    font-size: 24px;
+    margin: 20px 0 10px 15px;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.lineboxD {
+    float: left;
+    background: url(images/linebottom.gif) no-repeat;
+    width: 10px;
+    height: 227px;
+}
+.videobg {
+    float: left;
+    background: url(images/bg-video.gif) bottom center no-repeat;
+    width: 276px;
+    height: 161px;
+    padding: 0 24px 0 18px;
+}
+#listlinkfooter li a {
+    text-decoration: none;
+    /* margin-top: 15px; */
+    color: #FFFFFF;
+    display: block;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: verdana;
+}
+#contentbottom {
+    float: left;
+    width: 980px;
+    margin: 5px 0 0px 9px;
+}
+.dongtoppage {
+    float: left;
+    background: url(images/linetoppage.gif) bottom repeat-x;
+    width: 980px;
+}
+img {
+    border: 0;
+}
+#copy {
+    float: left;
+    width: 980px;
+    background: url(images/bgcoppy.gif) center no-repeat;
+}
+#tag {
+    float: left;
+    width: 980px;
+    padding: 10px 0 15px;
+    background: url(images/droptag.png) center bottom no-repeat;
+    color: #FFF;
+}
+#tag a {
+    color: #fff;
+    text-decoration: none;
+}
+#copyright {
+    float: left;
+    width: 980px;
+    padding: 10px 0;
+}
+#copyright .cotcopy {
+    float: left;
+    width: 460px;
+    color: #0f509b;
+    padding: 0 10px;
+}

@@ -1,0 +1,32 @@
+{% set gallery_id = 'gallery-' ~ sanitize_html_class( args['wrapper_id'] ) %}
+<div class="photor {{ sanitize_html_class( args['wrapper_class'] ) }}" id="{{ gallery_id }}">
+
+    <div class="photor__viewport">
+
+        <div class="photor__viewportLayer">
+
+            <!-- Add photos -->
+            {% for item in galleries %}
+            <img src="{{ item.img_src }}" data-thumb="{{ item.thumb_src }}">
+            {% endfor %}
+
+        </div>
+
+        <div class="photor__viewportControl">
+            <div class="photor__viewportControlPrev"></div>
+            <div class="photor__viewportControlNext"></div>
+        </div>
+
+    </div>
+
+    <div class="photor__thumbs">
+        <div class="photor__thumbsWrap"></div>
+    </div>
+
+</div>
+<script>
+    jQuery(document).ready( function($) {
+        jQuery( '#{{ gallery_id }}' ).photor({{ json_options }});
+
+    } );
+</script>

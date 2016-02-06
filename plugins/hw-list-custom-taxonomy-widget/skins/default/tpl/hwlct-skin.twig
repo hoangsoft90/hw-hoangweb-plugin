@@ -1,0 +1,35 @@
+{% autoescape false %}
+{{ args.before_widget }}
+<div id="hwlct-widget-{{ tax }}-container" class="list-custom-taxonomy-widget">
+
+{{ args.before_title ~ title ~ args.after_title }}
+
+{# if display mode not dropdown #}
+{% if not dropdown %}
+<div id="lct-widget-{{ tax }}" class="hwlct-container hwlct-travel-box">
+    {% for term in terms_data %}
+        <div  class="{{ term.term_class }}" id="{{ term.term_id }}">
+            <div class="category-item">
+                <div class="picture">
+                    <a href="{{ term.link }}" title="{{ term.name }}">
+                        <img src="{{ term.meta('image')|default(_current_skin.get_skin_url('images/placeholder.png')) }}" width="150px"/>
+
+                    </a>
+                </div>
+                <div class="picture-shadow"></div>
+                <h2 class="title">
+                    <a href="{{ term.link }}" title="{{ term.name }}">
+                        {{ term.name }}
+                    </a>
+                </h2>
+                <div class="category-description">
+                    {{ term.description }}
+                </div>
+                <a href="{{ term.edit_link }}">Edit</a>
+            </div>
+        </div>
+    {% endfor %}
+</div><div class="clearfix"></div>
+{% endif %}
+{{ args.after_widget }}
+{% endautoescape %}

@@ -1,0 +1,53 @@
+<div id="wp-link-wrap" class="wp-core-ui search-panel-visible" style="display: none;" >
+
+    <form id="wp-link" tabindex="-1" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 125px; max-height: none;height: 94%;" _lpchecked="1">
+  <input type="hidden" id="_ajax_linking_nonce" name="_ajax_linking_nonce" value="ab2ba583a6">
+  <div id="link-modal-title">Thêm/Sửa đường dẫn  <button type="button" id="hw-link-close"><span class="screen-reader-text">Đóng</span></button>
+	 	</div>
+  <div id="link-selector">
+		<div id="link-options">
+			<p class="howto">Enter the destination URL</p>
+			<div>
+				<label><span>URL</span><input id="url-field" type="text" name="href"></label>
+			</div>
+			<div>
+				<label><span>Title</span><input id="link-title-field" type="text" name="linktitle"></label>
+			</div>
+			<div class="link-target">
+				<label><input type="checkbox" id="link-target-checkbox"> Open link in a new window/tab</label>
+			</div>
+		</div>
+				<p class="howto toggle-arrow toggle-arrow-active" id="internal-toggle">Or link to existing content</p>
+		<div id="search-panel">
+			<div class="link-search-wrapper">
+				<label>
+					<span class="search-label">Search</span>
+					<input type="search" id="search-field" class="link-search-field" autocomplete="off">
+					<span class="spinner"></span>
+				</label>
+			</div>
+			<div id="search-results" class="query-results">
+				<ul></ul>
+				<div class="river-waiting">
+					<span class="spinner"></span>
+				</div>
+			</div>
+			<div id="most-recent-results" class="query-results">
+				<div class="query-notice"><em>No search term specified. Showing recent items.</em></div>
+				<ul><li class="alternate"><input type="hidden" class="item-permalink" value="http://dev.local/Foo15/test-image/"><span class="item-title">test image</span><span class="item-info">2013/01/05</span></li><li><input type="hidden" class="item-permalink" value="http://dev.local/Foo15/test-datye/"><span class="item-title">test datye</span><span class="item-info">2013/09/01</span></li></ul>
+				<div class="river-waiting">
+					<span class="spinner"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="submitbox">
+		<div id="wp-link-update">
+			<input type="submit" value="Add Link" class="button-primary" id="wp-link-submit" name="wp-link-submit">
+		</div>
+		<div id="wp-link-cancel">
+			<a class="submitdelete deletion" href="#">Cancel</a>
+		</div>
+	</div>
+	</form>
+</div>

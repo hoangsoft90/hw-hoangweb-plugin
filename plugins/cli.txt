@@ -1,0 +1,4 @@
+//You should extend the WPCOM_VIP_CLI_Command class provided in the development helpers, which includes helper functions like stop_the_insanity(). Do this instead of extending WP_CLI_Command
+// Free up memory
+$this->stop_the_insanity();
+

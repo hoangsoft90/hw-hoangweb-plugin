@@ -1,0 +1,60 @@
+.hw-awc-override.block-travelstyle-navigation{
+    box-shadow: 0 2px 5px 0 rgba(68,68,68,.35);
+    border-right: 1px solid #ebebeb;
+}
+.hw-awc-override.block {
+    margin-bottom: 15px;
+}
+.hw-awc-override.block .title {
+    background-color: #009aa4 !important;
+}
+.hw-awc-override.block .title {
+    font-size: 12px !important;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 7px 7px;
+    text-transform: uppercase;
+    color: #333;
+    margin: 0;
+    background: none repeat scroll 0 0 #009aa4;
+}
+.hw-awc-override.block .title h2 {
+    color: #fff;
+    font-size: 15px;
+}
+.hw-awc-override h2, .hw-awc-override h3 {
+    font-size: 1.8em;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding:0px !important;
+    margin:0px !important;
+}
+.hw-awc-override.block .listbox {
+    font-size: 11px;
+    padding: 5px 10px 10px;
+    line-height: 18px;
+    margin: 0;
+}
+.hw-awc-override.block .listbox ul {
+    margin: 0 !important;
+    padding: 0 0 0 2px !important;
+    color: #5c5b5b;
+    background-color: inherit;
+}
+.hw-awc-override.block li {
+    background: url(images/bullet-right.gif) no-repeat left 10px;
+    list-style: none outside none;
+    line-height: 18px;
+    padding: 6px 1px 6px 13px;
+}
+.hw-awc-override.block a {
+    color: #5c5b5b;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.hw-awc-override.block-travelstyle-navigation .listbox .view-all a {
+    color: #5c5b5b;
+    font-weight: 700;
+}

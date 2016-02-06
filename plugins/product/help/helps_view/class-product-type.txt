@@ -1,0 +1,47 @@
+//register product type
+HW_Product::register('product1');
+$att=HW_Product::get('product1');
+
+//set attributes
+HW_Product::get('product1')->set_attributes(array("masp"=> "Mã sản phẩm","mausac" => "Mầu sắc"));
+
+//get attributes
+$attrs = HW_Product::get("product1")->get_attributes(array("kichthuoc"=> "Kich thuoc"));    //addition attributes
+
+//loop attrs
+foreach($attrs as $name=>$text) {
+    $val=get_field($name,get_the_ID());
+    if($name=='price') $val = apply_filters('price', $val);
+    if(!$val) continue;
+    ?>
+    <li><strong><?php echo $text?></strong>: <?php echo $val?></li>
+    <?php
+}
+
+//other way to loop attributes
+echo '<ul>';
+$att->loop_attr_callback('display_attribute', 'render_attr_value');
+echo '</ul>';
+
+//display attribute
+function display_attribute($data){
+    extract($data);
+    ?>
+    <li><strong><?php echo $text?></strong>: <?php echo $value?></li>
+    <?php
+}
+//render attribute value
+function render_attr_value( $name) {
+    return get_field($name, get_the_ID());
+}
+
+/**
+filters
+*/
+add_filter('hw_attr_field1', function($val, $name){
+    return $val;
+}, 2);
+add_filter('hw_attr_value', function($val, $name){
+    if($name=='price') $val=number_format($val);
+    return $val;
+}, 2);

@@ -1,0 +1,8 @@
+<rss version="2.0"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+        >
+    <hw:theme-options>
+    </hw:theme-options>
+</rss>

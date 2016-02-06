@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:wp="http://wordpress.org/export/1.2/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:hw="http://hoangweb.com/export/1.0/" xmlns:skin="http://hoangweb.com/export/1.0/skin/" xmlns:param="http://hoangweb.com/export/1.0/param/" xmlns:params="http://hoangweb.com/export/1.0/params/" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <skins>
+        <hw:skin name="social">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-social-skin.php</skin:skin_name>
+            <skin:other_folder>hw_social_skins</skin:other_folder>
+            <skin:group>socials</skin:group>
+            <skin:enable_external_callback/>
+        </hw:skin>
+        <hw:skin name="scroll2top">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>images</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>link</skin:skin_type>
+            <skin:skin_name>hw-scroll2top.php</skin:skin_name>
+            <skin:other_folder>hw_scroll2top_skins</skin:other_folder>
+            <skin:group>scroll2top</skin:group>
+            <skin:enable_external_callback/>
+        </hw:skin>
+        <hw:skin name="mqtrans">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-mqtrans-skin.php</skin:skin_name>
+            <skin:other_folder>hw_mqtrans_skins</skin:other_folder>
+            <skin:group>langs-switcher</skin:group>
+            <skin:enable_external_callback/>
+        </hw:skin>
+        <hw:skin name="lct">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hwlct-skin.php</skin:skin_name>
+            <skin:other_folder>hw_lct_skins</skin:other_folder>
+            <skin:group/>
+            <skin:enable_external_callback/>
+        </hw:skin>
+        <hw:skin name="da">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-da-skin.php</skin:skin_name>
+            <skin:other_folder>hw_da_skins</skin:other_folder>
+            <skin:group/>
+            <skin:enable_external_callback/>
+            <skin:properties>
+                <param name="migrate_data"/>
+            </skin:properties>
+        </hw:skin>
+        <hw:skin name="gallery">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-da-skin.php</skin:skin_name>
+            <skin:other_folder>hw_da_skins</skin:other_folder>
+            <skin:group/>
+            <skin:enable_external_callback/>
+            <skin:properties>
+                <param name="migrate_data"/>
+            </skin:properties>
+        </hw:skin>
+        <hw:skin name="awc">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hwawc-skin.php</skin:skin_name>
+            <skin:group/>
+            <skin:enable_external_callback/>
+            <skin:properties>
+                <param name="migrate_data"/>
+            </skin:properties>
+        </hw:skin>
+        <hw:skin name="livechat">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-livechat-skin.php</skin:skin_name>
+            <skin:other_folder>hw_livechat_skins</skin:other_folder>
+            <skin:enable_external_callback/>
+        </hw:skin>
+        <hw:skin name="menu">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>navmenu-skin.php</skin:skin_name>
+            <skin:other_folder>hw_navmenu_skins</skin:other_folder>
+            <skin:group/>
+            <skin:enable_external_callback/>
+            <skin:properties>
+                <param name="migrate_data"/>
+            </skin:properties>
+        </hw:skin>
+        <hw:skin name="tpl-pagination">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hwtpl-pagination.php</skin:skin_name>
+            <skin:other_folder>hw_tpl_skins</skin:other_folder>
+            <skin:group>__paginations</skin:group>
+            <skin:enable_external_callback/>
+        </hw:skin>
+        <hw:skin name="tpl-scrollbar">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hwtpl-scrollbar.php</skin:skin_name>
+            <skin:other_folder>hw_tpl_skins</skin:other_folder>
+            <skin:group>__scrollbars</skin:group>
+            <skin:enable_external_callback/>
+        </hw:skin>
+        <hw:skin name="tpl">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-category-posts.php</skin:skin_name>
+            <skin:other_folder>hw_tpl_skins</skin:other_folder>
+            <skin:group/>
+            <skin:enable_external_callback/>
+        </hw:skin>
+        <hw:skin name="hwcf7">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>themes</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-wpcf7-skin.php</skin:skin_name>
+            <skin:other_folder>hw_navmenu_skins</skin:other_folder>
+            <skin:group/>
+            <skin:enable_external_callback/>
+            <skin:properties>
+                <param name="migrate_data"/>
+            </skin:properties>
+        </hw:skin>
+        <hw:skin name="hwcf7_images">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:skin_type>link</skin:skin_type>
+            <skin:skin_name>hw-wcf7-ajax-image.php</skin:skin_name>
+            <skin:other_folder>hw_wpcf7_ajax_images</skin:other_folder>
+            <skin:group>ajaxLoading</skin:group>
+            <skin:enable_external_callback/>
+        </hw:skin>
+        <hw:skin name="yk">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>yahooskype.php</skin:skin_name>
+            <skin:other_folder>hw_yahooskype</skin:other_folder>
+            <skin:group/>
+            <skin:enable_external_callback/>
+        </hw:skin>
+        <hw:skin name="yarpp">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-relatedposts-skin.php</skin:skin_name>
+            <skin:other_folder>hw_relatedposts_skins</skin:other_folder>
+            <skin:group/>
+            <skin:enable_external_callback/>
+            <skin:properties>
+                <param name="migrate_data"/>
+            </skin:properties>
+        </hw:skin>
+    </skins>
+    <posts>
+        <wp:wxr_version>2.0</wp:wxr_version>
+    </posts>
+    <options/>
+    <widgets xmlns:hw="http://hoangweb.com/export/1.0/">
+        <hw:widget xmlns:hw="http://hoangweb.com/export/1.0/"/>
+        <hw:widget xmlns:hw="http://hoangweb.com/export/1.0/" name="danhmuc" id_base="hwlct_taxonomy" sidebar="sidebar_1" update="1">
+            <hw:params>
+                <param name="title"/>
+                <param name="taxonomy">category</param>
+                <param name="use_skin">1</param>
+                <param name="skin">czoxODI6InBsdWdpbnNcaHctYW55LXdpZGdldC1jbGFzc2VzXHNraW5zfGRlZmF1bHRcfHBsdWdpbnMvaHctYW55LXdpZGdldC1jbGFzc2VzL3NraW5zL2RlZmF1bHR8ZmlsZXxkZWZhdWx0fHBsdWdpbnMvaHctYW55LXdpZGdldC1jbGFzc2VzL3NraW5zL2RlZmF1bHQvc2NyZWVuc2hvdC5qcGd8aHdsY3Qtc2tpbi5waHB8cGx1Z2luIjs=</param>
+                <param name="skin_condition"/>
+                <params name="skin_settings">
+                    <param name="enqueue_css_position">footer</param>
+                    <param name="enqueue_js_position">footer</param>
+                    <param name="ul_classes"/>
+                    <param name="submenu_container_class"/>
+                    <param name="current_item_class">current-cat-item</param>
+                    <param name="anchor_attrs"/>
+                    <param name="anchor_attrs_has_submenu"/>
+                    <param name="anchor_attrs_submenu"/>
+                    <param name="anchor_class">cat-anchor</param>
+                    <param name="anchor_class_has_submenu">cat-anchor-has-sub</param>
+                    <param name="anchor_class_submenu">cat-anchor-sub</param>
+                    <param name="menu_item_class">cat-item</param>
+                    <param name="menu_item_class_focus">current-cat-item</param>
+                    <param name="menu_item_class_has_submenu">cat-item-has-sub</param>
+                    <param name="menu_item_class_submenu">cat-item-sub</param>
+                    <param name="first_menu_item_class">first-cat-item</param>
+                    <param name="last_menu_item_class">last-cat-item</param>
+                </params>
+                <param name="count">1</param>
+                <param name="hierarchical">1</param>
+                <param name="depth"/>
+                <param name="orderby">count</param>
+                <param name="ascdsc">desc</param>
+                <param name="childof">1</param>
+                <param name="show_option_none"/>
+                <param name="exclude"/>
+                <param name="dropdown"/>
+                <param name="childof_current_term"/>
+                <param name="show_subcat_by_parent"/>
+                <param name="categories_by_current_post"/>
+                <param name="hide_empty"/>
+                <param name="extend_skin_options"/>
+                <param name="eventsJS"/>
+            </hw:params>
+        </hw:widget>
+        <hw:widget xmlns:hw="http://hoangweb.com/export/1.0/" name="weather" id_base="hw_wexr" sidebar="sidebar_1" update="1">
+            <hw:params>
+                <param name="title">Weather, exchange rate widget</param>
+                <params name="show_opts">
+                    <param name="c_weather">on</param>
+                    <param name="c_weather_source">yahoo</param>
+                    <param name="c_weather_def_location">hochiminh</param>
+                    <param name="c_exr">on</param>
+                    <param name="c_exr_source">vietcombank</param>
+                    <params name="c_exr_fields">
+                        <param>buy</param>
+                        <param>transfer</param>
+                        <param>sell</param>
+                    </params>
+                    <params name="c_exr_opts">
+                        <param name="width">0</param>
+                        <param name="height">0</param>
+                    </params>
+                    <param name="c_giavang">on</param>
+                    <param name="c_giavang_source">sjc</param>
+                </params>
+            </hw:params>
+        </hw:widget>
+        <hw:widget xmlns:hw="http://hoangweb.com/export/1.0/" name="chat" id_base="hw_yahoo_skype_status" sidebar="sidebar_2" update="1">
+            <hw:params>
+                <param name="title">Support chat</param>
+                <param name="addition_text">Email: hotro@hoangweb.com</param>
+                <param name="enable_demo_data"/>
+                <param name="phone_icon"/>
+                <param name="mail_icon"/>
+                <param name="yahoo_icon"/>
+                <param name="skype_icon"/>
+                <params name="items">
+                    <params>
+                        <param name="nick">quachhoang_2005</param>
+                        <param name="is_show_name">1</param>
+                        <param name="nick_name">Tu van 1</param>
+                        <param name="avatar"/>
+                        <param name="group"/>
+                        <param name="nick_type">yahoo</param>
+                        <param name="phone">01663.930.250</param>
+                        <param name="email">hoangsoft90@gmail.com</param>
+                        <param name="yahoo_status_type">2</param>
+                        <param name="skype_status_type">2</param>
+                        <param name="pos">1</param>
+                    </params>
+                    <params>
+                        <param name="nick">oneloveme90</param>
+                        <param name="is_show_name">1</param>
+                        <param name="nick_name">Tu van 2</param>
+                        <param name="avatar"/>
+                        <param name="group"/>
+                        <param name="nick_type">skype</param>
+                        <param name="phone">01663.930.250</param>
+                        <param name="email">hoangsoft90@gmail.com</param>
+                        <param name="yahoo_status_type">2</param>
+                        <param name="skype_status_type">2</param>
+                        <param name="pos">2</param>
+                    </params>
+                    <params>
+                        <param name="nick">quanghuy_20062001</param>
+                        <param name="is_show_name">1</param>
+                        <param name="nick_name">Tu van 3</param>
+                        <param name="avatar"/>
+                        <param name="group"/>
+                        <param name="nick_type">yahoo</param>
+                        <param name="phone">0910.126.910</param>
+                        <param name="email">hotro@hoangweb.com</param>
+                        <param name="yahoo_status_type">2</param>
+                        <param name="skype_status_type">2</param>
+                        <param name="pos">3</param>
+                    </params>
+                </params>
+                <param name="skin">czoxODI6InBsdWdpbnNcaHctYW55LXdpZGdldC1jbGFzc2VzXHNraW5zfGRlZmF1bHRcfHBsdWdpbnMvaHctYW55LXdpZGdldC1jbGFzc2VzL3NraW5zL2RlZmF1bHR8ZmlsZXxkZWZhdWx0fHBsdWdpbnMvaHctYW55LXdpZGdldC1jbGFzc2VzL3NraW5zL2RlZmF1bHQvc2NyZWVuc2hvdC5qcGd8eWFob29za3lwZS5waHB8cGx1Z2luIjs=</param>
+            </hw:params>
+        </hw:widget>
+    </widgets>
+</rss>

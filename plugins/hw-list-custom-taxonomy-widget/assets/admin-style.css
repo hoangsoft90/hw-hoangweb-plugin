@@ -1,0 +1,11 @@
+
+.hw-select-tag{
+    max-width: 300px;
+}
+.hw-bg-loading {
+    background: url('images/loading.gif') no-repeat center center !important;
+}
+.hwtpl-current-user-select{
+    background-color: rgb(204, 5, 25);
+    color: #fff;
+}

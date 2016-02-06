@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<hw-menu
+        xmlns:param="http://hoangweb.com/export/1.0/param/"
+        xmlns:params="http://hoangweb.com/export/1.0/params/"
+        xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+        xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <create_nav_menu>
+        <params>
+            <param name="override_exist">1</param>
+            <param name="menu_location"><![CDATA[mymenu]]></param>
+            <param name="menu_name">My menu</param>
+            <params name="items">
+                <params>
+                    <param name="title">Home</param>
+                    <param name="classes">home</param>
+                    <param name="url"></param>
+                    <param name="status"></param>
+                </params>
+                <params>
+                    <param name="title">item 1</param>
+                    <param name="classes">item-1</param>
+                    <param name="url">http://vtv.vn</param>
+                    <param name="status">publish</param>
+                </params>
+
+            </params>
+        </params>
+        <skins>
+            <hw:skin name="menu">
+                <skin:apply_plugin>hw-menu</skin:apply_plugin>
+                <skin:default_skin_path>skins</skin:default_skin_path>
+                <skin:default_skin>default/</skin:default_skin>
+                <skin:skin_type>file</skin:skin_type>
+                <skin:skin_name>navmenu-skin.php</skin:skin_name>
+                <skin:other_folder>hw_navmenu_skins</skin:other_folder>
+                <skin:group></skin:group>
+                <skin:enable_external_callback></skin:enable_external_callback>
+
+                <skin:template_header>
+                    <param name="name">HW Template</param>
+                    <param name="description">Description</param>
+                    <param name="author">Author</param>
+                    <param name="uri">Author URI</param>
+
+                </skin:template_header>
+                <skin:allows_skin_names>
+                    <param>navmenu-skin.php</param>
+                </skin:allows_skin_names>
+                <skin:properties>
+                    <params name="migrate_data"></params>
+                </skin:properties>
+                <skin:list>
+                    <param name="skin-1">Skin 1</param>
+                    <param name="skin-2"/>
+                    <param name="skin-3"/>
+                </skin:list>
+            </hw:skin>
+
+        </skins>
+        <options>
+            <option>
+                <params name="HW_NAVMENU_settings" method="append" prefix="my_menu_">
+                    <param name="enable_filter_menu" value="1" type="bool"/>
+                    <param name="show_searchbox" value="false" type="bool"/>
+                    <param name="show_langs_switcher" value="0"/>
+                    <param name="remove_ul_wrap" value="0"/>
+                    <param name="remove_ul_wrap" value="0"/>
+                    <param name="only_anchor_tag_nav_menu" value="0"/>
+                    <param name="show_home_menu" value="0"/>
+                    <param name="show_icon" value="1"/>
+                    <param name="enable_skin" value="1"/>
+
+                    <params name="skin">
+
+                        <params:skin_encoded name="hash_skin" instance="menu">
+                            <skin:skin>default</skin:skin>
+                            <skin:skin_type>file</skin:skin_type>
+                            <skin:group></skin:group>
+
+                        </params:skin_encoded>
+
+                        <params:skin_instance name="hwskin_config" instance="menu">
+                            <skin:group></skin:group>
+                        </params:skin_instance>
+                        <param name="hwskin_condition"><![CDATA[]]></param>
+                        <params name="skin_options">
+                            <param name="enqueue_css_position" value="head"/>
+                            <param name="enqueue_js_position" value="footer"/>
+                            <param name="show_lang_buttons_outside" value="on"/>
+                            <param name="show_items_separator" value="on"/>
+                            <param name="ex_separator" ><![CDATA[<span class="separator"></span>]]></param>
+                            <param name="submenu_container_class" value=""/>
+                            <param name="allow_tags_nav_menu"><![CDATA[<a>]]></param>
+                            <param name="anchor_attrs" value=""/>
+                            <param name="anchor_attrs_has_submenu" value=""/>
+                            <param name="anchor_attrs_submenu" value=""/>
+                            <param name="anchor_class" value=""/>
+                            <param name="anchor_class_has_submenu" value=""/>
+                            <param name="anchor_class_submenu" value=""/>
+                            <param name="menu_item_class" value="my-item-normal"/>
+                            <param name="menu_item_class_focus" value="my-item-focus"/>
+                            <param name="menu_item_class_has_submenu" value="my-item-focus"/>
+                            <param name="menu_item_class_submenu" value="my-item-focus"/>
+                            <param name="first_menu_item_class" value="hw-first-nav-item"/>
+                            <param name="last_menu_item_class" value="hw-last-nav-item"/>
+                            <param name="container" value="div"/>
+                            <param name="container_class" value=""/>
+                            <param name="container_id" value=""/>
+                            <param name="menu_class" value=""/>
+                            <param name="menu_id" value=""/>
+                            <param name="before" value=""/>
+                            <param name="submenu_before" value=""/>
+                            <param name="after" value=""/>
+                            <param name="submenu_after" value=""/>
+                            <param name="link_before" value=""/>
+                            <param name="submenu_link_before" value=""/>
+                            <param name="link_after" value=""/>
+                            <param name="submenu_link_after" value=""/>
+                            <param name="items_wrap" ><![CDATA[<ul id="%1$s" class="%2$s">%3$s</ul>]]></param>
+                            <param name="depth" value="5"/>
+
+                            <param name="dd_orientation" value="h"/>
+                            <param name="dd_classname" value=""/>
+                            <param name="dd_method" value="hover"/>
+
+                        </params>
+                    </params>
+                </params>
+            </option>
+        </options>
+    </create_nav_menu>
+    <!-- delete nav menu -->
+    <del_nav_menu>
+        <params>
+            <param name="menu_name">My menu</param>
+        </params>
+    </del_nav_menu>
+
+</hw-menu>

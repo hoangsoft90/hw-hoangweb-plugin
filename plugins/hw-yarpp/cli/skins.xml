@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+
+    <skins>
+        <hw:skin name="hw-relatedposts-skin">
+            <skin:apply_plugin>hw-yarpp</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-relatedposts-skin.php</skin:skin_name>
+            <skin:other_folder>hw_relatedposts_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:options>
+                <param name="enable_skin_file">0</param>
+                <param name="enable_skin_tpl">1</param>
+            </skin:options>
+            <skin:list>
+                <param name="default">Default</param>
+                <param name="skin1"/>
+            </skin:list>
+        </hw:skin>
+    </skins>
+</rss>

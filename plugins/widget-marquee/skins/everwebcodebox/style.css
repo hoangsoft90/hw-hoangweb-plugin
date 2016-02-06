@@ -1,0 +1,41 @@
+ul.marquee {
+    /* required styles */
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 1;
+    position: relative;
+    overflow: hidden;
+    /* optional styles for appearance */
+    width: 500px; /* set the required width */
+    height: 34px; /* set the height required to accomodate the chosen font size */
+    background-color: #222; /* scroller background color */
+    border: 5px solid #0593FF; /* border width, type and color */
+    border-radius: 7px;  /* border radius */
+    -moz-border-radius: 7px; /* border radius */
+    -webkit-border-radius: 7px; /* border radius */
+}
+ul.marquee li {
+    /* required styles */
+    position: absolute;
+    top: -999em;
+    left: 0;
+    display: block;
+    white-space: nowrap; /* keep all text on a single line */
+    /* optional styles for appearance */
+    font: 24px Trebuchet MS, Helvetica, sans-serif; /*font size and family */
+    color: #eee;  /* font color */
+    padding: 3px 5px;
+}
+ul.marquee li a {color:#0593FF;} /* link text color */
+ul.marquee li a:hover {color:#FF0000;} /* link rollover color */
+
+.hw-marquee-container{
+    width:100%;
+    border: 1px solid #dadada;
+    background-color: #fefefa;
+    padding:5px;
+    display: inline-block;
+    overflow: hidden;
+}

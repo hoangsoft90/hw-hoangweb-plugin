@@ -1,0 +1,188 @@
+<?php
+// exit if accessed directly
+if ( ! defined( 'ABSPATH' ) )
+    exit;
+
+help handle: help/da.php
+/**
+ * HW_HELP_DA class
+ */
+class HW_HELP_DA extends HW_HELP_MODULE{
+    function __construct(){
+        parent::__construct();  //load parent instance
+
+    }
+
+}
+
+- completed hook in module constructor:
+init
+
+- addition hooks:
+hw_widgets_init
+
+//outside module class constructor
+hw_plugins_loaded
+
+---------------------------------------------------
+/**
+ * Class HW_Module_colorbox
+ */
+class HW_Module_colorbox extends HW_Module {
+    public function __construct() {
+        $this->__construct();
+
+        //enable tab settings
+        $this->enable_tab_settings();
+        $this->enable_submit_button();
+
+        //set/get option
+
+        //don't get module setting in construct method
+        $this->get_field_value(..)
+        $this->get_values();
+
+        //note hooks use in module:
+        'init' ->called before
+        //use bellow hooks
+        'wp_loaded'
+    }
+    public function activated_plugin() {
+
+    }
+    public function deactivated_plugin() {
+
+    }
+    //register help
+    public function module_loaded() {
+        $this->register_help('da','help.html', 'help'); //  {CURRENT_MODULE}/help/helps_view/help.html
+
+        //register other cli
+        $this->register_cli('hw-importer','hw-module', 'HW_CLI_HW_Module'); //wp hw-module
+        $this->register_cli('hw-importer','hoangweb', 'HW_CLI_Hoangweb');   //wp hoangweb
+    }
+    /**
+     * @hook wp_enqueue_scripts
+     */
+    public function enqueue_scripts() {
+        #$this->enqueue_scripts();
+    }
+
+    /**
+     * @hook admin_enqueue_scripts
+     */
+    public function admin_enqueue_scripts() {
+        #if($this->is_module_setting_page()) {
+            HW_Libraries::enqueue_jquery_libs('jquery-colorbox');
+        #}
+        $data = self::get()->get_values();
+        if(class_exists('HW_SKIN_Option')) {
+            $data_json = HW_SKIN_Option::build_json_options($data);
+            if($data_json) $data = (array)json_decode($data_json);
+        }
+
+        $handle = $this->enqueue_script('colorbox-module.js');
+        $this->localize_script($handle, '__hw_module_colorbox', $data);
+    }
+    /**
+     * Triggered when the tab is loaded.
+     */
+    public function replyToAddFormElements($oAdminPage) {
+        //add tab
+        $facebook_tab = $this->add_tab( array(
+            'id'=>'facebook',
+            'title' => 'Facebook',
+            'description' => 'Facebook comment.'
+        ));
+        $gplus_tab = $this->add_tab( array(
+                    'id' => 'googleplus',
+                    'title' => 'Google Plus'
+                ));
+
+
+        //add field to tab
+        $facebook_tab->addField(array(
+                    'field_id' => 'field2',
+                    'type' => 'text',
+                    'title'=>'46534464fhf'
+                ));
+        //add more fields
+        $facebook_tab->addFields(
+            array(
+                'field_id' => 'field2',
+                'type' => 'text',
+                'title'=>'4654fhf'
+            ),
+            array(
+                'field_id' => 'f2',
+                'type'=>'text',
+                'title'=>'UHKJF'
+            )
+        );
+        //get fields tab (for both frontend & admin)
+         $facebook_tab->get_values();
+         $facebook_tab->get_field_value('field2');
+         $this->get_tab('facebook')->get_values();  //or
+
+        //add normal field (note: add more fields use ->addFields)
+        $this->addField(
+            array(
+                'field_id' => 'field2',
+                'type' => 'text',
+                'title'=>'4654fhf'
+            )
+        );
+        //old way
+        $oAdminPage->addSettingFields(
+        #$this->sSectionID,  // target section id
+            array(
+                'field_id'          => $this->create_field_name('transition'),
+                'type'              => 'select',
+                'label' => array('elastic'=>'elastic', 'fade'=>'fade','none'=>'none'),
+                'title' => 'transition',
+                'description' => 'The transition type.'
+            ),
+            array(
+                'field_id'          => 'speed',
+                'type'              => 'text',
+                #'label_min_width'   => '100%',
+                'title' => 'speed',
+                'description' => 'Sets the speed of the fade and elastic transitions, in milliseconds.',
+                'default' => '350'
+            ),
+            array(
+                'field_id' => $this->create_field_name('images_from_current_post'),
+                'type' => 'checkbox',
+                'title' => 'Lấy các ảnh trong post hiện tại.'
+            ),
+
+            array()
+        );
+    }
+
+    /**
+     * validation form fields
+     * @param $values
+     * @return mixed
+     */
+    public function validation_tab_filter($values) {
+        foreach(array('xxx') as $option) {
+            if(isset($values[$option])) $values[$option] = $values[$option]? true:false;
+        }
+
+        return $values;
+    }
+    public function print_head(){}
+    public function print_footer(){}
+}
+add_action('hw_modules_load', 'HW_Module_colorbox::init');
+
+function hw_module_map_register_activation_hook() {
+    #_print('activation hook for gmap');
+}
+hw_register_activation_hook(__FILE__, 'hw_module_map_register_activation_hook');
+
+function hw_module_map_register_deactivation_hook(){
+    #_print('deactivation hook for gmap');
+}
+hw_register_deactivation_hook(__FILE__, 'hw_module_map_register_deactivation_hook');

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <!-- #skins -->
+    <skins>
+        <hw:skin name="da">
+            <skin:apply_plugin>download-attachments</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-da-skin.php</skin:skin_name>
+            <skin:other_folder>hw_da_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="skin1">Skin 1</param>
+                <param name="default"/>
+            </skin:list>
+        </hw:skin>
+
+    </skins>
+    <options>
+        <option>
+            <params name="download_attachments_general">
+                <param name="label"><![CDATA[Download Attachments]]></param>
+                <params name="capabilities">
+                    <param><![CDATA[manage_download_attachments]]></param>
+                </params>
+                <params name="post_types">
+                    <param name="post">1</param>
+                </params>
+                <param name="deactivation_delete"><![CDATA[]]></param>
+                <params name="backend_columns">
+                    <param name="id">1</param>
+                    <param name="author"></param>
+                    <param name="title">1</param>
+                    <param name="type">1</param>
+                    <param name="size">1</param>
+                    <param name="date"></param>
+                    <param name="downloads">1</param>
+
+                </params>
+                <params name="backend_content">
+                    <param name="caption">1</param>
+                    <param name="description"></param>
+                </params>
+                <param name="attachment_link"><![CDATA[modal]]></param>
+                <param name="library"><![CDATA[all]]></param>
+                <param name="downloads_in_media_library"><![CDATA[1]]></param>
+                <params name="frontend_columns">
+                    <param name="index"></param>
+                    <param name="author"></param>
+                    <param name="title">1</param>
+                    <param name="icon">1</param>
+                    <param name="size">1</param>
+                    <param name="date"></param>
+                    <param name="downloads">1</param>
+                </params>
+                <param name="display_style"><![CDATA[list]]></param>
+                <params name="frontend_content">
+                    <param name="caption">1</param>
+                    <param name="description"></param>
+                </params>
+                <param name="use_css_style"><![CDATA[1]]></param>
+                <param name="pretty_urls"><![CDATA[]]></param>
+                <param name="download_link"><![CDATA[download-attachment]]></param>
+                <param name="download_box_display"><![CDATA[after_content]]></param>
+            </params>
+        </option>
+        <!-- module setting tab -->
+        <option>
+            <params name="HW_Module_Settings_page" method="append" prefix="download_attachments_">
+                <params name="skin">
+                    <params:skin_encoded name="hash_skin" instance="da">
+                        <skin:skin><![CDATA[skin1]]></skin:skin>
+                    </params:skin_encoded>
+                    <params:skin_instance name="hwskin_config" instance="da">
+
+                    </params:skin_instance>
+                </params>
+                <param name="download_box_display"><![CDATA[after_content]]></param>
+                <param name="content_before"><![CDATA[]]></param>
+                <param name="content_after"><![CDATA[]]></param>
+            </params>
+        </option>
+
+    </options>
+</rss>

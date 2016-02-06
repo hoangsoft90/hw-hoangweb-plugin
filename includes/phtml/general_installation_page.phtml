@@ -1,0 +1,67 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Hoang
+ * Date: 30/10/2015
+ * Time: 10:09
+ */
+?>
+<br/>
+<div id="hw_global_progressbar"></div>
+<script>
+    __hw_installer.load_module_commands('__all__', 'hw-importer',{
+        /**
+         * build custom admin menus
+         */
+        save_custom_wp_menus : function (obj) {
+            __hw_installer.command('save_custom_wp_menus', this.module(), obj);
+        },
+        /**
+         * refresh cache
+         * @param obj
+         */
+        refresh_caches: function(obj) {
+            __hw_installer.command('refresh_caches', this.module(), obj, function() {
+                alert("Nhấn Ok để Nạp lại trang..");
+                window.location.reload();
+            });
+        },
+        /**
+         * one click to installation
+         * @param obj
+         */
+        install: function(obj) {
+            __hw_installer.command('install', this.module(), obj);
+        },
+        /**
+         * reset wordpress data
+         * @param obj
+         */
+        reset_wp: function(obj) {
+            __hw_installer.command('resetwp', this.module(), obj);
+        }
+    });
+
+    jQuery(document).ready(function(){
+        //__hw_installer.create('hw-importer' );
+        var installer = __hw_installer.get('hw-importer', '#hw_global_progressbar', '#hw_logger');
+        installer.init_buttons('.hw-buttons-tray');
+        installer.show_cli_manager('#cli_cmds');
+        installer.get_cli().load(); //load cli cmds data
+        console.log('already installer');
+        //__hw_installer.get_commands('hw-importer').view_stats([]);
+    });
+
+</script>
+<hr/>
+<div class="hw-buttons-tray">
+    <a class="button-primary button" onclick="__hw_installer.get_commands('__all__').install(this)" href="javascript:void(0)"><strong>Cài đặt</strong></a>
+    <a class="button" onclick="__hw_installer.get_commands('__all__').save_custom_wp_menus(this)" href="javascript:void(0)"><strong>Thiết lập cấu hình</strong></a>
+    <a class="button" onclick="__hw_installer.get_commands('__all__').refresh_caches(this)" href="javascript:void(0)"><strong>Xóa caches</strong></a>
+    <a class="button" onclick="__hw_installer.get_commands('__all__').reset_wp(this)" href="javascript:void(0)"><strong>Reset WP</strong></a>
+</div>
+<hr/>
+<div class="wp-cli" id="cli_cmds">
+
+</div>
+<div id="hw_logger"></div><!-- logger -->

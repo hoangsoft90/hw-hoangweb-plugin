@@ -1,0 +1,66 @@
+{% autoescape false %}
+{% if wfeatures.fancybox is not empty %}
+    {% set fancybox_g1=wfeatures.fancybox.data.fancybox_group %}
+    {% set fancy_group=wfeatures.fancybox.data.fancybox_group_rel %}
+{% endif %}
+
+{% if not is_ajax_context %}
+{{ args.before_widget ~ args.before_title ~ open_title_link }}
+{% if instance.widget_title is not empty %}
+    {{ instance.widget_title }}
+{% endif %}
+{{ close_title_link ~ args.after_title }}
+
+<div id="{{ hwtpl_wrapper_id }}" class="hwtpl-wrapper">
+{% endif %}
+<div class="{{ hwtpl_scrollbar_wrapper_class }}?>">
+    <ul class="smoothDivScroll">
+        {% if cat_posts is not empty %}
+            {% for post in posts %}
+                <li {{ post.class }}>
+                <div class="left_item">
+                    <a href="{{ post.thumbnail.src('full') }}" rel="{{ fancy_group }}" class="<{{ fancybox_g1 }}" title="{{ post.title|e }}">
+                        <?php
+						if (
+								function_exists('the_post_thumbnail') &&
+								current_theme_supports("post-thumbnails") &&
+								//in_array("thumb",$arrExlpodeFields) &&
+								has_post_thumbnail()
+							) :
+						?>
+                        {% if 'thumb' in arrExlpodeFields and post.thumbnail %}
+                            <img src="{{ post.thumbnail.src|default(_current_skin.get_skin_url('images/placeholder.png')) }}" class="my-thumb-class" alt="{{post.title}}"/>
+                            {% if image_size is iterable %}
+                                <img src="{{ post.thumbnail.src|resize(image_size[0],image_size[1]) }}"/>
+                            {% else %}
+                                <img src="{{ post.thumbnail(image_size) }}"/>
+                            {% endif %}
+                        {% else %}
+                            <img src="{{ _current_skin.get_skin_url('images/placeholder.png') }}" width="50px"/>
+                        {% endif %}
+
+                    </a>
+                    <div class="title_left"><a href="{{ post.permalink }}">
+                            {{ fn('hwtpl_limit_str',post.title) }}
+
+                        </a></div>
+                    {% if 'excerpt' in arrExlpodeFields %} {{ post.excerpt }} {% endif %}
+                    {{fn('edit_post_link', 'Edit', '<span class="edit-link">', '</span>', post.ID)}}
+                </div>
+                    {% if post.can_edit %}
+                        <a href="{{post.get_edit_url}}" target="_blank">Edit</a>
+                    {% endif %}
+                </li>
+            {% else %}
+                <li>Sorry, no posts matched your criteria</li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+</div>
+    {# show pagination #}
+    {% if attribute(context,'load_pagination') is defined %} {{ context.load_pagination() }} {% endif %}
+{% if not is_ajax_context %}
+</div>
+    {{ args.after_widget }}
+{% endif %}
+{% endautoescape %}

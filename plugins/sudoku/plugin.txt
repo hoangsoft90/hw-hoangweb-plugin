@@ -1,0 +1,9 @@
+/**
+Plugin Name: Easy PHP Sudoku Game
+Plugin URI: http://hoangweb.com
+Description: play sudoku game
+Author: Hoangweb.com
+Version: 1.0
+Text Domain: hwdoku
+Domain Path: /languages
+*/

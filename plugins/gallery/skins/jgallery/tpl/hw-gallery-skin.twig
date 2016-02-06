@@ -1,0 +1,16 @@
+{% set gallery_id = '#gallery-' ~ sanitize_html_class( args['wrapper_id'] ) %}
+<div id="{{ gallery_id }}" class="hw-jgallery-container {{ sanitize_html_class( args['wrapper_class'] ) }}  ">
+    <div class="album" data-jgallery-album-title="Album 1">
+        {% for item in galleries %}
+        <a href="{{ esc_url(item['img_src']) }}"><img src="{{ esc_url(item['thumb_src']) }}" alt="{{ item.title }}" /></a>
+        {% endfor %}
+    </div>
+
+</div>
+<script>
+    jQuery(document).ready( function($) {
+        for(var i=0;i<4;i++)
+            jQuery( '{{ gallery_id }}' ).jGallery({{ json_options }});
+
+    } );
+</script>

@@ -1,0 +1,16 @@
+{% autoescape false %}
+{#
+    filter 'raw' keep print extract quote character
+#}
+{{indent}}<li {{ id }} class="{{ classes }}">
+    {{args.before}} {{args.submenu_before}}
+        {{image_img}}   {#  menu item image #}
+        {{font_icon}}  {# font icon #}
+        <a {{ attributes | raw }}>
+            {{args.link_before | raw}} {{args.submenu_link_before}}
+            {{(title | raw)}}
+            {{args.submenu_link_after}} {{args.link_after | raw}}
+        </a>
+    {{args.submenu_after}} {{args.after}}
+
+{% endautoescape %}

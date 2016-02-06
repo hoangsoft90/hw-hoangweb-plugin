@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+
+    <posts>
+    </posts>
+
+    <options>
+        <option>
+            <params name="HW_SocialsShare_Settings">
+                <param name="enable_side_share_bar" value="1"/>
+                <param name="sharing_service" value="addthis"/>
+                <param name="wrap_id" value=".hfeed.site"/>
+                <params name="pages_list" >
+                    <param>__all__</param>
+                </params>
+                <params name="socials_button">
+                    <param>facebook_share</param>
+                    <param>facebook_like</param>
+                    <param>facebook_recommend_button</param>
+                    <param>googleplus</param>
+                    <param>twitter</param>
+
+                </params>
+                <param name="custom_css"><![CDATA[/*chèn CSS ở đây*/]]></param>
+                <param name="button_size" value="1"/>
+                <param name="socials_button_hidden" value=""/>
+                <param name="enable_standard_buttons_in_post" value="1"/>
+            </params>
+        </option>
+    </options>
+</rss>

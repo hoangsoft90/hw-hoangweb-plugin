@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <!-- #skins -->
+    <skins>
+        <hw:skin name="trans">
+            <skin:apply_plugin>hw-hoangweb</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-mqtrans-skin.php</skin:skin_name>
+            <skin:other_folder>hw_mqtrans_skins</skin:other_folder>
+            <skin:group>langs-switcher</skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="skin1">Skin 1</param>
+                <param name="default"/>
+            </skin:list>
+        </hw:skin>
+        <hw:skin name="footer">
+            <skin:apply_plugin>hw-hoangweb</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-footer-skin.php</skin:skin_name>
+            <skin:other_folder>hw_footer_skins</skin:other_folder>
+            <skin:group>footers</skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="skin1">Skin 1</param>
+                <param name="default"/>
+            </skin:list>
+        </hw:skin>
+    </skins>
+    <options>
+        <option>
+            <params name="nhp_hoangweb_theme_opts">
+                <param name="last_tab"><![CDATA[]]></param>
+
+                <!-- general -->
+                <param name="site_name"><![CDATA[Site name]]></param>
+                <param name="slogan"><![CDATA[Site description]]></param>
+
+                <param name="site_banner"><![CDATA[images/banner.jpg]]></param><!-- refer to current template directory -->
+                <param name="admin_logo"><![CDATA[images/logo.jpg]]></param>
+                <param name="phone"><![CDATA[0123456789]]></param>
+                <param name="address"><![CDATA[Ha noi]]></param>
+
+                <param name="main_slider_id"><![CDATA[]]></param>
+                <param name="main_hw_slider"><![CDATA[]]></param>
+
+                <param name="testimonials"><![CDATA[]]></param>
+                <param name="wp_head_script"><![CDATA[<script>/*put your script here*/</script>]]></param>
+                <param name="wp_footer_code"><![CDATA[]]></param>
+
+                <!-- features -->
+                <param name="scroll2top"><![CDATA[1]]></param>
+                <params name="scroll2top_skin">
+
+                </params>
+                <param name="effect"><![CDATA[0]]></param>
+                <params name="fancybox_settings">
+                    <param name="padding"><![CDATA[15]]></param>
+                    <param name="margin"><![CDATA[20]]></param>
+                    <param name="width"><![CDATA[800]]></param>
+                    <param name="height"><![CDATA[600]]></param>
+                    <param name="minWidth"><![CDATA[100]]></param>
+                    <param name="minHeight"><![CDATA[100]]></param>
+                    <param name="maxWidth"><![CDATA[9999]]></param>
+                    <param name="maxHeight"><![CDATA[9999]]></param>
+                    <param name="openEffect"><![CDATA[none]]></param>
+                    <param name="closeEffect"><![CDATA[none]]></param>
+                    <param name="nextEffect"><![CDATA[none]]></param>
+                    <param name="prevEffect"><![CDATA[none]]></param>
+                    <param name="overlayOpacity"><![CDATA[]]></param>
+                    <param name="overlayColor"><![CDATA[]]></param>
+                </params>
+
+                <!-- theme -->
+                <params name="content_classes">
+                    <params name="single">
+                        <param name="body_class"><![CDATA[]]></param>
+                        <param name="post_class"><![CDATA[]]></param>
+                    </params>
+                    <params name="archive">
+                        <param name="body_class"><![CDATA[]]></param>
+                        <param name="post_class"><![CDATA[]]></param>
+                    </params>
+                    <params name="taxonomy">
+                        <param name="body_class"><![CDATA[]]></param>
+                        <param name="post_class"><![CDATA[]]></param>
+                    </params>
+                    <params name="home">
+                        <param name="body_class"><![CDATA[]]></param>
+                        <param name="post_class"><![CDATA[]]></param>
+                    </params>
+                    <params name="page">
+                        <param name="body_class"><![CDATA[]]></param>
+                        <param name="post_class"><![CDATA[]]></param>
+                    </params>
+                    <params name="404">
+                        <param name="body_class"><![CDATA[]]></param>
+                        <param name="post_class"><![CDATA[]]></param>
+                    </params>
+                    <params name="author">
+                        <param name="body_class"><![CDATA[]]></param>
+                        <param name="post_class"><![CDATA[]]></param>
+                    </params>
+
+                </params>
+                <param name="show_breadcrumb"><![CDATA[hw_before_main_content]]></param>
+
+                <!-- post -->
+                <param name="excerpt_more"><![CDATA[]]></param>
+                <param name="morelink_text"><![CDATA[]]></param>
+                <param name="excerpt_leng"><![CDATA[]]></param>
+                <param name="wpautop_content"><![CDATA[1]]></param>
+                <param name="wpautop_excerpt"><![CDATA[1]]></param>
+
+                <!-- gallery -->
+                <param name="enable_multi_images"><![CDATA[1]]></param>
+                <params name="posttype_multi_images">
+                    <param>post</param>
+                    <param>page</param>
+                </params>
+                <param name="multi_images_num"><![CDATA[10]]></param>
+
+                <!-- translation -->
+                <param name="mqtrans_style"><![CDATA[both]]></param>
+                <params name="mqtrans_skin">
+                    <params:skin_encoded name="hash_skin" instance="trans">
+                        <skin:skin><![CDATA[default]]></skin:skin>
+                    </params:skin_encoded>
+                    <params:skin_instance name="hwskin_config" instance="trans">
+
+                    </params:skin_instance>
+                </params>
+                <param name="enable_googletranslate"><![CDATA[1]]></param>
+
+                <!-- footer setting -->
+                <param name="footer"><![CDATA[]]></param>
+                <param name="before_footer"><![CDATA[]]></param>
+                <param name="after_footer"><![CDATA[]]></param>
+                <params name="footer_skin">
+                    <params:skin_encoded name="hash_skin" instance="footer">
+                        <skin:skin><![CDATA[default]]></skin:skin>
+                    </params:skin_encoded>
+                    <params:skin_instance name="hwskin_config" instance="footer">
+
+                    </params:skin_instance>
+                    <param name="hwskin_condition"><![CDATA[]]></param>
+                    <params name="skin_options">
+                        <param name="col"><![CDATA[hwskin-footers-default-footer-col1]]></param>
+                    </params>
+                </params>
+
+                <!-- advertising -->
+                <param name="ads_effects"><![CDATA[follow_scrollbar]]></param>
+                <param name="mcontent_div"><![CDATA[]]></param>
+                <param name="lad_width"><![CDATA[]]></param>
+                <param name="rad_width"><![CDATA[]]></param>
+                <param name="top_adjust"><![CDATA[]]></param>
+                <param name="ad_left"><![CDATA[]]></param>
+                <param name="ad_right"><![CDATA[]]></param>
+
+                <!-- social -->
+                <param name="fb_url"><![CDATA[]]></param>
+                <param name="gplus_url"><![CDATA[]]></param>
+                <param name="twitter_url"><![CDATA[]]></param>
+                <param name="youtube_url"><![CDATA[]]></param>
+                <params name="social_skin">
+                    <params:skin_encoded name="hash_skin" instance="social">
+                        <skin:skin><![CDATA[default]]></skin:skin>
+                    </params:skin_encoded>
+                    <params:skin_instance name="hwskin_config" instance="social">
+
+                    </params:skin_instance>
+                    <params encoded="1" name="all_skins">
+                        <params name="default" export="hash_skin">
+                            <params:skin_encoded name="hash_skin" instance="footer">
+                                <skin:skin><![CDATA[default]]></skin:skin>
+                            </params:skin_encoded>
+                        </params>
+                        <params name="skin" export="hash_skin">
+                            <params:skin_encoded name="hash_skin" instance="footer">
+                                <skin:skin><![CDATA[skin]]></skin:skin>
+                            </params:skin_encoded>
+                        </params>
+                        <params name="skin2" export="hash_skin">
+                            <params:skin_encoded name="hash_skin" instance="footer">
+                                <skin:skin><![CDATA[skin2]]></skin:skin>
+                            </params:skin_encoded>
+                        </params>
+                    </params>
+                </params>
+
+                <!-- others -->
+                <param name="product_footer_info"><![CDATA[]]></param>
+                <param name="tcp_buy_button_bottom"><![CDATA[]]></param>
+                <param name="permalink"><![CDATA[]]></param>
+
+            </params>
+        </option>
+    </options>
+</rss>

@@ -1,0 +1,33 @@
+.hw-awc-override.block-short-aboutus {
+    border: 2px solid #ebebeb;
+    background: #efeee6;
+    padding: 16px 10px 0 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px 0 rgba(68,68,68,.35);
+    clear:both;
+}
+.hw-awc-override .topic-html-content {
+    padding-bottom: 5px;
+}
+.hw-awc-override .topic-html-content-title {
+    padding: 0 0 5px;
+    font-family: Tahoma;
+}
+.hw-awc-override.block-short-aboutus h2 {
+    color: #009aa4;
+    font-weight: 600;
+}
+.hw-awc-override ul{
+margin: 0 !important;
+padding: 0 0 0 2px !important;
+    }
+.hw-awc-override h2, h3 {
+    font-size: 1.4em;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.hw-awc-override.block-short-aboutus .topic-html-content-body {
+    font-family: "Felipa",Arial;
+    font-size: 12px;
+    text-align: justify;
+}

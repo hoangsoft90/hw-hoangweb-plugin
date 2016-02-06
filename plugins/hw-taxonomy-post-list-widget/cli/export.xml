@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <!-- #skins -->
+    <skins>
+        <hw:skin name="tpl-pagination">
+            <skin:apply_plugin>hw-taxonomy-post-list-widget</skin:apply_plugin>
+            <skin:default_skin_path><![CDATA[skins]]></skin:default_skin_path>
+            <skin:default_skin><![CDATA[default/]]></skin:default_skin>
+            <skin:skin_type><![CDATA[file]]></skin:skin_type>
+            <skin:skin_name><![CDATA[hwtpl-pagination.php]]></skin:skin_name>
+            <skin:other_folder><![CDATA[hw_tpl_skins]]></skin:other_folder>
+            <skin:group><![CDATA[__paginations]]></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+        </hw:skin>
+
+        <hw:skin name="tpl-scrollbar">
+            <skin:apply_plugin>hw-taxonomy-post-list-widget</skin:apply_plugin>
+            <skin:default_skin_path><![CDATA[skins]]></skin:default_skin_path>
+            <skin:default_skin><![CDATA[default/]]></skin:default_skin>
+            <skin:skin_type><![CDATA[file]]></skin:skin_type>
+            <skin:skin_name><![CDATA[hwtpl-scrollbar.php]]></skin:skin_name>
+            <skin:other_folder><![CDATA[hw_tpl_skins]]></skin:other_folder>
+            <skin:group><![CDATA[__scrollbars]]></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+        </hw:skin>
+        <hw:skin name="tpl">
+            <skin:apply_plugin>hw-taxonomy-post-list-widget</skin:apply_plugin>
+            <skin:default_skin_path><![CDATA[skins]]></skin:default_skin_path>
+            <skin:default_skin><![CDATA[default/]]></skin:default_skin>
+            <skin:skin_type><![CDATA[file]]></skin:skin_type>
+            <skin:skin_name><![CDATA[hw-category-posts.php]]></skin:skin_name>
+            <skin:other_folder><![CDATA[hw_tpl_skins]]></skin:other_folder>
+            <skin:group><![CDATA[]]></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+        </hw:skin>
+
+    </skins>
+    <!-- sidebars -->
+    <sidebars>
+        <sidebar name="sidebar-1">
+            <param name="before_widget"><![CDATA[<div id="%1$s" class="boxtourhome %2$s *1" >]]></param>
+            <param name="after_widget"><![CDATA[</div>]]></param>
+            <param name="before_title"><![CDATA[<h2 class="titteA" style="%1$s {css_title}">]]></param>
+            <param name="after_title"><![CDATA[</h2>]]></param>
+
+        </sidebar>
+    </sidebars>
+    <!-- widgets -->
+    <widgets>
+        <!--
+        <hw:widget sidebar="sidebar-1" id_base="hw_gmap">
+
+            <param name="title"><![CDATA[Ban do 1]]></param>    #each widget import have different title -->
+        <!--  <param name="address"><![CDATA[Ha noi]]></param>
+          <param name="width"><![CDATA[200]]></param>
+          <param name="height"><![CDATA[100]]></param>
+          <param name="show_searchbox"><![CDATA[0]]></param>
+          <param name="awc_clear_widget_title"><![CDATA[0]]></param>
+      </hw:widget>
+  -->
+        <hw:widget sidebar="sidebar-1" id_base="hw_taxonomy_post_list_widget">
+
+            <param name="widget_title"><![CDATA[Noi dung theo Chuyen muc]]></param>
+            <param name="query_data"><![CDATA[filter_query]]></param>
+            <param name="posttype"><![CDATA[post]]></param>
+            <param name="tax"><![CDATA[category]]></param>
+            <param name="cat_"><![CDATA[]]></param>
+            <param name="author"><![CDATA[-1]]></param>
+            <param name="specific_post"><![CDATA[]]></param>
+            <param name="num"><![CDATA[50]]></param>
+            <param name="sort_by"><![CDATA[date]]></param>
+            <param name="sort_order"><![CDATA[desc]]></param>
+            <param name="excerpt_length"><![CDATA[50]]></param>
+            <param name="post_title_leng"><![CDATA[60]]></param>
+            <param name="date_format"><![CDATA[F j, Y]]></param>
+            <param name="intermediate_image_sizes"><![CDATA[]]></param>
+            <param name="thumb_w"><![CDATA[]]></param>
+            <param name="thumb_h"><![CDATA[]]></param>
+            <param name="nav_posts_num"><![CDATA[2]]></param>
+            <param name="display"><![CDATA[title,excerpt,comment_num,date,thumb,author]]></param>
+
+            <param name="use_default_pagenav_skin"><![CDATA[0]]></param>
+            <param name="show_pagination"><![CDATA[0]]></param>
+            <param name="enable_ajax_pagination"><![CDATA[0]]></param>
+            <param name="show_prev_next"><![CDATA[0]]></param>
+            <params name="pagination_skin" export="hash_skin">
+                <params:skin_encoded name="hash_skin" instance="tpl-pagination">
+                    <skin:skin><![CDATA[pagination2]]></skin:skin>
+                    <skin:source>plugin</skin:source>
+                    <skin:screenshot_mimetype>jpg</skin:screenshot_mimetype>
+                </params:skin_encoded>
+            </params>
+
+            <param name="page_cat_link"><![CDATA[]]></param>
+            <param name="view_all_pos"><![CDATA[top]]></param>
+            <param name="view_all_text"><![CDATA[Xem them]]></param>
+            <params name="skin" export="hash_skin">
+                <params:skin_encoded name="hash_skin" instance="tpl">
+                    <skin:skin><![CDATA[default]]></skin:skin>
+                    <skin:source>plugin</skin:source>
+                    <skin:screenshot_mimetype>png</skin:screenshot_mimetype>
+                </params:skin_encoded>
+            </params>
+            <!-- scrollbar -->
+            <param name="enable_scrollbar">0</param>
+            <params name="scrollbar_skin" export="hash_skin">
+                <params:skin_encoded name="hash_skin" instance="tpl-scrollbar">
+                    <skin:skin><![CDATA[perfect-scrollbar]]></skin:skin>
+                    <skin:source>plugin</skin:source>
+                    <skin:screenshot_mimetype>png</skin:screenshot_mimetype>
+                </params:skin_encoded>
+            </params>
+            <params name="scrollbar_skin_setting">
+                <param name="enqueue_css_position">footer</param>
+                <param name="enqueue_js_position">footer</param>
+                <param name="width"><![CDATA[]]></param>
+                <param name="height"><![CDATA[]]></param>
+            </params>
+            <!-- scroll -->
+            <param name="auto_scroll_mode"><![CDATA[0]]></param>
+            <param name="scroll_type"><![CDATA[smoothdivscroll]]></param>
+            <param name="scroll_direction"><![CDATA[endlessloopbottom]]></param>
+            <param name="visible_scroll_num"><![CDATA[]]></param>
+            <param name="scroll_num"><![CDATA[]]></param>
+            <param name="scroll_easing"><![CDATA[]]></param>
+            <param name="scroll_width"><![CDATA[0]]></param>
+            <param name="scroll_height"><![CDATA[200]]></param>
+            <param name="scroll_interval"><![CDATA[10]]></param>
+            <param name="scroll_delay"><![CDATA[]]></param>
+
+            <param name="effects"><![CDATA[none]]></param>
+            <param name="effects_time"><![CDATA[3000]]></param>
+            <param name="widget_w"><![CDATA[220]]></param>
+            <param name="widget_h"><![CDATA[300]]></param>
+
+            <!-- widget features -->
+            <params name="awcwf-shortcode_params">
+                <params name="widget_instance">
+
+                </params>
+                <param name="sidebar_skin"><![CDATA[skin_default]]></param>
+                <param name="config_group"><![CDATA[]]></param>
+            </params>
+
+            <!-- customize widget -->
+            <param name="format_before_title"><![CDATA[]]></param>
+            <param name="format_after_title"><![CDATA[]]></param>
+            <param name="preclasses_before_widget"><![CDATA[]]></param>
+            <param name="bgcolor_widget"><![CDATA[]]></param>
+            <param name="bgcolor_title"><![CDATA[]]></param>
+            <param name="bgcolor_box"><![CDATA[]]></param>
+            <param name="bgimg_title"><![CDATA[]]></param>
+            <param name="bgimg_box"><![CDATA[]]></param>
+            <param name="awc_clear_widget_title"><![CDATA[0]]></param>
+        </hw:widget>
+    </widgets>
+</rss>

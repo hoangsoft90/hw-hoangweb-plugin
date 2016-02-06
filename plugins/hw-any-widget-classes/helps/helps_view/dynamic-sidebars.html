@@ -1,0 +1,16 @@
+﻿<b>Lưu ý</b>:<hr></hr>
+- Tạo điều kiện ràng buộc để xác định sidebar, sau khi thay đổi giá trị trường lựa chọn lại các trường còn lại.
+- Để ý tuân theo thứ tự tạo điều kiện trước khi nhấn Lưu cài đặt. VD: chọn 'taxonomy' trước tiếp đó là 'term'.
+- Thay vì gọi hàm <em>dynamic_sidebar()</em> chúng ta gọi hàm, vd: <code>hw_dynamic_sidebar("sidebar-1")</code>
+- Dựa vào điều kiện trên để thay đổi sidebar gọi ban đầu chuyển hướng sang sidebar khác.
+
+<h3>Filter</h3>
+[code]
+/**
+ * filter sidebar name
+ */
+add_filter('hw_dynamic_sidebar', '_hw_dynamic_sidebar');
+function _hw_dynamic_sidebar ($name){
+    return is_user_logged_in() ? 'sidebar-logined' : $name;
+}
+[/code]

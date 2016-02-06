@@ -1,0 +1,134 @@
+.tour-list .item-box {
+    text-align: left;
+    clear: both;
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+    line-height: normal;
+}
+.tour-list .tour-item {
+    width: auto;
+    margin-top: 10px;
+    position: relative;
+    zoom: 1;
+}
+.tour-list .tour-item .picture {
+    float: left;
+    margin: 10px 10px 10px 0;
+    overflow: hidden;
+    border: 1px solid #eee;
+    padding: 2px;
+    line-height: 0;
+    width: 28%;
+}
+.tour-list a {
+    color: #5c5b5b;
+    text-decoration: none;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.tour-list .tour-item .picture img {
+    height: 130px;
+    /*width: 180px;*/
+    width:100%;
+    transition: all .2s ease 0s;
+}
+.tour-list .tour-item .details {
+    width:100%;
+}
+.tour-list .tour-item .tour-title {
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.tour-list .tour-item .tour-title a {
+    display: block;
+    height: auto;
+    line-height: 1.3em;
+    overflow: hidden;
+    padding: 6px 10px 8px 0;
+    color: #009aa4;
+    font-weight: 600;
+}
+.tour-list .tour-item .tour-title a {
+    display: block;
+    height: auto;
+    line-height: 1.3em;
+    overflow: hidden;
+    padding: 6px 10px 2px 0;
+    color: #569343;
+    font-weight: 600;
+}
+.tour-list .tour-item .details .label {
+    font-weight: bold;
+    color:#5c5b5b;
+}
+.tour-list .tour-item .destinations {
+    max-height: 32px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.tour-list .tour-item .description {
+    padding: 5px 0;
+    text-align: left;
+    color: #555;
+    height: 85px;
+    overflow: hidden;
+    line-height: 20px;
+}
+.tour-list .tour-item .add-info {
+}
+.tour-list .tour-item .prices {
+    padding-top: 10px;
+    float: left;
+    color: #ff9002;
+    font-family: "Trade Gothic W01 Cn 18";
+    font-weight: bold;
+    font-size: 18px;
+}
+.tour-list .tour-item .prices .pricerange {
+    font-size: 14px;
+    color: #5c5b5b;
+}
+.tour-list .tour-item .prices .actual-price {
+    color: #ff9002;
+}
+.tour-list .tour-item .prices .price {
+    margin: 0;
+}
+.tour-list .tour-item .prices .pricerange {
+    font-size: 14px;
+    color: #5c5b5b;
+}
+.tour-list .tour-item .buttons {
+    padding-top: 10px;
+    float: right;
+}
+.tour-list .detail-button1 {
+    background-color: #009aa4;
+}
+.tour-list .detail-button1 {
+    background: url(images/icon-arrow2.png) right no-repeat #569343;
+    padding-right: 30px;
+    border-radius: 2px;
+    color: #fff;
+    font: normal 12px Helvetica,Arial,sans-serif;
+    padding: 3px 30px 3px 6px;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    overflow: visible;
+    display: inline-block;
+    border: none;
+}
+.tour-list .tour-item .picture img:hover {
+    transform: scale(1.05);
+    opacity: .9;
+}
+.tour-list .tour-item .detail-button1:hover {
+    background-color: #ff9002;
+}

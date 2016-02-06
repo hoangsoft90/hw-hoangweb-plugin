@@ -1,0 +1,68 @@
+<h3>Create a link element (< a href>)</h3>
+Images:<br/>
+<pre class="brush: html">
+    <a id="single_image" href="image_big.jpg"><img src="image_small.jpg" alt=""/></a>
+</pre>
+Inline content:<br/>
+<pre class="brush: html">
+<a id="inline" href="#data">This shows content of element who has id="data"</a>
+
+<div style="display:none"><div id="data">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div></div>
+</pre>
+
+Iframe:<br/>
+<pre class="brush: html">
+    <a href="http://www.example?iframe">This goes to iframe</a>
+or
+    <a class="iframe" href="http://www.example">This goes to iframe</a>
+</pre>
+
+Ajax:<br/>
+<pre class="brush: html">
+    <a href="http://www.example/data.php">This takes content using ajax</a>
+</pre>
+
+<h3>Fire plugin using jQuery selector</h3>
+<pre class="brush: js">
+    $(document).ready(function() {
+
+    /* This is basic - uses default settings */
+
+    $("a#single_image").fancybox();
+
+    /* Using custom settings */
+
+    $("a#inline").fancybox({
+    'hideOnContentClick': true
+    });
+
+    /* Apply fancybox to multiple items */
+
+    $("a.group").fancybox({
+    'transitionIn'	:	'elastic',
+    'transitionOut'	:	'elastic',
+    'speedIn'		:	600,
+    'speedOut'		:	200,
+    'overlayShow'	:	false
+    });
+
+    });
+</pre>
+
+Note - Galleries are created from elements who have the same "rel" tag, example:<br/>
+<pre class="brush: html">
+    /* HTML */
+<a class="grouped_elements" rel="group1" href="image_big_1.jpg"><img src="image_small_1.jpg" alt=""/></a>
+<a class="grouped_elements" rel="group1" href="image_big_2.jpg"><img src="image_small_2.jpg" alt=""/></a>
+
+<a class="grouped_elements" rel="group2" href="image_big_3.jpg"><img src="image_small_3.jpg" alt=""/></a>
+<a class="grouped_elements" rel="group2" href="image_big_4.jpg"><img src="image_small_4.jpg" alt=""/></a>
+
+
+
+</pre>
+<pre class="brush: jscript">
+    /* This will create two galleries */
+
+$("a.grouped_elements").fancybox();
+</pre>

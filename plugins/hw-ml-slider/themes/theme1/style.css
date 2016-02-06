@@ -1,0 +1,59 @@
+.flex-control-nav li{
+	width: 28px;
+}
+.flex-control-paging li a {
+  background-color: initial !important;
+  background-image: url(images/1430431115_bullet-blue.png) !important;
+  background-position: center center !important;
+  background-size: 100% 100%;
+  box-shadow:initial !important;
+}
+.flex-control-paging li a.flex-active {
+  background-color: initial !important;
+  cursor: default;
+  background-image: url(images/1430431122_bullet-black.png) !important;
+  background-position: center center !important;
+  background-size: 100% 100%;
+  border:0px !important;
+  box-shadow:initial !important;
+}
+.flex-control-paging li a {
+  width: 32px !important;
+  height: 32px !important;
+}
+.metaslider a {
+  outline: none;
+}
+.flex-control-nav {
+  position: absolute;
+  bottom: 17px !important;
+  z-index: 10;
+}
+.metaslider .flexslider{
+	margin:0px !important;
+}
+.flex-direction-nav .flex-next {
+  background-position: -2px -92px;
+  right: -36px;
+}
+.flex-direction-nav .flex-prev {
+  left: -36px;
+}
+.flex-direction-nav a {
+  width: 76px;
+  height: 76px;
+  margin: -20px 0 0;
+  display: block;
+  background: url(images/bg_direction_nav.png) no-repeat 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+  text-indent: -9999px;
+  opacity: 0;
+  -webkit-transition: all .3s ease;
+}
+.flex-control-nav li a{
+	margin: 0 0px !important;
+  padding: 0;
+}

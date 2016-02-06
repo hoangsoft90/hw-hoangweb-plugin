@@ -1,0 +1,21 @@
+.left_item {
+  width: 280px;
+}
+.left_item .edit-link{display:block;clear:both;}
+.left_item img {
+  width: 100px;
+  height: 70px;
+  border: 0px;
+}
+.title_left {
+  text-align: left;
+  color: #5C5F62;
+  font-size: 12px;
+  float: left;
+  width: 180px;
+}
+.left_item .title_left a {
+  text-decoration: none;
+  text-transform: none;
+}
+

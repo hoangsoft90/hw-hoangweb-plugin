@@ -1,0 +1,23 @@
+<rss version="2.0"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <skins>
+
+        <hw:skin name="marquee">
+            <skin:default_skin_path><![CDATA[skins]]></skin:default_skin_path>
+            <skin:default_skin><![CDATA[default/]]></skin:default_skin>
+            <skin:skin_type><![CDATA[file]]></skin:skin_type>
+            <skin:skin_name><![CDATA[hw-marquee-skin.php]]></skin:skin_name>
+            <skin:other_folder><![CDATA[hw_marquee_skins]]></skin:other_folder>
+            <skin:group><![CDATA[]]></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+            <skin:options>
+                <param name="enable_skin_file">0</param>
+                <param name="enable_skin_tpl">1</param>
+            </skin:options>
+        </hw:skin>
+    </skins>
+</rss>

@@ -1,0 +1,9 @@
+<div class="{{ marquee_wrapper }}" id="{{ marquee_id }}">
+    {{ data }}
+</div>
+<script type="text/javascript">
+    jQuery(window).load(function () {
+        jQuery("#{{ marquee_id }}").endlessScroll({{ json_config }});
+    });
+
+</script>

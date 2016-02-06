@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <sidebars>
+
+    </sidebars>
+    <skins>
+        <hw:skin name="lct">
+            <skin:apply_plugin>hw-list-custom-taxonomy-widget</skin:apply_plugin>
+            <skin:default_skin_path><![CDATA[skins]]></skin:default_skin_path>
+            <skin:default_skin><![CDATA[default/]]></skin:default_skin>
+            <skin:skin_type><![CDATA[file]]></skin:skin_type>
+            <skin:skin_name><![CDATA[hwlct-skin.php]]></skin:skin_name>
+            <skin:other_folder><![CDATA[hw_lct_skins]]></skin:other_folder>
+            <skin:group><![CDATA[]]></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+        </hw:skin>
+    </skins>
+    <widgets>
+        <hw:widget sidebar="sidebar-1" id_base="hwlct_taxonomy">
+            <hw:params>
+                <param name="title"><![CDATA[]]></param>
+                <param name="taxonomy"><![CDATA[category]]></param>
+                <param name="use_skin"><![CDATA[1]]></param>
+                <params name="skin" export="hash_skin">
+                    <params:skin_encoded name="hash_skin" instance="lct">
+                        <skin:skin><![CDATA[default]]></skin:skin>
+                        <skin:source>plugin</skin:source>
+                    </params:skin_encoded>
+                </params>
+                <param name="skin_condition"><![CDATA[]]></param>
+                <params name="skin_settings">
+                    <param name="enqueue_css_position"><![CDATA[footer]]></param>
+                    <param name="enqueue_js_position"><![CDATA[footer]]></param>
+                    <param name="ul_classes"><![CDATA[]]></param>
+                    <param name="submenu_container_class"><![CDATA[]]></param>
+                    <param name="current_item_class"><![CDATA[current-cat-item]]></param>
+                    <param name="anchor_attrs"><![CDATA[]]></param>
+                    <param name="anchor_attrs_has_submenu"><![CDATA[]]></param>
+                    <param name="anchor_attrs_submenu"><![CDATA[]]></param>
+                    <param name="anchor_class"><![CDATA[cat-anchor]]></param>
+                    <param name="anchor_class_has_submenu"><![CDATA[cat-anchor-has-sub]]></param>
+                    <param name="anchor_class_submenu"><![CDATA[cat-anchor-sub]]></param>
+                    <param name="menu_item_class"><![CDATA[cat-item]]></param>
+                    <param name="menu_item_class_focus"><![CDATA[current-cat-item]]></param>
+                    <param name="menu_item_class_has_submenu"><![CDATA[cat-item-has-sub]]></param>
+                    <param name="menu_item_class_submenu"><![CDATA[cat-item-sub]]></param>
+                    <param name="first_menu_item_class"><![CDATA[first-cat-item]]></param>
+                    <param name="last_menu_item_class"><![CDATA[last-cat-item]]></param>
+                </params>
+                <param name="count"><![CDATA[1]]></param>
+                <param name="hierarchical"><![CDATA[1]]></param>
+                <param name="depth"><![CDATA[0]]></param>
+                <param name="orderby"><![CDATA[count]]></param>
+                <param name="ascdsc"><![CDATA[desc]]></param>
+                <param name="childof"><![CDATA[1]]></param>
+                <param name="show_option_none"><![CDATA[]]></param>
+                <param name="exclude"><![CDATA[]]></param>
+                <param name="dropdown"><![CDATA[0]]></param>
+                <param name="childof_current_term"><![CDATA[0]]></param>
+                <param name="show_subcat_by_parent"><![CDATA[0]]></param>
+                <param name="categories_by_current_post"><![CDATA[0]]></param>
+                <param name="hide_empty"><![CDATA[0]]></param>
+                <param name="extend_skin_options"><![CDATA[0]]></param>
+                <param name="eventsJS"><![CDATA[]]></param>
+            </hw:params>
+        </hw:widget>
+    </widgets>
+</rss>

@@ -1,0 +1,48 @@
+<pre class="brush:php">
+#Remove the general wordpress 'widget' class from the widgets wrapping html and the 'widget_title' from the title html
+[do_widget widgetname widget_classes=none]
+
+#will hide the widget title
+[do_widget pages title=false]
+
+#eg: don't like the h3.widget-title styling ?
+[do_widget title=h2]
+
+#eg: don't like the 'aside' wrapping html styling?
+[do_widget wrap=div]
+
+#default use the 'amr-widget' class that has been added to the widget wrapping html but you can Tap into a class you already have in your theme:
+[do_widget class=yourclass]
+
+*add whole sidebar
+//whole widgets in sidebar
+[do_widget_area sidebarname]
+[do_widget_area widget_area=sidebar-1]
+
+<?php
+//filter
+add_filter('hwawc_widget_form_update', '_hwawc_widget_form_update', 10,3);
+function _hwawc_widget_form_update($instance,$new_instance,$old_instance){
+     return $instance;
+}
+/**
+filter output for any widget
+*/
+function my_widget_output_filter( $widget_output, $widget_id_base, $widget_id ) {
+
+    /* To target a specific widget ID: */
+    if ( 'target_widget_id' == $widget_id ) {
+    // Apply your desired search and replace operations here
+    }
+
+    /* To target all widgets of a particular type: */
+    if ( 'target_widget_type' == $widget_type ) {
+    // Apply your desired search and replace operations here
+    }
+
+    return $widget_output;
+
+}
+add_filter( 'hw_widget_output', 'my_widget_output_filter', 10, 3 );
+?>
+    </pre>

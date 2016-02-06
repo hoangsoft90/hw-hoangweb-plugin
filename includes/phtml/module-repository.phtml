@@ -1,0 +1,28 @@
+<?php
+#$update_url = '?page=hw_install_module&action=install-module&module='. $module['slug']. '&_wpnonce='. $nonce;
+//you will be notice error 'Notice: Undefined offset: 1 in vars.php', because call from no-wp system file. system file start from wp-admin/
+//& because i use custom file for loading module information. So turn off php error
+$nonce = wp_create_nonce('install-module_'. $module['slug']);
+$update_url =  '?page=hw_install_module&action=install-module&module='. $module['slug']. '&_wpnonce='. $nonce;
+$module_info = HW_ADMIN_URL. '/module-install.php?tab=module-information&module='.$module['slug'].'&TB_iframe=true&width=772&height=641&_root='. base64_encode((ABSPATH));
+?>
+<div class="plugin-card module-repository module-box <?php echo $module['slug']?>">
+    <div class="plugin-card-top">
+        <a href="<?php echo $module_info?>" class="thickbox plugin-icon"><img src="<?php echo HW_HOANGWEB_IMAGES?>/module-box.png"/></a>
+        <div class="name column-name">
+            <h4><a href="<?php echo $module_info?>" class="thickbox"><?php echo $module['name']?></a></h4>
+        </div>
+        <div class="action-links">
+            <ul class="plugin-action-buttons">
+                <li>
+                    <a class="install-now button" data-slug="<?php echo $module['slug']?>" href="javascript: void(0)" onclick="hw_confirm_url('<?php echo $update_url?>', 'Bạn có chắc chắn muốn cài module (<?php echo $module['name']?>)')" aria-label="Cài đặt <?php echo $module['name']?> ngay" data-name="<?php echo $module['name']?>">Cài đặt</a>
+                </li>
+                <li><a href="<?php echo $module_info?>" class="thickbox" aria-label="Thông tin thêm về <?php echo $module['name']?>" data-title="<?php echo $module['name']?>">Chi tiết</a></li>
+            </ul>
+        </div>
+        <div class="desc column-description">
+            <p><?php echo $module['desc']?></p>
+            <p class="authors"> <cite>Bởi <a href="http://hoangweb.com">Hoangweb</a></cite></p>
+        </div>
+    </div>
+</div>

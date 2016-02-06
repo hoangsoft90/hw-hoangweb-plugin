@@ -1,0 +1,7 @@
+<p>
+   Chèn vào code hàm sau để hiển thị bài viết liên quan:
+    <code><?php echo htmlspecialchars('<?php hwrp_display_related()?>')?></code>
+</p>
+<p>
+    Tắt tùy chọn hiển thị tự động cho các loại post types ở cài đặt "Display options for your website" trên.
+</p>

@@ -1,0 +1,54 @@
+.hwlct-box1 .item-box, .travelstyle-grid .item-box, .destination-grid .item-box {
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+    border:0px !important;
+    clear:none !important;
+    margin-bottom: 0px !important;
+}
+.hwlct-box1 .sub-category-item, .travelstyle-grid .travelstyle-item, .destination-grid .destination-item {
+    text-align: center;
+    margin: 10px 10px 0px 0;
+    width: 226px;
+}
+.hwlct-box1 .sub-category-item .picture, .travelstyle-grid .travelstyle-item .picture, .destination-grid .destination-item .picture {
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.hwlct-box1 a, .travelstyle-grid a, .destination-grid a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.hwlct-box1 img, .travelstyle-grid img, .destination-grid img {
+    width: 227px;
+    height: 150px;
+    border: 0 none;
+}
+.hwlct-box1 .sub-category-item .title, .travelstyle-grid .travelstyle-item .title, .destination-grid .destination-item .title {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: 700;
+    background: url(images/bg-title4.png) right 0 repeat rgba(0,0,0,0);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    border:0px !important;
+}
+.hwlct-box1 .sub-category-item .title a, .travelstyle-grid .travelstyle-item .title a, .destination-grid .destination-item .title a {
+    display: block;
+    background: url(images/icon-arrow.png) right 0 no-repeat rgba(0,0,0,0);
+    padding: 5px 8px;
+}
+.hwlct-box1 a, .travelstyle-grid a, .destination-grid a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.hwlct-box1 h2,.hwlct-box1 h3,.hwlct-box1 h1{padding:0px !important;margin:0px !important;}
+.hwlct-box1 .item-box.last .sub-category-item{
+    margin-right:0px !important;
+}

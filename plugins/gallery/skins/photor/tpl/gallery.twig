@@ -1,0 +1,25 @@
+<div class="photor {{ args['wrapper_class'] }}" id="{{ gallery_id }}">
+
+    <div class="photor__viewport">
+
+        <div class="photor__viewportLayer">
+
+            <!-- Add photos -->
+            {% for item in galleries %}
+            <img src="{{ item['img_src'] }}" data-thumb="{{ item['thumb_src'] }}">
+            {% endfor %}
+
+        </div>
+
+        <div class="photor__viewportControl">
+            <div class="photor__viewportControlPrev"></div>
+            <div class="photor__viewportControlNext"></div>
+        </div>
+
+    </div>
+
+    <div class="photor__thumbs">
+        <div class="photor__thumbsWrap"></div>
+    </div>
+
+</div>

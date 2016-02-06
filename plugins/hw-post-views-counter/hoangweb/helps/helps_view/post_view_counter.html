@@ -1,0 +1,21 @@
+<h3>Shortcode</h3>
+Use [post-views] shortcode for manual display.
+[hoangweb]
+- to display post views count, using following shortcode:
+[hw-post-views]: for current post
+[hw-post-views id=12] : for given post
+[hw-post-views id=13 title="post title" permalink="any link"]  : full shortcode attributes
+
+<h3>Template functions</h3>
+<code>
+//return
+$args = array('post_id' => 'xx', 'permalink' => '', 'title' => '');
+hwpvc_post_views($args , false );
+
+//echo instead of return value
+hwpvc_post_views( $args );
+
+//allow to update count for single post
+    $args= array('count'=>1);
+    $args= array('count'=>0);   //disable update count for category,tax, archive
+</code>

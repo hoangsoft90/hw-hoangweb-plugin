@@ -1,0 +1,101 @@
+.hwtpl-wrapper .model_list .item {
+    margin-right: 8px!important;
+}
+.hwtpl-wrapper .model_list .item {
+    display: inline-block;
+    width: 170px;
+    border: 1px solid #e0e0e0;
+    border-top: 0;
+    padding: 5px 5px 6px 5px;
+    margin: 10px 5px 0 2px;
+    background: #fdfdfd;
+    vertical-align: top;
+}
+.hwtpl-wrapper .item {
+    position: relative;
+}
+.hwtpl-wrapper .item .pro {
+    background: #73bae6;
+}
+.hwtpl-wrapper .model_list .pro, .hwtpl-wrapper .model_list .om, .hwtpl-wrapper .model_list .free {
+    float: left;
+    background: #73bae6;
+    color: #fff;
+    padding: 0 3px 0 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 8px 0 0 0;
+    height: 14px;
+    line-height: 12px;
+}
+.hwtpl-wrapper .model_list .icons {
+    float: right;
+    margin: 6px -2px 0 0;
+}
+.hwtpl-wrapper .model_list .icons a:first-child {
+    min-width: 0;
+}
+.hwtpl-wrapper .model_list .icons a {
+    cursor: pointer;
+    float: right;
+    font-size: 11px;
+    color: #5d5b5c;
+    margin: 0 3px 0 0;
+    padding: 2px 0 3px 19px;
+    min-width: 19px;
+    text-decoration: none;
+}
+.hwtpl-wrapper .icon_reiting {
+    background: url(images/sprite.png) -170px 1px no-repeat;
+}
+.hwtpl-wrapper .icon_views {
+    background: url(images/en-sprite.png) -187px -101px no-repeat;
+}
+.hwtpl-wrapper .icon_enter {
+    background: url(images/sprite.png) -118px 1px no-repeat;
+}
+.hwtpl-wrapper .model_list .item .model-thumb{
+    width:170px;
+    height: 170px;
+}
+/*tooltip*/
+.hwtpl-wrapper .popup_big_foto {
+    display: none;
+    position: absolute;
+    z-index: 102;
+    border: 1px solid #bdc4c7;
+    border-top: 0;
+    background: #fdfdfd;
+    box-shadow: 0 0 5px #bbb;
+    padding: 5px;
+}
+.hwtpl-wrapper .popup_big_foto .foto {
+    min-height: 100px;
+    background: url(images/preloader.gif) center center no-repeat;
+}
+.hwtpl-wrapper .popup_big_foto div {
+    float: left;
+}
+.hwtpl-wrapper .popup_big_foto .foto img {
+    max-width: 640px;
+}
+.hwtpl-wrapper .popup_big_foto .name {
+    font-size: 18px;
+    padding: 11px 0 6px 0;
+    clear: both;
+}
+.hwtpl-wrapper .popup_big_foto div {
+    float: left;
+}
+.hwtpl-wrapper .popup_big_foto .icon.pro {
+    background: #73bae6;
+}
+.hwtpl-wrapper .popup_big_foto .icon {
+    float: left;
+    width: 28px;
+    height: 16px;
+    margin: 4px 7px 0 0;
+    color: #fff;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    text-align: center;
+}

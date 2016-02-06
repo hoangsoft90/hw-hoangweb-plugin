@@ -1,0 +1,7 @@
+/*
+Plugin Name: HW any Widget Classes
+Version: 1.0
+Plugin URI: http://hoangweb.com
+Author: hoangweb.com
+License: GPL v3
+*/

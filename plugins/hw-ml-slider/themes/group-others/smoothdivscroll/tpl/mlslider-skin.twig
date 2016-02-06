@@ -1,0 +1,23 @@
+<div class="slider-wrapper theme-default">
+    <div id="makeMeScrollable-{{ slider_id }}" class="hw-smoothdivscroll" >
+        {% for post in posts %}
+        <img src="{{ post.thumbnail.src|default('images/placeholder.png') }}" alt="{{ post.excerpt }}" data-thumb="" data-transition="" alt="" title="{{ post.excerpt }}"  />
+        {% endfor %}
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        jQuery("#makeMeScrollable-{{ slider_id }}").smoothDivScroll({{ options }});
+        {% if options.pause_on_hover is not empty %}
+            // Mouse over
+            jQuery("#makeMeScrollable-{{ slider_id }}").bind("mouseover", function(){
+                $(this).smoothDivScroll("stopAutoScrolling");
+            });
+
+            // Mouse out
+            jQuery("#makeMeScrollable-{{ slider_id }}").bind("mouseout", function(){
+                $(this).smoothDivScroll("startAutoScrolling");
+            });
+        {% endif %}
+    });
+</script>

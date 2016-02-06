@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-PageNavi Uk 2.40\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-10 00:43+0800\n"
+"PO-Revision-Date: 2015-06-04 14:52+0700\n"
+"Last-Translator: Jurko Chervony <info@skinik.name>\n"
+"Language-Team: pavonine.com.ua <info@skinik.name>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Language: uk_UA\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: pagenavi-options.php:46 pagenavi-options.php:108 pagenavi-options.php:172
+msgid "Page Navigation Options"
+msgstr "Tùy chọn"
+
+#: pagenavi-options.php:51
+msgid "Updated"
+msgstr "Đã cập nhật"
+
+#: pagenavi-options.php:56
+msgid "No Page Navigation Option Updated"
+msgstr "No Page Navigation Option Updated"
+
+#: pagenavi-options.php:62 pagenavi-options.php:241
+msgid "UNINSTALL WP-PageNavi"
+msgstr "UNINSTALL WP-PageNavi"
+
+#: pagenavi-options.php:70
+#, php-format
+msgid "Setting Key '%s' has been deleted."
+msgstr "Setting Key '%s' has been deleted."
+
+#: pagenavi-options.php:74
+#, php-format
+msgid "Error deleting Setting Key '%s'."
+msgstr "Error deleting Setting Key '%s'."
+
+#: pagenavi-options.php:96 pagenavi-options.php:209
+msgid "Uninstall WP-PageNavi"
+msgstr "Uninstall WP-PageNavi"
+
+#: pagenavi-options.php:97
+#, php-format
+msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-PageNavi Will Be Deactivated Automatically."
+msgstr "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And WP-PageNavi Will Be Deactivated Automatically."
+
+#: pagenavi-options.php:109
+msgid "Page Navigation Text"
+msgstr "Văn bản hiển thị"
+
+#: pagenavi-options.php:112
+msgid "Text For Number Of Pages"
+msgstr "Hiển thị \"Number Of Pages\""
+
+#: pagenavi-options.php:115
+msgid "The current page number."
+msgstr "Số trang hiện tại"
+
+#: pagenavi-options.php:116 pagenavi-options.php:137 pagenavi-options.php:144
+msgid "The total number of pages."
+msgstr "Tổng số trang"
+
+#: pagenavi-options.php:120
+msgid "Text For Current Page"
+msgstr "Văn bản cho trang hiện tại"
+
+#: pagenavi-options.php:123 pagenavi-options.php:130
+msgid "The page number."
+msgstr "Chỉ số trang."
+
+#: pagenavi-options.php:127
+msgid "Text For Page"
+msgstr "Nhãn cho Page"
+
+#: pagenavi-options.php:134
+msgid "Text For First Post"
+msgstr "Nhãn cho Post đầu tiên"
+
+#: pagenavi-options.php:141
+msgid "Text For Last Post"
+msgstr "Nhãn cho post cuối"
+
+#: pagenavi-options.php:148
+msgid "Text For Next Post"
+msgstr "Nhãn cho Post tiếp theo"
+
+#: pagenavi-options.php:154
+msgid "Text For Previous Post"
+msgstr "Nhãn cho Post đằng sau"
+
+#: pagenavi-options.php:160
+msgid "Text For Next ..."
+msgstr "Nhãn của Next ..."
+
+#: pagenavi-options.php:166
+msgid "Text For Previous ..."
+msgstr "Nhãn của Previous ..."
+
+#: pagenavi-options.php:175
+msgid "Page Navigation Style"
+msgstr "Kiểu dáng"
+
+#: pagenavi-options.php:178
+msgid "Normal"
+msgstr "Bình thường"
+
+#: pagenavi-options.php:179
+msgid "Drop Down List"
+msgstr "Drop Down List"
+
+#: pagenavi-options.php:184
+msgid "Number Of Pages To Show?"
+msgstr "Số trang hiển thị?"
+
+#: pagenavi-options.php:190
+msgid "Always Show Page Navigation?"
+msgstr "Luôn hiển thị thanh định hướng trang"
+
+#: pagenavi-options.php:193 pagenavi-options.php:240
+msgid "Yes"
+msgstr "Có"
+
+#: pagenavi-options.php:194
+msgid "No"
+msgstr "Không"
+
+#: pagenavi-options.php:200
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+#: pagenavi-options.php:211
+msgid "Deactivating WP-PageNavi plugin does not remove any data that may have been created, such as the page navigation options. To completely remove this plugin, you can uninstall it here."
+msgstr "Deactivating WP-PageNavi plugin does not remove any data that may have been created, such as the page navigation options. To completely remove this plugin, you can uninstall it here."
+
+#: pagenavi-options.php:214
+msgid "WARNING:"
+msgstr "Cảnh báo:"
+
+#: pagenavi-options.php:215
+msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+msgstr "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+
+#: pagenavi-options.php:218
+msgid "The following WordPress Options will be DELETED:"
+msgstr "The following WordPress Options will be DELETED:"
+
+#: pagenavi-options.php:223
+msgid "WordPress Options"
+msgstr "WordPress Options"
+
+#: pagenavi-options.php:241
+msgid "You Are About To Uninstall WP-PageNavi From WordPress.\\nThis Action Is Not Reversible.\\n\\n Choose [Cancel] To Stop, [OK] To Uninstall."
+msgstr "You Are About To Uninstall WP-PageNavi From WordPress.\\nThis Action Is Not Reversible.\\n\\n Choose [Cancel] To Stop, [OK] To Uninstall."
+
+#: wp-pagenavi.php:42
+msgid "PageNavi"
+msgstr "Phân trang"
+
+#: wp-pagenavi.php:179
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Trang %CURRENT_PAGE% of %TOTAL_PAGES%"
+
+#: wp-pagenavi.php:182
+msgid "&laquo; First"
+msgstr "&laquo; Đầu"
+
+#: wp-pagenavi.php:183
+msgid "Last &raquo;"
+msgstr "Cuối &raquo;"
+
+#: wp-pagenavi.php:184
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-pagenavi.php:185
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-pagenavi.php:186 wp-pagenavi.php:187
+msgid "..."
+msgstr "..."

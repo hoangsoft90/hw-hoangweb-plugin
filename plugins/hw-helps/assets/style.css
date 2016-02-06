@@ -1,0 +1,10 @@
+.hw-help-snippet{
+    padding:3px;
+    border:2px dotted #DADADA;
+    background-color: #cedbe1;
+    overflow: auto;
+    max-height: 500px;
+}
+.hw-help-snippet h1,.hw-help-snippet h2,.hw-help-snippet h3,.hw-help-snippet h4,.hw-help-snippet h5{
+    margin:0px;padding:0px;
+}

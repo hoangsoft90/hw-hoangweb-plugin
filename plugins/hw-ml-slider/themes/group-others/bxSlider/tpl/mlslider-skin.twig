@@ -1,0 +1,19 @@
+<div class="hwml-slider-container">
+    <div class="slider-wrapper" id="bxslider-slider-{{ slider_id }}" class="" >
+        <ul class="bxslider">
+            {% if query is defined %}
+            {% for post in posts %}
+            <li>
+                <a href="{{ post.get_field('hw-ml-slider_url') }}"><img src="{{ post.thumbnail.src }}" alt="{{ post.excerpt }}" data-transition="" alt="{{ post.excerpt }}" title="{{ post.excerpt }}"  /></a>
+                <!-- <div class="label_text"><p><?php echo $query->post->post_excerpt;?></p></div> -->
+            </li>
+            {% endfor %}
+            {% endif %}
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(window).load(function () {    //because it render directly so please don't wrapper in jquery event that will make ui crash & any lib (here is nivoSlider) not work
+        jQuery('#bxslider-slider-{{ slider_id }} .bxslider').bxSlider({{ options }});
+    });
+</script>

@@ -1,0 +1,57 @@
+.hw-socials.social-icons {
+    float: right;
+}
+.hw-socials.social-icons {
+    margin: 0 0 20px;
+}
+.fixclear {
+    zoom: 1;
+}
+.fixclear:before, .fixclear:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.hw-socials.social-icons li:first-child {
+    margin-left: 0;
+}
+.hw-socials.social-icons li.title {
+    line-height: 30px;
+}
+.hw-socials.social-icons li {
+    margin: 0 0 0 10px;
+}
+.hw-socials.social-icons li {
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+}
+.hw-socials.social-icons li.social-facebook a {
+    background-position: -60px 0;
+}
+.hw-socials.social-icons li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-image: url(images/social-icons-sprite.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #111;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.hw-socials.social-icons li.social-twitter a {
+    background-position: 0 0;
+}
+.hw-socials.social-icons li a:hover{
+    background-color: #dd3333;
+}

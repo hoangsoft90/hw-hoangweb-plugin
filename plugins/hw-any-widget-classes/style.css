@@ -1,0 +1,78 @@
+fieldset legend {
+    padding: 2px;
+    background: #999999;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+}
+fieldset {
+    border: 1px solid #dadada !important;
+    padding: 5px;
+}
+
+.hw-skin-preview{
+    clear: both;
+    display: block;
+}
+#hw_awc_sidebar_metabox img{
+    border:1px solid #dadada;
+    max-width: 500px;
+}
+.invalid-sidebar-field{
+    border:1px solid red;
+    background-color:pink;
+}
+.hwawc-message{
+    background: #dadada;
+    padding:5px;
+    border:1px solid gray;
+}
+#hw-link-close {
+    color: #666;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background: 0 0;
+    border: none;
+    cursor: pointer;
+}
+#hw-link-close:before {
+    font: 400 20px/36px dashicons;
+    vertical-align: top;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 36px;
+    height: 36px;
+    content: '\f158';
+}
+.hwawc-hidden{
+    position: absolute;
+    visibility: hidden;
+}
+.hw-hidden{
+    display: none;
+}
+/*belong to button_toggle_widget.class.php*/
+/*
+
+.hwbtw-button-title{
+    width:100%;
+    display: block;
+    margin-bottom: 10px !important;
+}
+.hwbtw-button-title a{
+    text-decoration:none !important;
+    width:100%;
+    display: block;
+}*/
+.awc-widget-feature-grid_posts{
+    background:#FAFAFA;
+}
+.hw-menu-icon-setting span{
+    color:#ffffff !important;
+}

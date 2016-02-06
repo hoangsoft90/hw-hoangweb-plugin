@@ -1,0 +1,7 @@
+﻿/*
+Plugin Name:HW Hiển thị nội dung theo chuyên mục
+Author: Hoangweb.com
+Author URI:http://www.hoangweb.com
+Description: This plugin is used to show post under particular category.
+Version: 1.1
+*/

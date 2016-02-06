@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <posts>
+        <title>Gem Clams</title>
+        <link>http://localhost/wp1</link>
+        <description>Just another WordPress site</description>
+        <pubDate>Sun, 25 Oct 2015 13:43:33 +0000</pubDate>
+        <language>vi</language>
+        <wp:wxr_version>1.2</wp:wxr_version>
+        <wp:base_site_url>http://localhost/wp1</wp:base_site_url>
+        <wp:base_blog_url>http://localhost/wp1</wp:base_blog_url>
+
+        <wp:author><wp:author_id>1</wp:author_id><wp:author_login>gem</wp:author_login><wp:author_email>laptrinhweb123@gmail.com</wp:author_email><wp:author_display_name><![CDATA[gem]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+
+
+        <generator>http://wordpress.org/?v=4.2.5</generator>
+
+        <item id="35">
+
+            <!-- //note: check post exist by date
+            <wp:post_id>36</wp:post_id>
+            <wp:post_date>2015-10-25 14:04:54</wp:post_date>
+            <wp:post_date_gmt>2015-10-25 14:04:54</wp:post_date_gmt>
+            -->
+            <title>test 1</title>
+            <link></link>
+            <description></description>
+
+            <wp:comment_status>closed</wp:comment_status>
+            <wp:ping_status>closed</wp:ping_status>
+
+            <wp:post_name>test-2x</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>0</wp:menu_order>
+            <wp:post_type>hw_pt_condition</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <wp:postmeta>
+                <wp:meta_key>enable</wp:meta_key>
+                <wp:meta_value><![CDATA[1]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>query_data_and</wp:meta_key>
+                <wp:meta_value><![CDATA[a:2:{i:0;a:3:{s:3:"act";s:10:"post_types";s:7:"compare";s:2:"==";s:10:"act_values";s:4:"post";}i:1;a:3:{s:3:"act";s:9:"templates";s:7:"compare";s:2:"==";s:10:"act_values";s:7:"archive";}}]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>query_data_or</wp:meta_key>
+                <wp:meta_value><![CDATA[a:1:{i:0;a:3:{s:3:"act";s:2:"-1";s:7:"compare";s:2:"==";s:10:"act_values";s:4:"post";}}]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+    </posts>
+    <skins>
+        <hw:skin name="awc">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hwawc-skin.php</skin:skin_name>
+            <skin:other_folder>hw_awc_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+            <skin:options>
+                <param name="enable_skin_file">1</param>
+                <param name="enable_skin_tpl">1</param>
+            </skin:options>
+
+            <skin:allows_skin_names>
+                <param>hwawc-skin.php</param>
+            </skin:allows_skin_names>
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="skin-1">Skin 1</param>
+                <param name="skin-2"/>
+                <param name="skin-3"/>
+            </skin:list>
+        </hw:skin>
+        <hw:skin name="livechat">
+            <skin:apply_plugin>hw-livechat</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-livechat-skin.php</skin:skin_name>
+            <skin:other_folder>hw_livechat_skins</skin:other_folder>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+
+        </hw:skin>
+        <!-- contact form 7 loading images -->
+        <hw:skin name="hwcf7_images">
+            <skin:apply_plugin>hw-wpcf7</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:skin_type>link</skin:skin_type>
+            <skin:skin_name>hw-wcf7-ajax-image.php</skin:skin_name>
+            <skin:group>ajaxLoading</skin:group>
+            <skin:other_folder>hw_wpcf7_ajax_images</skin:other_folder>
+            <skin:enable_external_callback></skin:enable_external_callback>
+        </hw:skin>
+    </skins>
+    <options>
+        <option>
+            <param name="opt1"><![CDATA[34]]>></param>
+        </option>
+        <option><param name="opt2" ><![CDATA[c dfgdfg]]></param></option>
+        <!-- hwcf7 settings page -->
+        <option>
+            <params name="HW_Wpcf_settings">
+                <params name="general">
+                    <param name="enable_wpcf7_css" value="1"/>
+                    <param name="enable_wpcf7_js" value="1"/>
+                    <params name="exclude_pages">
+                        <param>__all__</param>
+                    </params>
+                    <params name="loadingImg">
+                        <params:skin_encoded name="hash_skin" instance="hwcf7_images">
+                            <skin:skin>default</skin:skin>
+                            <skin:skin_type>file</skin:skin_type>
+                            <skin:group>ajaxLoading</skin:group>
+
+                        </params:skin_encoded>
+                        <params:skin_instance name="hwskin_config" instance="hwcf7_images">
+                            <skin:group>ajaxLoading</skin:group>
+                        </params:skin_instance>
+                        <params:skin_file name="url" instance="hwcf7_images">
+                            <skin:file><![CDATA[loading.gif]]></skin:file>
+                            <skin:group>ajaxLoading</skin:group>
+                        </params:skin_file>
+                    </params>
+                </params>
+                <params name="webhook">
+                    <param name="webhook_url"></param>
+                </params>
+            </params>
+        </option>
+        <option>
+            <params name="HW_Livechat_settings" method="override">
+                <param name="enable_livechat" value="1" type="bool"/>
+                <param name="active_on_mobile" value="1" type="bool"/>
+                <param name="chat_service" value="olark"/>
+                <param name="chat_embed_code" ><![CDATA[
+                    <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){f[z]=function(){(a.s=a.s||[]).push(arguments)};var a=f[z]._={},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={0:+new Date};a.P=function(u){a.p[u]=new Date-a.p[0]};function s(){a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){hd="head";return["<",hd,"></",hd,"><",i,' onl'+'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{b.contentWindow[g].open()}catch(w){c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{var t=b.contentWindow[g];t.write(p());t.close()}catch(x){b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({loader:"static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});olark.identify('4862-511-10-8580');</script><noscript><a
+                        href="https://www.olark.com/site/4862-511-10-8580/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a
+                        href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript> <script>(function(){var cx='015467801237401970185:d2-myekmd0e';var gcse=document.createElement('script');gcse.type='text/javascript';gcse.async=true;gcse.src=(document.location.protocol=='https:'?'https:':'http:')+'//www.google.com/cse/cse.js?cx='+cx;var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gcse,s);})();</script>
+                ]]>
+                </param>
+                <params name="chat_skin">
+
+                    <params:skin_encoded name="hash_skin" instance="livechat">
+                        <!--
+                        <skin:holder_path><![CDATA[hw-livechat/skins/olark]]></skin:holder_path>
+                        <skin:skin>default/</skin:skin>
+                        <skin:skin_folder>skins/olark</skin:skin_folder>
+                        <skin:skin_url>hw-livechat/skins/olark/skin1\</skin:skin_url>
+                        <skin:skin_type>file</skin:skin_type>
+                        <skin:title>Theme 1</skin:title>
+                        <skin:screenshot>hw-livechat/skins/olark/skin1\/screenshot.jpg</skin:screenshot>
+                        <skin:skin_name>hw-livechat-skin.php</skin:skin_name>
+
+                        <skin:apply_plugin>hw-livechat</skin:apply_plugin>
+                        <skin:default_folder>skins/olark</skin:default_folder>
+                        <skin:skin_name>hw-livechat-skin.php</skin:skin_name>
+                        -->
+                        <skin:skin>default</skin:skin>
+                        <skin:skin_type>file</skin:skin_type>
+                        <skin:group>olark</skin:group>
+                        <!-- <skin:title>Theme 1</skin:title> -->
+
+                    </params:skin_encoded>
+
+                    <params:skin_instance name="hwskin_config" instance="livechat">
+                        <skin:group>olark</skin:group>
+                        <!--
+                        <skin:apply_plugin>hw-livechat</skin:apply_plugin>
+
+                        <skin:skin_folder>hw_livechat_skins</skin:skin_folder>
+                        <skin:skin_name>hw-livechat-skin.php</skin:skin_name>
+                        <skin:default_skin_path>skins</skin:default_skin_path>
+                        <skin:group>olark</skin:group>
+                        <skin:enable_external_callback></skin:enable_external_callback>
+                        <skin:allows_skin_names>
+                            <param>hw-livechat-skin.php</param>
+                        </skin:allows_skin_names>
+                        <skin:properties>
+                            <params name="migrate_data"></params>
+                        </skin:properties>
+                        -->
+                    </params:skin_instance>
+                    <param name="hwskin_condition"><![CDATA[]]></param>
+                    <params name="skin_options">
+                        <param name="enqueue_css_position" value="head"/>
+                        <param name="enqueue_js_position" value="footer"/>
+                        <param name="enable_demo_chat" value="1" type="bool"/>
+                        <param name="inline" value="1" type="bool"/>
+                        <param name="api_box_onShow" value=""/>
+                        <param name="api_box_onHide" value=""/>
+                        <param name="api_box_onExpand" value=""/>
+                        <param name="api_box_onShrink" value=""/>
+                        <param name="api_chat_onMessageToVisitor" value=""/>
+                        <param name="api_chat_onMessageToOperator" value=""/>
+                        <param name="api_chat_onBeginConversation" value=""/>
+
+                    </params>
+                </params>
+            </params>
+        </option>
+    </options>
+</rss>

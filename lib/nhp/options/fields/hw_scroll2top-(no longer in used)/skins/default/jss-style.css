@@ -1,0 +1,21 @@
+
+
+body.rtl a#scroll-to-top {
+	left: 30px;
+}
+
+/* Responsive Design Support */
+@media only screen and (max-width: 480px) {
+	
+	a#scroll-to-top {
+	
+		/* Changing Position */		
+		right: 0;
+		bottom: 0;
+	}
+		
+	body.rtl a#scroll-to-top {
+		left: 0;
+		bottom: 0;
+	}
+}

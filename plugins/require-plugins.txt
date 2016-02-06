@@ -1,0 +1,25 @@
+public function _hwp_tgmpa_register_modules() {
+    //list all modules
+    $plugins = array(
+        array(
+            'name' => 'Điều kiện (system)',
+            'slug' => 'condition',
+            'desc' => 'Tạo ràng buộc điều kiện sử dụng cho các plugins.',
+            'source' => HW_HOANGWEB_PLUGINS. '/video/video.php',
+            'force_activation' => true,     //force activation
+            'require_wp_plugin' => 'adminimize/adminimize.php'
+        ),
+    );
+}
+//singltone class instance
+HW_TGM_Module_Activation::$instance
+HW_TGM_Module_Activation::get_instance();
+
+// plugins definition
+HW_TGM_Module_Activation::$plugins;
+
+//get strings message
+HW_TGM_Module_Activation::$instance->strings['oops']
+
+HW_TGM_Module_Activation::get_modules('hw-ml-slider');
+HW_TGM_Module_Activation::get_register_modules();

@@ -1,0 +1,44 @@
+* Sửa giá trị trường trên form lấy từ user trong khi submit.
+<code>
+add_filter('hwwpcf7_field_value','_hwwpcf7_field_value');
+/**
+* more contact form fields modification
+* @param string $name: google form field
+* @param object $tag: instance of WPCF7_Shortcode
+* @param unknown $data: data of fields value that will send to storage hook
+* @param unknown $wpcf7: contact form object
+* @return boolean: if you want using new fields then return true
+*/
+function _hwwpcf7_field_value($value, $args){
+    $tag = $args['tag'];
+    $name = $args['name'];
+    //$data = &$args['data'];
+    $wpcf7 = $args['wpcf7'];
+
+    if(isset($_POST['product_id']) && $tag->name=='order_detail'){
+    $sp=get_post($_POST['product_id']);
+    $value = '[ID='.$sp->ID.']'.PHP_EOL.$sp->post_title.PHP_EOL.get_permalink($sp->ID);
+    }
+    return $value;
+}
+</code>
+* addition CSS:
+<code>
+add_action('hw_wpcf7_contact_form_css', '_hw_wpcf7_contact_form_css');
+function _hw_wpcf7_contact_form_css($wpcf7) {
+    echo '<style></style>';
+}
+</code>
+
+* Google Form:
+- Tên các trường đặc biệt gồm (sendEmail,admin_email,website) thiết lập trong Google Form yêu cầu viết thường. VD: Website ->sai
+<img src="{HELP_VIEW_URL}/images/add-gform-fields.jpg"/>
+
+* API:
+<code>
+    //get current skin object
+    $this->skin == HW_SKIN::current();
+
+    //get skin file url inside skin folder
+    HW_SKIN::current()->get_skin_url('style.css')
+</code>

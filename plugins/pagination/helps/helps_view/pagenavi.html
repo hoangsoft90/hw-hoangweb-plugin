@@ -1,0 +1,7 @@
+<?php wp_pagenavi(); ?>
+
+//For multipart pages.
+<?php wp_pagenavi( array( 'type' => 'multipart' ) ); ?>
+//custom query
+$query = new WP_Query(...);
+<?php wp_pagenavi( array( 'query' => $query ) ); ?>

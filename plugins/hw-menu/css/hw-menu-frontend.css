@@ -1,0 +1,27 @@
+
+.qtrans_language_chooser {
+    width:auto !important;/*initial*/
+    /*overflow:inherit;*/
+    height:28px !important;
+    position: relative !important;
+    display: inline-block !important;
+}
+.qtrans_language_chooser .qtrans_flag, .qtrans_language_chooser .qtrans_flag_and_text{
+    width: auto !important;
+    height: 18px;
+    width: 27px !important;
+    background-size: 100% 100% !important;
+    background-repeat:no-repeat !important;
+    /*background: inherit !important;*/
+    display: inline-block;
+}
+.qtrans_language_chooser li{
+    margin:0px; margin-right: 15px !important;float:left;padding: 0px !important;
+    list-style-type: none;
+}
+.qtrans_language_chooser li.active{margin-top:-3px;}
+
+.hw-menu-item-icon{
+    max-width: 40px;
+    float:left;
+}

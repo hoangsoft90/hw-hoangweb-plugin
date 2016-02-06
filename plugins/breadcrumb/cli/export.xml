@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+
+    <posts>
+        <wp:wxr_version>1.2</wp:wxr_version>
+
+    </posts>
+    <!-- #skins -->
+    <skins>
+        <hw:skin name="breadcrumb">
+            <skin:apply_plugin>hw-wpcf7</skin:apply_plugin>
+            <skin:default_skin_path>themes</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-wpcf7-skin.php</skin:skin_name>
+            <skin:other_folder>hw_navmenu_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="skin-1">Skin 1</param>
+                <param name="skin-2"/>
+                <param name="skin-3"/>
+            </skin:list>
+        </hw:skin>
+
+    </skins>
+
+    <options>
+        <!-- breadcrumb settings page -->
+        <option>
+            <params name="bcn_options">
+                <param name="bmainsite_display"><![CDATA[]]></param>
+                <param name="Hmainsite_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to %title%." href="%link%" class="%type%">%htitle%</a></span>]]></param>
+                <param name="Hmainsite_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+                <!-- home -->
+                <param name="bhome_display"><![CDATA[1]]></param>
+                <param name="Hhome_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to %title%." href="%link%" class="%type%">%htitle%</a></span>]]></param>
+                <param name="Hhome_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+                <param name="bblog_display"><![CDATA[]]></param>
+                <param name="Hblog_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to %title%." href="%link%" class="%type%">%htitle%</a></span>]]></param>
+                <param name="Hblog_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+
+                <param name="hseparator"><![CDATA[>]]></param>
+                <param name="blimit_title"><![CDATA[]]></param>
+                <param name="amax_title_length"><![CDATA[20]]></param>
+
+                <param name="bcurrent_item_linked"><![CDATA[]]></param>
+
+                <param name="Hpost_page_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to %title%." href="%link%" class="%type%">%htitle%</a></span>]]></param>
+                <param name="Hpost_page_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+                <param name="apost_page_root"><![CDATA[0]]></param>
+                <param name="Hpaged_template"><![CDATA[Trang %htitle%]]></param>
+                <param name="bpaged_display"><![CDATA[]]></param>
+                <param name="Hpost_post_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to %title%." href="%link%" class="%type%">%htitle%</a></span>]]></param>
+                <param name="Hpost_post_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+                <param name="apost_post_root"><![CDATA[0]]></param>
+                <param name="bpost_post_taxonomy_display"><![CDATA[1]]></param>
+                <param name="Spost_post_taxonomy_type"><![CDATA[category]]></param>
+
+                <param name="Hpost_attachment_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to %title%." href="%link%" class="%type%">%htitle%</a></span>]]></param>
+                <param name="Hpost_attachment_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+
+                <param name="H404_template"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+                <param name="S404_title"><![CDATA[Khong tim thay]]></param>
+
+                <param name="Hsearch_template"><![CDATA[Kết quả tìm kiếm cho '<a title="Go to the first page of search results for %title%." href="%link%" class="%type%">%htitle%</a>']]></param>
+                <param name="Hsearch_template_no_anchor"><![CDATA[Kết quả tìm kiếm cho '%htitle%']]></param>
+
+                <!-- tag -->
+                <param name="Htax_post_tag_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to the %title% tag archives." href="%link%" class="%type%">%htitle%</a></span>]]></param>
+                <param name="Htax_post_tag_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+
+                <param name="Htax_post_format_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to the %title% tag archives." href="%link%" class="%type%">%htitle%</a></span>]]></param>
+                <param name="Htax_post_format_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+
+                <param name="Hauthor_template"><![CDATA[Tac gia: <a title="Go to the first page of posts by %title%." href="%link%" class="%type%">%htitle%</a>]]></param>
+                <param name="Hauthor_template_no_anchor"><![CDATA[Tac gia by: %htitle%]]></param>
+                <param name="Sauthor_name"><![CDATA[display_name]]></param>
+
+                <param name="Htax_category_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to the %title% category archives." href="%link%" class="%type%">%htitle%</a></span>]]></param>
+                <param name="Htax_category_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+
+                <param name="Hdate_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to the %title% archives." href="%link%" class="%type%">%htitle%</a></span>]]></param>
+                <param name="Hdate_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+
+                <!-- custom post type -->
+                <param name="Hpost_xx_template"><![CDATA[<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to %title%." href="%link%">%htitle%</a></span>]]></param>
+                <param name="Htax_xx_template_no_anchor"><![CDATA[<span typeof="v:Breadcrumb"><span property="v:title">%htitle%</span></span>]]></param>
+
+                <params name="hw_skin">
+                    <params:skin_encoded name="hash_skin" instance="breadcrumb">
+                        <skin:skin><![CDATA[skin1]]></skin:skin>
+                    </params:skin_encoded>
+                    <params:skin_instance name="hwskin_config" instance="breadcrumb">
+
+                    </params:skin_instance>
+                    <param name="hwskin_condition"><![CDATA[1138]]></param>
+                    <params name="skin_options">
+                        <param name="enqueue_css_position">footer</param>
+                        <param name="enqueue_js_position">footer</param>
+                    </params>
+                </params>
+                <params name="hw_skin_config">
+                    <params:skin_instance name="hw_skin_config" instance="breadcrumb"/>
+                </params>
+
+                <param name="hw_remove_current_item"><![CDATA[0]]></param>
+                <param name="hw_allow_trail_link"><![CDATA[on]]></param>
+                <param name="hw_bcn_reverse"><![CDATA[0]]></param>
+                <param name="hw_active_skin"><![CDATA[on]]></param>
+
+
+            </params>
+        </option>
+    </options>
+</rss>

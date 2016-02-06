@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<hw-any-widget-classes
+        xmlns:param="http://hoangweb.com/export/1.0/param/"
+        xmlns:params="http://hoangweb.com/export/1.0/params/"
+        xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+        xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <skins>
+        <hw:skin name="awc">
+            <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hwawc-skin.php</skin:skin_name>
+            <skin:other_folder>hw_awc_skins</skin:other_folder>
+
+            <skin:allows_skin_names>
+                <param>hwawc-skin.php</param>
+            </skin:allows_skin_names>
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="default"/>
+                <param name="skin-1"/>
+                <param name="skin-2"/>
+                <param name="skin-3"/>
+            </skin:list>
+        </hw:skin>
+    </skins>
+
+    <!-- add sidebar -->
+    <add_sidebar>
+        <params name="_sidebar1" skin="default"/>
+    </add_sidebar>
+    <add_sidebar>
+        <params name="_sidebar1">
+            <param name="name">Sidebar 1</param>
+            <param name="description"><![CDATA[sidebar 1]]></param>
+            <param name="before_widget"><![CDATA[<div id="%1$s" class="boxtourhome %2$s *1" >]]></param>
+            <param name="before_title"><![CDATA[<h2 class="titteA" style="%1$s {css_title}">]]></param>
+            <param name="after_title"><![CDATA[</h2>]]></param>
+            <param name="after_widget"><![CDATA[</div>]]></param>
+        </params>
+    </add_sidebar>
+
+    <add_sidebar>
+        <params name="_sidebar2">
+            <param name="name">Sidebar 2</param>
+            <param name="description"><![CDATA[sidebar 2]]></param>
+            <param name="before_widget"><![CDATA[<div id="%1$s" class="boxtourhome %2$s *1" >]]></param>
+            <param name="before_title"><![CDATA[<h2 class="titteA" style="%1$s {css_title}">]]></param>
+            <param name="after_title"><![CDATA[</h2>]]></param>
+            <param name="after_widget"><![CDATA[</div>]]></param>
+        </params>
+    </add_sidebar>
+
+    <!-- remove sidebar -->
+    <del_sidebar>
+        <params>
+            <param name="id" value="_sidebar1"/>
+        </params>
+    </del_sidebar>
+
+    <!-- set sidebar skin -->
+    <apply_sidebar_skin>
+        <params>
+            <param name="sidebar">sidebar_1</param>
+        </params>
+        <skins>
+            <hw:skin name="awc">
+                <skin:apply_plugin>hw-any-widget-classes</skin:apply_plugin>
+                <skin:default_skin_path>skins</skin:default_skin_path>
+                <skin:skin_type>file</skin:skin_type>
+                <skin:skin_name>hwawc-skin.php</skin:skin_name>
+                <skin:other_folder>hw_awc_skins</skin:other_folder>
+
+                <skin:allows_skin_names>
+                    <param>hwawc-skin.php</param>
+                </skin:allows_skin_names>
+                <skin:properties>
+                    <params name="migrate_data"></params>
+                </skin:properties>
+                <skin:list>
+                    <param name="default"/>
+                    <param name="skin-1"/>
+                    <param name="skin-2"/>
+                    <param name="skin-3"/>
+                </skin:list>
+            </hw:skin>
+        </skins>
+        <options>
+            <option>
+                <params name="HW_Sidebar_Settings" method="append" prefix="sidebar_1_">
+                    <param name="enable_override_sidebar" type="bool">1</param>
+                    <param name="alphabe_widgets" type="bool">1</param>
+                    <param name="bgcolor_title"></param>
+                    <param name="bgimg_title"></param>
+                    <param name="bgcolor_box"></param>
+                    <param name="bgimg_box"></param>
+
+                    <params name="skin_default">
+                        <params:skin_encoded name="hash_skin" instance="awc">
+                            <skin:skin_type>file</skin:skin_type>
+                            <skin:skin>default</skin:skin>
+                        </params:skin_encoded>
+                        <params:skin_instance name="hwskin_config" instance="awc">
+
+                        </params:skin_instance>
+                        <param name="hwskin_condition"><![CDATA[]]></param>
+                        <params name="skin_options">
+                            <param name="enqueue_css_position" value="head"/>
+                            <param name="enqueue_js_position" value="footer"/>
+
+                        </params>
+                    </params>
+
+                    <params name="skin1">
+
+                    </params>
+
+                </params>
+
+            </option>
+        </options>
+
+
+    </apply_sidebar_skin>
+
+</hw-any-widget-classes>

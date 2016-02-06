@@ -1,0 +1,237 @@
+== New Features ==
+<h3>User Meta Fields</h3>
+
+Now you can add custom fields in the user profile page so that each user can store their own options.
+
+![User Meta Fields](%PLUGIN_DIR_URL%/asset/image/new_feature/user_meta_fields.jpg "User Mata Fields")
+
+<h3>Component Generator</h3>
+Generate your own version of the framework files by selecting necessary components. This helps reduce the size of the overall framework files you include by excluding certain components.
+
+Also, compared to the minified version which loads all the classes at once, the generated framework uses the auto-loader, which is lighter and improve the load time performance.
+
+![Component Generator](%PLUGIN_DIR_URL%/asset/image/getting_started/my_first_plugin.png "Component Generator")
+
+<div class='apfl_columns_row'>
+
+    <div class='apfl_columns_first_col apfl_columns_col apfl_col_element_of_3'>
+        <div class='apfl_cell'>    
+            <h3>Framework Loader</h3>
+
+            <p>The plugin is no longer a demo plugin of Admin Page Framework but it serves as a framework loader and make the framework functionality available to the entire site.</p>
+
+            <p>If you choose it to activate this plugin, and let it run in the background, you don't have to manually include the framework file in your plugins or themes.</p>
+        </div>
+    </div>
+
+    <div class='apfl_columns_col apfl_col_element_of_3'>
+        <div class='apfl_cell'>    
+            <h3>Plugin Bootstrap Utility</h3>
+
+            <p>The newly introduced abstract utility class lets you set up loading components including requirement checks upon plugin activation.</p>
+
+            <p>You just extend it and define certain methods and instantiate it. That's it.</p>
+        </div>
+    </div>
+
+    <div class='apfl_columns_col apfl_col_element_of_3'>
+        <div class='apfl_cell'>
+            <h3>WordPress Readme & MarkDown Parser</h3>
+
+            <p>Now you can use the built-in WordPress readme parser. This is useful when you need to create instruction pages in your plugin/theme.</p>
+
+            <p>You can just write instruction in your readme file and display it.</p>
+        </div>
+    </div>
+    
+</div>
+
+== Getting Started ==
+
+![My First Page](%PLUGIN_DIR_URL%/asset/image/getting_started/my_first_page.png "My First Page")
+
+<h3>Write Your First Plugin</h3>
+Let's create a very simple plugin to understand the whole workflow of using Admin Page Framework.
+
+<h3>Step 1 - Get the Files</h3>
+
+![Component Generator](%PLUGIN_DIR_URL%/asset/image/getting_started/my_first_plugin.png "Component Generator")
+
+First, you need to have your own copy of the framework files. 
+
+1. Go to **Dashboard** -> **Admin Page Framework** -> **Tools** -> **[Generator](%WP_ADMIN_URL%/admin.php?page=apfl_tools)**.
+2. **(Important!)** Enter your unique prefix. If your plugin is named, let's say "My First Plugin" then you may set the prefix "`MyFirstPlugin_`".
+3. Also set the text domain of your project, `my-first-plugin` as an example. This will be used when creating translation files.
+4. Download the file by pressing **Download**.
+5. If download is successful, you'll get a zip file named `{your text domain-}admin-page-framework.zip`. Extract the contents to your preferred location at your convenience. 
+Make sure `admin-page-framework.php`, `admin-page-framework-include-class-list.php` and some other sub-directories are present in the extracted directory.
+
+<h3>Step 2 - Include the Framework</h3>
+
+Now it is time to code. In your code editor, insert your plugin header comment to tell WordPress that it is a plugin.
+
+`
+/* Plugin Name: My Plugin */
+`
+
+Next, you need to tell PHP to include the framework you just downloaded. The file name to include is `admin-page-framework.php`, the bootstrap script of the framework.
+
+Assuming your class prefix set in the above step is `MyFirstPlugin_`, then your factory class name to extend will be `MyFirstPlugin_AdminPageFramework`. If you have not set the prefix, it will be just `AdminPageFramework`.
+
+So check if that class name has been already loaded. And if not, load it. To load a PHP file, you can use the `include()` PHP function and pass the framework path to it (set your own path there).
+
+`
+include( dirname( __FILE__ ) . '/library/admin-page-framework/admin-page-framework.php' );
+if ( ! class_exists( 'MyFirstPlugin_AdminPageFramework' ) ) {
+    return;
+}
+`
+
+<h3>Step 3 - Extend the Factory Class</h3>
+By extending the framework admin factory class, you can add your own desired functionality on top of it.
+
+`
+class MyFirstPlugin extends MyFirstPlugin_AdminPageFramework {
+
+  ... our code comes here ...
+   
+}
+`
+
+<h3>Step 4 - Define the <em>setUp()</em> Method</h3>
+Now we need to tell the framework what page to create. 
+The factory class already defines certain methods. If you extend the class, your extended class already has those methods.
+The `setUp()` method is one of them, and in this method, you set up necessary configurations.
+
+The `setRootMenuPage()` method allows you to set the top-level page and the `addSubMenuItem()` method allows you to add sub-menu pages and links.
+
+Let's add a page to the `Settings` page. You need to decide what pag slug to use. Pick a unique one. Here we use `my_first_page` as an example.
+
+`
+public function setUp() {
+    $this->setRootMenuPage( 'Settings' ); 
+    $this->addSubMenuItem(
+        array(
+            'title'     => 'My First Page',
+            'page_slug' => 'my_first_page',
+        )
+    ); 
+}
+`
+
+<h3>Step 5 - Define the Methods for Hooks</h3>
+Now you can insert your own output of the page with some of the pre-defined callback methods.
+
+One of them is `do_{page slug}` method. You define a method named like so and it will be automatically gets called.
+
+`
+public function do_my_first_page() {
+    ?>
+    <h3>Say Something</h3>
+    <p>This is my first admin page!</p>
+    <?php
+}
+`
+
+<h3>Step 6 - Instantiate the Class</h3>
+You need to instantiate the class you defined. When it is instantiated, it will run the internal constructor and takes care of everything needed to create admin pages for you.
+
+`
+new MyFirstPlugin;
+`
+
+![Plugin Listed](%PLUGIN_DIR_URL%/asset/image/getting_started/my_first_plugin_in_plugin_list_table.png "Plugin Listed")
+
+And your code is now ready to run as a plugin. Compress it in a zip file and upload it to your WordPres site.
+
+<h3>Example Plugin</h3>
+**[Download](https://github.com/michaeluno/my-first-plugin/archive/master.zip)**
+`
+<?php
+/* Plugin Name: My First Plugin */ 
+
+// Set your own path here
+include( dirname( __FILE__ ) . '/library/admin-page-framework/admin-page-framework.php' );
+if ( ! class_exists( 'MyFirstPlugin_AdminPageFramework' ) ) {
+    return;
+}
+
+class MyFirstPlugin extends MyFirstPlugin_AdminPageFramework {
+    
+    /**
+     * Sets up pages. 
+     */
+    public function setUp() {
+        $this->setRootMenuPage( 'Settings' ); 
+        $this->addSubMenuItem(
+            array(
+                'title'     => 'My First Page',
+                'page_slug' => 'my_first_page'
+            )
+        );
+    }
+    
+    /**
+     * Triggered in the middle of rendering the page.
+     * 
+     * Inserts your custom contents here.
+     * 
+     * @remark      do_{page slug}
+     */
+    public function do_my_first_page() {
+        ?>
+        <h3>Say Something</h3>
+        <p>This is my first admin page!</p>
+        <?php   
+    }
+
+}
+
+new MyFirstPlugin;
+`
+
+See it's very short and simple, huh?
+
+There are different types of factory classes for different functionality besides the admin page factory class you just used.
+
+By extending them like just you did, you can create post types, meta boxes, widgets, user meta fields, and taxonomy fields.
+
+== Tutorials ==
+Check out the [tutorials](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/) as well.
+
+1. [Create an Admin Page](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/01-create-an-admin-page/)
+2. [Create a Form](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/02-create-a-form/)
+3. [Create a Page Group](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/03-create-a-page-group/)
+4. [Create In-page Tabs](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/04-create-inpage-tabs/)
+5. [Organize a Form with Sections](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/05-organize-a-form-with-sections/)
+6. [Use Section Tabs and Repeatable Sections](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/06-use-section-tabs-and-repeatable-sections/)
+7. [Validate Submitted Form Data of a Single Field](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/07-validate-submitted-form-data-of-a-single-field/)
+8. [Validate Submitted Form Data of Multiple Fields](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/08-validate-submitted-form-data-of-multiple-fields/)
+9. [Add a Meta Box in an Admin Page](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/09-add-a-meta-box-in-an-admin-page/)
+10. [Add a Page Meta Box Specific to an In-page Tab](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/10-add-a-page-meta-box-specific-to-an-in-page-tab/)
+11. [Add a Meta Box for Posts](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/11-add-a-meta-box-for-posts/)
+12. [Create a Custom Post Type and Custom Taxonomy](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/12-create-a-custom-post-type-and-custom-taxonomy/)
+13. [Add a Meta Box to a Custom Post Type](http://en.michaeluno.jp/admin-page-framework/tutorials-v3/13-add-a-meta-box-for-a-custom-post-type/)
+
+== Support ==
+<h3>Documentation</h3>
+- [Online Manual](http://admin-page-framework.michaeluno.jp/en/v3/package-AdminPageFramework.html).
+- [Tutorials](http://en.michaeluno.jp/admin-page-framework/tutorials-v3)
+
+<h3>Getting Helped</h3>
+Have questions? Visit the [support forum](https://wordpress.org/support/plugin/admin-page-framework).
+
+<h3>Help the Developer</h3>
+
+Admin Page Framework won't grow without your support. There are various ways to contribute.
+
+- <div class="donate-button">
+    <a href="http://en.michaeluno.jp/donate"><img src="%PLUGIN_DIR_URL%/asset/image/donation.gif" alt="Donate" /></a>
+</div>
+
+- Write a <strong>[review](https://wordpress.org/support/view/plugin-reviews/admin-page-framework?filter=5)</strong>.
+
+<h3>Get Involved</h3>
+- Post [ideas](https://github.com/michaeluno/admin-page-framework/issues?direction=desc&labels=Enhancement&page=1&sort=created&state=open).
+- Translate.
+- Report [bugs](https://github.com/michaeluno/admin-page-framework/issues).

@@ -1,0 +1,34 @@
+.hw-apf-field-wrapper{
+    display: inline-block;
+    padding: 5px;
+}
+.hw-apf-field-wrapper input,.hw-apf-field-wrapper select{
+    min-width: 200px;
+}
+.apf-rules-field-container{
+    /*display: inline-block;*/
+    border: 1px solid #DADADA;
+}
+.spinner {
+    background: url('images/wpspin_light.gif') no-repeat;
+    background-size: 16px 16px;
+    display: none;
+    float: right;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    width: 16px;
+    height: 16px;
+    margin: 5px 5px 0;
+}
+.hw-enable-icon{
+    background: url('images/enable.png') no-repeat;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.hw-disable-icon {
+    background: url('images/disable.png') no-repeat;
+    width: 40px;
+    height: 40px;
+    display: block;
+}

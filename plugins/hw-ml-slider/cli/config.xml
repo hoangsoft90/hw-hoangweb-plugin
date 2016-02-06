@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<hw-ml-slider>
+    <add_slider>
+        <params>
+            <param name="width" value="730"/>
+            <param name="height" value="230"/>
+            <param name="source" value="upload"/>
+            <param name="title" value="sdfsdg"/>
+            <param name="num" value="5"/>
+        </params>
+    </add_slider>
+
+    <metaslider_settings>
+        <params>
+        <param name="type" value="flex"/>
+        <param name="random" value="0"/>
+        <param name="cssClass" value=""/>
+        <param name="printCss" value="1" type="bool"/>
+        <param name="printJs" value="1" type="bool"/>
+        <param name="width" value="730"/>
+        <param name="height" value="250"/>
+        <param name="height" value="250"/>
+        <!-- hidden options -->
+        <param name="spw" value="7"/>
+        <param name="sph" value="5"/>
+        <param name="delay" value="3000"/>
+        <param name="sDelay" value="30"/>
+        <param name="opacity" value="0.8"/>
+        <param name="titleSpeed" value="500"/>
+        <param name="effect" value="fade"/>
+        <param name="navigation" value="1"/>
+        <param name="links" value="1"/>
+        <param name="hoverPause" value="1"/>
+        <param name="theme" value=""/>
+        <param name="direction" value="horizontal"/>
+        <param name="reverse" value="0"/>
+        <param name="animationSpeed" value="600"/>
+        <param name="prevText" value="&lt;"/>
+        <param name="nextText" value="&gt;"/>
+        <param name="slices" value="15"/>
+        <param name="center" value="0"/>
+        <param name="smartCrop" value="1"/>
+        <param name="carouselMode" value="0"/>
+        <param name="carouselMargin" value="5"/>
+        <param name="easing" value="linear"/>
+        <param name="autoPlay" value="1"/>
+        <!--
+        <param name="thumb_width" value="150"/>
+        <param name="thumb_height" value="100"/>
+        -->
+        <param name="fullWidth" value="0"/>
+        <param name="noConflict" value="1"/>
+        <param name="hw_mlcontainer_id" value="0"/>
+        <param name="smoothHeight" value="0"/>
+        </params>
+    </metaslider_settings>
+
+</hw-ml-slider>

@@ -1,0 +1,23 @@
+<rss version="2.0"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <skins>
+        <!-- livechat -->
+        <hw:skin name="livechat">
+            <!-- <skin:apply_plugin>hw-livechat</skin:apply_plugin> -->
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-livechat-skin.php</skin:skin_name>
+            <skin:other_folder>hw_livechat_skins</skin:other_folder>
+            <skin:enable_external_callback></skin:enable_external_callback>
+            <skin:group>olark</skin:group>
+            <skin:options>
+                <param name="enable_skin_file">1</param>
+                <param name="enable_skin_tpl">0</param>
+            </skin:options>
+        </hw:skin>
+    </skins>
+</rss>

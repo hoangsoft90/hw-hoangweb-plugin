@@ -1,0 +1,41 @@
+.real-listnews {
+  width: 100%;
+  margin: 0;
+  padding: 0px 0 0;
+}
+.real-listnews li {
+  padding: 8px 0 0;
+  clear: both;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0 0 1px;
+}
+.real-listnews li a.new {
+  font-weight: bold;
+}
+real-listnews li a {
+  float: left;
+  background: url(images/square.jpg) no-repeat left center;
+  color: #0283DE;
+  padding: 0 0 0 10px;
+  float: left;
+  margin-left: 10px;
+}
+.real-listnews li span.new {
+  width: 23px;
+  height: 12px;
+  margin: 0 0 0 5px;
+  padding: 0;
+  background: url(images/new-icon.gif) no-repeat;
+  float: left;
+}
+.real-listnews li span {
+  float: left;
+}
+.real-listnews li p.lct {
+  font-size: 11px;
+  padding: 0 0 0 20px;
+  color: #808080;
+  clear: both;
+}

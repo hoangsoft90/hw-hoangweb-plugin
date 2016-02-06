@@ -1,0 +1,89 @@
+.hw-menu-style1-container#menu {
+    height: 43px;
+    width: 100%;
+}
+.hw-menu-style1-container#menu .left {
+    background: url(images/menu_left.png);
+    width: 5px;
+    height: 43px;
+    float: left;
+}
+.hw-menu-style1-container#menu ul {
+    background: url(images/menu_bg.png) top repeat-x;
+    float: left;
+    width: 990px;
+}
+.hw-menu-style1-container#menu ul.sub-menu{
+    display:none;
+}
+.hw-menu-style1-container .active {
+    background: url(images/menu_home.png) bottom;
+}
+.hw-menu-style1-container#menu .home {
+    background: url(images/menu_home.png) top;
+    width: 47px !important;
+    height: 43px;
+    float: left;
+    margin-left: -5px;
+    padding:0px;
+}
+.hw-menu-style1-container#menu li {
+    float: left;
+    background: url(images/menu_line.png) no-repeat left;
+    position: relative;
+    margin:0px;
+}
+.hw-menu-style1-container#menu li a {
+    font: 700 12px/40px Tahoma;
+    color: #616161;
+    display: block;
+    padding: 0 20px;
+    height: 43px;
+    text-decoration: none;
+}
+.hw-menu-style1-container#menu .sub-menu li a{
+    background-color: #fff;
+}
+.hw-menu-style1-container#menu li ul {
+    border: 1px solid #E2E2E2;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 200px;
+    z-index: 111;
+    overflow: hidden;
+}
+.hw-menu-style1-container .danhmuc ul {
+    display: none;
+    list-style: none outside none;
+    position: absolute;
+}
+.hw-menu-style1-container#menu li ul li {
+    border-bottom: 1px solid #E2E2E2;
+    display: list-item;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    background: #fff !important;
+}
+.hw-menu-style1-container#menu .bt {
+    float: right;
+    margin: 6px 5px 0 0;
+}
+.hw-menu-style1-container#menu .right {
+    background: url(images/menu_right.png);
+    width: 5px;
+    height: 43px;
+    float: right;
+}
+.hw-menu-style1-container#menu li a:hover, .hw-menu-style1-container#menu li a.active {
+    background: url(images/menu_bg.png) bottom;
+    color: #fff;
+}
+.hw-menu-style1-container#menu li.current-item >a{
+    background: url(images/menu_bg.png) bottom;
+    color: #fff;
+}
+.hw-menu-style1-container#menu .home:hover, .hw-menu-style1-container#menu .home.active {
+    background: url(images/menu_home.png) bottom;
+}

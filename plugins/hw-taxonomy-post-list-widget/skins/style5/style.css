@@ -1,0 +1,102 @@
+.dongboxright .edit-link{display:block;clear:both;}
+.dongboxright {
+    float: left;
+    width: 353px;
+    padding: 5px;
+}
+.dongboxright .imgboxright {
+    float: left;
+    background: url(images/bg-imgtour.gif) no-repeat;
+    width: 132px;
+    height: 93px;
+    padding: 0 6px 10px 7px;
+    margin-top: 4px;
+}
+.dongboxright .imgboxright img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.dongboxright .testboxright {
+    float: right;
+    width: 200px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.dongboxright .tentour {
+    width: 200px;
+    height: 32px;
+    overflow: hidden;
+    line-height: 15px;
+}
+.dongboxright h2 {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: inherit;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 12px;
+}
+.dongboxright .tour_home {
+    color: #000;
+    text-decoration: none;
+}
+.dongboxright .giatour {
+    color: #F00;
+    font-weight: bold;
+}
+.dongboxright .itemhot {
+    position: absolute;
+    background: url(images/item-hot.png) no-repeat;
+    width: 17px;
+    height: 25px;
+    margin-left: 115px;
+    margin-top: -1px;
+}
+.dongboxright .button-blue {
+    background: #0b65b0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#005397), to(#0b65b0) );
+    background: -moz-linear-gradient(-90deg, #005397, #0b65b0);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#005397', EndColorStr='#0b65b0');
+}
+.dongboxright .button {
+    margin: 2px;
+    text-decoration: none;
+    font: bold 0.9em 'Trebuchet MS',Arial, Helvetica;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #9c9c9c;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 0 .05em rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 .05em rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 0 .05em rgba(0,0,0,0.4);
+}
+.dongboxright .button span {
+    border-top: 1px solid #fff;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    display: block;
+    padding: 0.05em 2.05em;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(0, 0, 0, 0.05)), color-stop(.25, transparent), to(transparent)),
+    -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(0, 0, 0, 0.05)), color-stop(.25, transparent), to(transparent)),
+    -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, rgba(0, 0, 0, 0.05))),
+    -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, rgba(0, 0, 0, 0.05)));
+    background-image: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.05) 25%, transparent 25%, transparent),
+    -moz-linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 25%, transparent 25%, transparent),
+    -moz-linear-gradient(45deg, transparent 75%, rgba(0, 0, 0, 0.05) 75%),
+    -moz-linear-gradient(-45deg, transparent 75%, rgba(0, 0, 0, 0.05) 75%);
+    -moz-background-size: 3px 3px;
+    -webkit-background-size: 3px 3px;
+}
+.dongboxright .button-orange {
+    background: #f09c15;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f8c939), to(#f09c15) );
+    background: -moz-linear-gradient(-90deg, #f8c939, #f09c15);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#f8c939', EndColorStr='#f09c15');
+}
+.dongboxright .button,.dongboxright .button span {
+    -moz-border-radius: .2em;
+    border-radius: .2em;
+}
+

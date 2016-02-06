@@ -1,0 +1,14 @@
+.hw-skin-preview{display: block;clear:both;}
+.hwml-shortcode-list.hwml-skin-thumb{
+    max-width: 225px;
+}
+.hwml-skin-thumb{
+    max-width: 100% !important;
+}
+.metaslider .left table thead .add-slide .wp-media-buttons-icon:before{
+    font: 400 18px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\f104';
+}

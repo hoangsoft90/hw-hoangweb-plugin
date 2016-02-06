@@ -1,0 +1,17 @@
+.hw-logger{
+    background: #e5e5e5;
+    color:#000;
+    border:1px solid;
+    overflow: auto;
+    height: 300px;
+    width: 100%;
+}
+.hw-logger item-log {
+    width:100%;
+}
+.hw-buttons-tray {
+    margin-bottom: 15px;
+}
+.ui-dialog {
+    z-index: 1000 !important;
+}

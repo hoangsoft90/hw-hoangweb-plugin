@@ -1,0 +1,14 @@
+{% autoescape false %}
+<!-- <h3>{{ hwrp.title }} </h3> -->
+{% if posts.length %}
+<ul>
+    {% for post in posts %}
+    <li><a href="{{ post.permalink }}" rel="bookmark">{{ post.title }}</a></li>
+    {% else %}
+        <li>post not found.</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No related posts.</p>
+{% endif %}
+{% endautoescape %}

@@ -1,0 +1,17 @@
+.inner-sidebar{
+    display:none !important;
+}
+#yarpp_switch_container{
+    display:none !important;
+}
+table.hw-table, .hw-table th , .hw-table td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table.hw-table  tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+table.hw-table tr:nth-child(even) {
+    background-color: #ffffff;
+}

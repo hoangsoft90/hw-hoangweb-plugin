@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <!-- #skins -->
+    <skins>
+        <hw:skin name="yarpp">
+            <skin:apply_plugin>hw-yarpp</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>hw-relatedposts-skin.php</skin:skin_name>
+            <skin:other_folder>hw_relatedposts_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="default">Default</param>
+                <param name="skin1"/>
+            </skin:list>
+        </hw:skin>
+    </skins>
+
+    <options>
+        <option>
+            <params name="HW_HOANGWEB_Settings">
+                <!-- general tab -->
+                <params name="general">
+                    <param name="enable_developer_feature"><![CDATA[]]></param>
+                    <params name="allow_uploadfile_type">
+                        <param name="x3d">1</param>
+                        <param name="3gp">1</param>
+                    </params>
+                    <param name="acb"><![CDATA[]]></param>
+                </params>
+                <!-- taxonomy tab -->
+                <params name="my_taxonomy_settings">
+                    <params name="allow_taxonomies_image">
+                        <param>category</param>
+                    </params>
+                    <params name="taxonomies_template">
+                        <params>
+                            <param name="taxonomy"><![CDATA[category]]></param>
+                            <param name="term"><![CDATA[tin-tuc]]></param>
+                            <param name="template"><![CDATA[-1]]></param>
+                            <params name="loop_template">
+                                <params:skin_encoded name="hash_skin" instance="yarpp">
+                                    <skin:skin><![CDATA[skin1]]></skin:skin>
+                                </params:skin_encoded>
+                                <params:skin_instance name="hwskin_config" instance="yarpp">
+
+                                </params:skin_instance>
+                            </params>
+                            <param name="single_template">-1</param>
+                        </params>
+                        <params>
+                            <param name="taxonomy"><![CDATA[book_tax]]></param>
+                            <param name="term"><![CDATA[-1]]></param>
+                            <param name="template"><![CDATA[-1]]></param>
+                            <params name="loop_template">
+                                <params:skin_encoded name="hash_skin" instance="yarpp">
+                                    <skin:skin><![CDATA[skin1]]></skin:skin>
+                                </params:skin_encoded>
+                                <params:skin_instance name="hwskin_config" instance="yarpp">
+
+                                </params:skin_instance>
+                            </params>
+                            <param name="single_template">-1</param>
+                        </params>
+                    </params>
+                </params>
+                <!-- posttype settings tab -->
+                <params name="my_posttype_settings">
+                    <params name="show_posts_thumbnail_column">
+                        <param name="post"><![CDATA[1]]></param>
+                        <param name="page"><![CDATA[0]]></param>
+                        <param name="attachment"><![CDATA[0]]></param>
+                        <param name="wpcf7_contact_form"><![CDATA[0]]></param>
+
+                    </params>
+                    <params name="related_templates">
+                        <params>
+                            <param name="posttype"><![CDATA[post]]></param>
+                            <param name="widget_config"><![CDATA[15]]></param>
+                            <param name="sidebar"><![CDATA[sidebar-2]]></param>
+                            <param name="sidebar_widget_skin"><![CDATA[skin2]]></param>
+                            <param name="title"><![CDATA[Dữ liệu liên quan]]></param>
+                            <params name="terms">
+                                <param name="ae-erat-lorem-ip">on</param>
+                                <param name="tin-tuc">on</param>
+                            </params>
+                        </params>
+                        <params>
+                            <param name="posttype"><![CDATA[book]]></param>
+                            <param name="widget_config"><![CDATA[5]]></param>
+                            <param name="sidebar"><![CDATA[sidebar-1]]></param>
+                            <param name="sidebar_widget_skin"><![CDATA[skin_default]]></param>
+                            <param name="title"><![CDATA[Nhom lien quan]]></param>
+                            <params name="terms">
+                                <param name="item-2">on</param>
+                            </params>
+                        </params>
+                    </params>
+                    <params name="posttype_templates">
+                        <params>
+                            <param name="taxonomy"><![CDATA[post]]></param>
+                            <param name="loop_template"><![CDATA[0]]></param>
+                        </params>
+                    </params>
+                    <params name="show_post_thumbnail_pt">
+                        <param name="post"><![CDATA[1]]></param>
+                        <param name="page"><![CDATA[0]]></param>
+                        <param name="book"><![CDATA[1]]></param>
+                    </params>
+                </params>
+                <!-- my_templates tab -->
+                <params name="my_templates">
+                    <params name="main_loop_content_style">
+                        <params>
+                            <param name="layout"><![CDATA[taxonomy]]></param>
+                            <param name="widget_config"><![CDATA[12]]></param>
+                            <param name="sidebar"><![CDATA[sidebar-3]]></param>
+                            <param name="sidebar_widget_skin"><![CDATA[skin_default]]></param>
+                        </params>
+                        <params>
+                            <param name="layout"><![CDATA[single]]></param>
+                            <param name="widget_config"><![CDATA[5]]></param>
+                            <param name="sidebar"><![CDATA[sidebar-3]]></param>
+                            <param name="sidebar_widget_skin"><![CDATA[skin_default]]></param>
+                        </params>
+                    </params>
+                </params>
+                <!-- widget feature tab -->
+                <params name="my_widgetfeature_settings">
+                    <params name="active_features_widgets">
+                        <params>
+                            <param name="widget"><![CDATA[hw_taxonomy_post_list_widget]]></param>
+                            <param name="feature"><![CDATA[saveconfig]]></param>
+                            <param name="active"><![CDATA[on]]></param>
+                        </params>
+                        <params>
+                            <param name="widget"><![CDATA[hw_taxonomy_post_list_widget]]></param>
+                            <param name="feature"><![CDATA[shortcode_params]]></param>
+                            <param name="active"><![CDATA[on]]></param>
+                        </params>
+                    </params>
+                </params>
+            </params>
+        </option>
+    </options>
+</rss>

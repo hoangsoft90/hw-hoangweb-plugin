@@ -1,0 +1,52 @@
+.hw-pagenavi-container ul.tsc_pagination {
+    margin: 4px 0;
+    padding: 0px;
+    height: 100%;
+    overflow: hidden;
+    font: 12px 'Tahoma';
+    list-style-type: none;
+}
+.hw-pagenavi-container ul.tsc_pagination li:first-child {
+    margin-left: 0px;
+}
+.hw-pagenavi-container ul.tsc_paginationB li {
+    padding-bottom: 1px;
+}
+.hw-pagenavi-container ul.tsc_pagination li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+}
+.hw-pagenavi-container ul.tsc_paginationB08 li a {
+    color: #478223;
+    border-color: #B2D397;
+    background: #F7FAF4;
+}
+.hw-pagenavi-container ul.tsc_paginationB li a {
+    border: solid 1px #B2D397;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 6px 9px 6px 9px;
+}
+.hw-pagenavi-container ul.tsc_pagination li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 7px 10px 7px 10px;
+}
+.hw-pagenavi-container ul.tsc_paginationB08 li a:hover, .hw-pagenavi-container ul.tsc_paginationB08 li a.current {
+    text-shadow: 0px 1px #4E802C;
+    border-color: #478223;
+    background: #599F2F;
+    background: -moz-linear-gradient(top, #9FE355 1px, #79BF4A 1px, #599F2F);
+    background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.02, #9FE355), color-stop(0.02, #79BF4A), color-stop(1, #599F2F));
+}
+.hw-pagenavi-container ul.tsc_paginationB li a:hover, .hw-pagenavi-container ul.tsc_paginationB li a.current {
+    color: #FFFFFF;
+    box-shadow: 0px 1px #EDEDED;
+    -moz-box-shadow: 0px 1px #EDEDED;
+    -webkit-box-shadow: 0px 1px #EDEDED;
+}
+

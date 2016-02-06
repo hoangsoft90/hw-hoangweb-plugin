@@ -1,0 +1,7 @@
+.perfect-scrollbar {
+    /*position: relative; absolute ->adjust base your theme*/
+    margin: 0px auto;
+    padding: 0px;
+
+    overflow: hidden;
+}

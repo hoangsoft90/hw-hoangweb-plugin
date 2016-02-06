@@ -1,0 +1,52 @@
+﻿<p>
+    *<code>get_images_ids()</code> - Hàm trả về ID của các ảnh đã thêm vào Multi image metabox được liên kết với post/page/custom post type hiện tại.
+</p>
+<pre class="brush: php">
+while(have_posts())":
+$imgs=get_images_ids();
+print_r($imgs);
+
+//true: ảnh bao gồm cả thumbnail trong kết quả trả về
+get_images_ids(true);
+
+endwhile;
+</pre>
+
+*lấy dữ liệu ảnh của bất kỳ post/page/other post type mà nó liên kết.<br/>
+<pre class="brush: php">
+$id='10';
+get_images_ids(false,$id);
+</pre>
+
+*get_images_src()<br/>
+<pre class="brush: php">
+<?php
+get_images_src('medium',false,id); //3 accepted parameter : the size (STRING) & thumbnail (BOOLEAN) & id (integer)
+
+//An exemple of output
+array(
+    'image1' => array(
+        [0] => 'http://url_of_the_medium_pict.jpg',
+        [1] => 340,
+        [2] => 200,
+        [3] => false //I've no idea what is it...
+    ),
+    'image2' => array(
+        [0] => 'http://url_of_the_medium_second_pict.jpg',
+        [1] => 340,
+        [2] => 200,
+        [3] => false //I've no idea what is it...
+    )
+);
+
+?>
+</pre>
+
+<strong>explain:</strong>
+<ul>
+<li>- size (string) kích thước ảnh trả về.</li>
+<li>- include the thumbnail ? (boolean) nếu là true thì kết quả trả về có thêm thumbnail</li>
+<li>- ID (integer) lấy images liên kết với post xác định bởi ID.</li>
+</ul>
+*get_multi_images_src()<br/>
+Giống hàm get_image_src(), nhưng trả về tất cả các kích thước của các ảnh.

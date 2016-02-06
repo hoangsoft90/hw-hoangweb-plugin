@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<hw-wpcf7
+        xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+        xmlns:param="http://hoangweb.com/export/1.0/param/"
+        xmlns:params="http://hoangweb.com/export/1.0/params/"
+        xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+        xmlns:content="http://purl.org/rss/1.0/modules/content/"
+        xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:wp="http://wordpress.org/export/1.2/"
+        xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+    <settings>
+        <params>
+            <param name="test" value=""/>
+        </params>
+        <!-- #skins -->
+        <skins>
+            <hw:skin name="hwcf7_images">
+                <skin:apply_plugin>hw-wpcf7</skin:apply_plugin>
+                <skin:default_skin_path>skins</skin:default_skin_path>
+                <skin:skin_type>link</skin:skin_type>
+                <skin:skin_name>hw-wcf7-ajax-image.php</skin:skin_name>
+                <skin:group>ajaxLoading</skin:group>
+                <skin:other_folder>hw_wpcf7_ajax_images</skin:other_folder>
+                <skin:enable_external_callback></skin:enable_external_callback>
+            </hw:skin>
+        </skins>
+
+        <options>
+            <!-- hwcf7 settings page -->
+            <option>
+                <params name="HW_Wpcf_settings">
+                    <params name="general">
+                        <param name="enable_wpcf7_css" value="1"/>
+                        <param name="enable_wpcf7_js" value="1"/>
+                        <params name="exclude_pages">
+                            <param>__all__</param>
+                        </params>
+                        <params name="loadingImg">
+                            <params:skin_encoded name="hash_skin" instance="hwcf7_images">
+                                <skin:skin>default</skin:skin>
+                                <skin:skin_type>link</skin:skin_type>
+                                <skin:group>ajaxLoading</skin:group>
+
+                            </params:skin_encoded>
+                            <params:skin_instance name="hwskin_config" instance="hwcf7_images">
+                                <skin:group>ajaxLoading</skin:group>
+                            </params:skin_instance>
+                            <params:skin_file name="url" instance="hwcf7_images">
+                                <skin:file><![CDATA[loading13.gif]]></skin:file>
+                                <skin:group>ajaxLoading</skin:group>
+                            </params:skin_file>
+                        </params>
+                    </params>
+                    <params name="webhook">
+                        <param name="webhook_url"></param>
+                    </params>
+                </params>
+            </option>
+        </options>
+    </settings>
+
+    <!-- create form -->
+    <create_form>
+        <skins>
+            <hw:skin name="hwcf7">
+                <skin:apply_plugin>hw-wpcf7</skin:apply_plugin>
+                <skin:default_skin_path>themes</skin:default_skin_path>
+                <skin:default_skin>default/</skin:default_skin>
+                <skin:skin_type>file</skin:skin_type>
+                <skin:skin_name>hw-wpcf7-skin.php</skin:skin_name>
+                <skin:other_folder>hw_navmenu_skins</skin:other_folder>
+                <skin:group></skin:group>
+                <skin:enable_external_callback></skin:enable_external_callback>
+
+                <skin:allows_skin_names>
+                    <param>navmenu-skin.php</param>
+                </skin:allows_skin_names>
+                <skin:properties>
+                    <params name="migrate_data"></params>
+                </skin:properties>
+                <skin:list>
+                    <param name="skin-1">Skin 1</param>
+                    <param name="skin-2"/>
+                    <param name="skin-3"/>
+                </skin:list>
+            </hw:skin>
+        </skins>
+        <posts>
+            <language>vi</language>
+            <wp:wxr_version>1.2</wp:wxr_version>
+
+            <item>
+                <title>Contact form 2</title>
+                <pubDate>Tue, 29 Sep 2015 07:37:59 +0000</pubDate>
+                <description></description>
+                <!--
+                <wp:post_date>2015-09-29 07:37:59</wp:post_date>
+                <wp:post_date_gmt>2015-09-29 07:37:59</wp:post_date_gmt>
+                -->
+                <wp:status>publish</wp:status>
+                <wp:post_type>wpcf7_contact_form</wp:post_type>
+                <wp:postmeta>
+                    <wp:meta_key>_form</wp:meta_key>
+                    <wp:meta_value>
+                        <hw:params>
+                            <param name="recipient">5soffice.sharedoffice@gmail.com</param>
+                            <param name="sender"><![CDATA[your-name] <5soffice.sharedoffice@gmail.com>]]></param>
+                            <param name="additional_headers">Reply-To: [your-email]</param>
+                            <param name="subject">[your-subject]</param>
+                            <param name="body"><![CDATA[Gửi đến từ: [your-name] <[your-email]>
+Tiêu đề: [your-subject]
+<ul>
+<li>Tên của bạn (*)<br/>
+	[your-name]</li>
+<li>Email(*)<br/>
+	[your-email]</li>
+<li>Chủ đề<br/>
+	[your-subject]</li>
+<li>Nội dung<br/>
+	[your-message]</li>
+</ul>]]></param>
+
+                        </hw:params>
+                    </wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_mail_2</wp:meta_key>
+                    <wp:meta_value>
+                        <hw:params>
+                            <param name="active" value="0"/>
+                            <param name="subject"></param>
+                            <param name="sender"></param>
+                            <param name="body"></param>
+                            <param name="recipient"></param>
+                            <param name="additional_headers"></param>
+                        </hw:params>
+                    </wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_messages</wp:meta_key>
+                    <wp:meta_value>
+                        <hw:params>
+                            <param name="mail_sent_ok"></param>
+                            <param name="mail_sent_ng"></param>
+                            <param name="validation_error"></param>
+                            <param name="spam"></param>
+                            <param name="accept_terms"></param>
+                            <param name="invalid_required"></param>
+                            <param name="invalid_too_long"></param>
+                            <param name="invalid_too_short"></param>
+                        </hw:params>
+                    </wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_additional_settings</wp:meta_key>
+                    <wp:meta_value><![CDATA[on_sent_ok: ""
+on_submit: ""]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_locale</wp:meta_key>
+                    <wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_wpcf7_use_skin</wp:meta_key>
+                    <wp:meta_value><![CDATA[off]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_wpcf7_skin</wp:meta_key>
+                    <wp:meta_value>
+                        <hw:params>
+                            <params:skin_encoded name="hash_skin" instance="hwcf7">
+                                <skin:skin>skin1</skin:skin>
+                                <skin:skin_type>file</skin:skin_type>
+
+                            </params:skin_encoded>
+
+                        </hw:params>
+                    </wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_custom_css</wp:meta_key>
+                    <wp:meta_value><![CDATA[]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_form_template</wp:meta_key>
+                    <wp:meta_value><![CDATA[basic-contact-form]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_gformID</wp:meta_key>
+                    <wp:meta_value><![CDATA[1GzynAtb3hiv6E0mFE0KhxMwARSYGdGSY8oJ5ImGM7m4]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_enable_email_by_gapp</wp:meta_key>
+                    <wp:meta_value><![CDATA[on]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hook_url</wp:meta_key>
+                    <wp:meta_value><![CDATA[]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hwcf_data_hook</wp:meta_key>
+                    <wp:meta_value><![CDATA[google_form]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_sent_ok_redirect_page</wp:meta_key>
+                    <wp:meta_value><![CDATA[-1]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_on_sent_ok_js_event</wp:meta_key>
+                    <wp:meta_value><![CDATA[]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_on_submit_js_event</wp:meta_key>
+                    <wp:meta_value><![CDATA[]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_default_gform</wp:meta_key>
+                    <wp:meta_value><![CDATA[]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_form_class_attr</wp:meta_key>
+                    <wp:meta_value><![CDATA[enquiry-form]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_form_id_attr</wp:meta_key>
+                    <wp:meta_value><![CDATA[contact-form-index]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_form_name_attr</wp:meta_key>
+                    <wp:meta_value><![CDATA[]]></wp:meta_value>
+                </wp:postmeta>
+                <wp:postmeta>
+                    <wp:meta_key>_hw_form_enctype_attr</wp:meta_key>
+                    <wp:meta_value><![CDATA[]]></wp:meta_value>
+                </wp:postmeta>
+            </item>
+        </posts>
+    </create_form>
+    <delete_all_forms></delete_all_forms>
+</hw-wpcf7>

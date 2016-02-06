@@ -1,0 +1,20 @@
+//class
+class HW_Gmap extends HW_Core{
+    /**
+     * sington for the class instance
+     * @var null
+     */
+    public static $instance = null;
+    function test() {
+        //get module object
+        $module = $this->_option('module');
+        $module->get_field_value('width');
+    }
+}
+//module class
+class myModule extends HW_Module {
+    function test() {
+        $map = HW_Gmap::get_instance();
+        $map->_option('module', $this); //reference module to class instance
+    }
+}

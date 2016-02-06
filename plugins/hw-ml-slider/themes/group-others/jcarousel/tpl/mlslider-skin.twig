@@ -1,0 +1,23 @@
+<div class="jcarousel-ml-skin slider-wrapper theme-default" id="jcarousel-slider-{{ slider_id }}">
+    <a href="#" class="prev">‹</a>
+    <a href="#" class="next">›</a>
+    <div class="hw-jcarousel jcarousellite">
+        <ul>
+{% if query is defined %}
+    {% for post in posts %}
+        {# post.permalink #}
+        <li><a href="{{ post.get_field('hw-ml-slider_url')|default(_current_skin.get_file_url('images/placeholder.png')) }}">
+                <img src="{{ post.thumbnail.src|default(_current_skin.get_file_url('images/placeholder.png')) }}" alt="{{ post.excerpt }}" data-thumb="" data-transition="" alt="" title="{{ post.excerpt }}"  />
+            </a>
+            <h2> {% if show_title %} {{ post.title }} {% endif %}</h2>
+        </li>
+    {% endfor %}
+{% endif %}
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        jQuery('#jcarousel-slider-{{ slider_id }}').jCarouselLite({{ options }});
+    });
+</script>

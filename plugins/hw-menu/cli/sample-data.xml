@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:param="http://hoangweb.com/export/1.0/param/"
+     xmlns:params="http://hoangweb.com/export/1.0/params/"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+
+    <posts>
+        <!-- add menu -->
+        <wp:term>
+            <!-- <wp:term_id>15</wp:term_id> -->
+            <wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+            <wp:term_slug>menu-top</wp:term_slug>
+            <wp:term_name><![CDATA[menu top]]></wp:term_name>
+        </wp:term>
+        <!-- create nav menu item -->
+        <item>
+            <description></description>
+            <content:encoded><![CDATA[ ]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>2</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="menu-top"><![CDATA[Menu top]]></category>
+            <wp:postmeta>
+                <wp:meta_key>menu-icons</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params>
+                        <param name="type"><![CDATA[]]></param>
+                        <param name="dashicons-icon"><![CDATA[]]></param>
+                        <param name="elusive-icon"><![CDATA[]]></param>
+                        <param name="fa-icon"><![CDATA[]]></param>
+                        <param name="foundation-icons-icon"><![CDATA[]]></param>
+                        <param name="genericon-icon"><![CDATA[]]></param>
+                        <param name="image-icon"><![CDATA[]]></param>
+                        <param name="hide_label"><![CDATA[]]></param>
+                        <param name="position"><![CDATA[before]]></param>
+                        <param name="image_size"><![CDATA[full]]></param>
+                        <param name="vertical_align"><![CDATA[middle]]></param>
+                        <param name="font_size"><![CDATA[1.2]]></param>
+
+                    </hw:params>
+                </wp:meta_value>
+
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value><![CDATA[page]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value><![CDATA[94]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value><![CDATA[0]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params>
+                        <param>class1</param>
+                        <param>class2</param>
+                    </hw:params>
+                </wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+        <item>
+            <description></description>
+            <content:encoded><![CDATA[ ]]></content:encoded>
+            <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:status>publish</wp:status>
+            <wp:post_parent>0</wp:post_parent>
+            <wp:menu_order>2</wp:menu_order>
+            <wp:post_type>nav_menu_item</wp:post_type>
+            <wp:post_password></wp:post_password>
+            <wp:is_sticky>0</wp:is_sticky>
+            <category domain="nav_menu" nicename="menu1"><![CDATA[menu1]]></category>
+            <wp:postmeta>
+                <wp:meta_key>menu-icons</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params>
+                        <param name="type"><![CDATA[]]></param>
+                        <param name="dashicons-icon"><![CDATA[]]></param>
+                        <param name="elusive-icon"><![CDATA[]]></param>
+                        <param name="fa-icon"><![CDATA[]]></param>
+                        <param name="foundation-icons-icon"><![CDATA[]]></param>
+                        <param name="genericon-icon"><![CDATA[]]></param>
+                        <param name="image-icon"><![CDATA[]]></param>
+                        <param name="hide_label"><![CDATA[]]></param>
+                        <param name="position"><![CDATA[before]]></param>
+                        <param name="image_size"><![CDATA[full]]></param>
+                        <param name="vertical_align"><![CDATA[middle]]></param>
+                        <param name="font_size"><![CDATA[1.2]]></param>
+
+                    </hw:params>
+                </wp:meta_value>
+
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_target</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object</wp:meta_key>
+                <wp:meta_value><![CDATA[page]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_object_id</wp:meta_key>
+                <wp:meta_value><![CDATA[94]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+                <wp:meta_value><![CDATA[0]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_type</wp:meta_key>
+                <wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_url</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_classes</wp:meta_key>
+                <wp:meta_value>
+                    <hw:params>
+                        <param>class1</param>
+                        <param>class2</param>
+                    </hw:params>
+                </wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_menu_item_xfn</wp:meta_key>
+                <wp:meta_value><![CDATA[]]></wp:meta_value>
+            </wp:postmeta>
+        </item>
+    </posts>
+    <!-- #skins -->
+    <skins>
+        <hw:skin name="menu">
+            <skin:apply_plugin>hw-menu</skin:apply_plugin>
+            <skin:default_skin_path>skins</skin:default_skin_path>
+            <skin:default_skin>default/</skin:default_skin>
+            <skin:skin_type>file</skin:skin_type>
+            <skin:skin_name>navmenu-skin.php</skin:skin_name>
+            <skin:other_folder>hw_navmenu_skins</skin:other_folder>
+            <skin:group></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+
+            <skin:allows_skin_names>
+                <param>navmenu-skin.php</param>
+            </skin:allows_skin_names>
+            <skin:properties>
+                <params name="migrate_data"></params>
+            </skin:properties>
+            <skin:list>
+                <param name="skin-1">Skin 1</param>
+                <param name="skin-2"/>
+                <param name="skin-3"/>
+            </skin:list>
+        </hw:skin>
+
+    </skins>
+    <!-- #options -->
+    <options>
+        <option>
+            <params name="HW_NAVMENU_settings" method="append" prefix="primary_" >
+                <param name="enable_filter_menu" value="1" type="bool"/>
+                <param name="show_searchbox" value="false" type="bool"/>
+                <param name="show_langs_switcher" value="0"/>
+                <param name="remove_ul_wrap" value="0"/>
+                <param name="remove_ul_wrap" value="0"/>
+                <param name="only_anchor_tag_nav_menu" value="0"/>
+                <param name="show_home_menu" value="0"/>
+                <param name="show_icon" value="1"/>
+                <param name="enable_skin" value="1"/>
+
+                <params name="skin">
+
+                    <params:skin_encoded name="hash_skin" instance="menu">
+                        <skin:skin>default</skin:skin>
+                        <skin:skin_type>file</skin:skin_type>
+                        <skin:group></skin:group>
+                        <skin:source>theme</skin:source>
+                    </params:skin_encoded>
+
+                    <params:skin_instance name="hwskin_config" instance="menu">
+                        <skin:group></skin:group>
+                    </params:skin_instance>
+
+                    <param name="hwskin_condition"><![CDATA[]]></param>
+                    <params name="skin_options">
+                        <param name="enqueue_css_position" value="head"/>
+                        <param name="enqueue_js_position" value="footer"/>
+                        <param name="show_lang_buttons_outside" value="on"/>
+                        <param name="show_items_separator" value="on"/>
+                        <param name="ex_separator" ><![CDATA[<span class="separator"></span>]]></param>
+                        <param name="submenu_container_class" value=""/>
+                        <param name="allow_tags_nav_menu"><![CDATA[<a>]]></param>
+                        <param name="anchor_attrs" value=""/>
+                        <param name="anchor_attrs_has_submenu" value=""/>
+                        <param name="anchor_attrs_submenu" value=""/>
+                        <param name="anchor_class" value=""/>
+                        <param name="anchor_class_has_submenu" value=""/>
+                        <param name="anchor_class_submenu" value=""/>
+                        <param name="menu_item_class" value="my-item-normal"/>
+                        <param name="menu_item_class_focus" value="my-item-focus"/>
+                        <param name="menu_item_class_has_submenu" value="my-item-focus"/>
+                        <param name="menu_item_class_submenu" value="my-item-focus"/>
+                        <param name="first_menu_item_class" value="hw-first-nav-item"/>
+                        <param name="last_menu_item_class" value="hw-last-nav-item"/>
+                        <param name="container" value="div"/>
+                        <param name="container_class" value=""/>
+                        <param name="container_id" value=""/>
+                        <param name="menu_class" value=""/>
+                        <param name="menu_id" value=""/>
+                        <param name="before" value=""/>
+                        <param name="submenu_before" value=""/>
+                        <param name="after" value=""/>
+                        <param name="submenu_after" value=""/>
+                        <param name="link_before" value=""/>
+                        <param name="submenu_link_before" value=""/>
+                        <param name="link_after" value=""/>
+                        <param name="submenu_link_after" value=""/>
+                        <param name="items_wrap" ><![CDATA[<ul id="%1$s" class="%2$s">%3$s</ul>]]></param>
+                        <param name="depth" value="5"/>
+
+                        <param name="dd_orientation" value="h"/>
+                        <param name="dd_classname" value=""/>
+                        <param name="dd_method" value="hover"/>
+
+                    </params>
+
+                </params>
+            </params>
+        </option>
+        <option>
+            <params name="HW_NAVMENU_settings" method="append" prefix="menu1_">
+
+            </params>
+        </option>
+        <option>
+            <params name="HW_Module_Settings_page" method="append" prefix="hw_menu_">
+                <param name="primary">
+                    <hw:params export="ab">
+                        <param name="ab">
+                            <hw:import_term name="menu-top" field="term_id" filter=""/>
+                        </param><!-- name match with term slug -->
+                    </hw:params>
+                </param>
+                <param name="menu1">
+                    <hw:params export="ab">
+                        <param name="ab">
+                            <hw:import_term name="menu-1" field="term_id" filter=""/>
+                        </param><!-- name match with term slug -->
+                    </hw:params>
+                </param>
+            </params>
+        </option>
+    </options>
+    <widgets>
+        <hw:widget sidebar="sidebar-1" id_base="" name="menu">
+            <param name="title"><![CDATA[Weather, exchange rate widget]]></param>    <!-- #each widget import have different title -->
+            <param name=""><![CDATA[]]></param>
+
+        </hw:widget>
+    </widgets>
+</rss>

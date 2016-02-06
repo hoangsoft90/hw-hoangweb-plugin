@@ -1,0 +1,43 @@
+.home_cat_new {
+  padding: 0px 0px;
+  margin: 0px;
+}
+.home_cat_list {
+  width: 100%;
+  padding: 5px 0px;
+  border-bottom: 1px #ddd dashed;
+  margin:0px;
+}
+.home_cat_list .post-edit-link{float:right;}
+.home_cat_list a {
+  color: #333;
+  font-size: 14px;
+  display: block;
+  overflow: hidden;
+  line-height: 20px;
+}
+.home_cat_list a .img {
+  width: 150px;
+  float: left;
+  height: 80px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+img {
+  max-width: 100%;
+}
+.home_cat_list a {
+  color: #333;
+  font-size: 14px;
+  display: block;
+  overflow: hidden;
+  line-height: 20px;
+}
+.home_cat_list a.list {
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-left: 10px;
+  background: url(images/bread_bg.gif) 3px 8px no-repeat;
+}

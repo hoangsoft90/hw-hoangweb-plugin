@@ -1,0 +1,40 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Hoang
+ * Date: 07/12/2015
+ * Time: 12:34
+ */
+require_once (HW_HOANGWEB_UTILITIES . '/admin/admin.php');
+$wp_list_table = hw_get_list_table('HW_Module_Install_List_Table');
+$pagenum = $wp_list_table->get_pagenum();
+
+if ( ! empty( $_REQUEST['_wp_http_referer'] ) ) {
+    $location = remove_query_arg( '_wp_http_referer', wp_unslash( $_SERVER['REQUEST_URI'] ) );
+
+    if ( ! empty( $_REQUEST['paged'] ) ) {
+        $location = add_query_arg( 'paged', (int) $_REQUEST['paged'], $location );
+    }
+
+    wp_redirect( $location );
+    exit;
+}
+$wp_list_table->prepare_items();
+
+$total_pages = $wp_list_table->get_pagination_arg( 'total_pages' );
+
+if ( $pagenum > $total_pages && $total_pages > 0 ) {
+    wp_redirect( add_query_arg( 'paged', $total_pages ) );
+    exit;
+}
+$wp_list_table->views();
+$wp_list_table->display();
+
+/*
+echo '<div id="the-list">';
+foreach ($packages as $module) {
+
+    if(!isset($module['desc'])) $module['desc'] = '';
+    hw_include_template('module-repository', compact('module'));
+}
+echo '</div>';*/

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:skin="http://hoangweb.com/export/1.0/skin/"
+     xmlns:hw="http://hoangweb.com/export/1.0/"
+        >
+
+    <skins>
+        <hw:skin name="tpl-pagination">
+            <!-- <skin:apply_plugin>hw-taxonomy-post-list-widget</skin:apply_plugin> -->
+            <skin:default_skin_path><![CDATA[skins]]></skin:default_skin_path>
+            <skin:default_skin><![CDATA[default/]]></skin:default_skin>
+            <skin:skin_type><![CDATA[file]]></skin:skin_type>
+            <skin:skin_name><![CDATA[hwtpl-pagination.php]]></skin:skin_name>
+            <skin:other_folder><![CDATA[hw_tpl_skins]]></skin:other_folder>
+            <skin:group><![CDATA[__paginations]]></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+            <skin:options>
+                <param name="enable_skin_file">1</param>
+                <param name="enable_skin_tpl">0</param>
+            </skin:options>
+        </hw:skin>
+
+        <hw:skin name="tpl-scrollbar">
+            <!-- <skin:apply_plugin>hw-taxonomy-post-list-widget</skin:apply_plugin> -->
+            <skin:default_skin_path><![CDATA[skins]]></skin:default_skin_path>
+            <skin:default_skin><![CDATA[default/]]></skin:default_skin>
+            <skin:skin_type><![CDATA[file]]></skin:skin_type>
+            <skin:skin_name><![CDATA[hwtpl-scrollbar.php]]></skin:skin_name>
+            <skin:other_folder><![CDATA[hw_tpl_skins]]></skin:other_folder>
+            <skin:group><![CDATA[__scrollbars]]></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+            <skin:options>
+                <param name="enable_skin_file">1</param>
+                <param name="enable_skin_tpl">0</param>
+            </skin:options>
+        </hw:skin>
+        <hw:skin name="tpl">
+            <!-- <skin:apply_plugin>hw-taxonomy-post-list-widget</skin:apply_plugin> -->
+            <skin:default_skin_path><![CDATA[skins]]></skin:default_skin_path>
+            <skin:default_skin><![CDATA[default/]]></skin:default_skin>
+            <skin:skin_type><![CDATA[file]]></skin:skin_type>
+            <skin:skin_name><![CDATA[hw-category-posts.php]]></skin:skin_name>
+            <skin:other_folder><![CDATA[hw_tpl_skins]]></skin:other_folder>
+            <skin:group><![CDATA[]]></skin:group>
+            <skin:enable_external_callback></skin:enable_external_callback>
+            <skin:options>
+                <param name="enable_skin_file">0</param>
+                <param name="enable_skin_tpl">1</param>
+            </skin:options>
+        </hw:skin>
+    </skins>
+</rss>

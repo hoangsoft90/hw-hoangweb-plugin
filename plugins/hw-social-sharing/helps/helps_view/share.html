@@ -1,0 +1,50 @@
+<h2>Vertial sharing bar</h2>
+<pre class="brush: php">
+    //display vertical box count sharing
+    $options = array(
+        'class_socials_button_wrapper' => 'hwss-float-socials-share',
+        'sharing_service' => 'addthis',  #addthis, socialite
+        'scale' => '2',
+        'button_size' => 'custom'
+    );
+    $socials = array(
+       'facebook_share','facebook_like','facebook_recommend_button'
+    );
+    hwss_vertical_box_count_socials_share($socials, $options);
+</pre>
+
+<h2>Horizontal sharing bar</h2>
+<pre class="brush: php">
+    //display horizontal box count sharing
+    $options = array(
+        'class_socials_button_wrapper' => 'hwss-float-socials-share',
+        'sharing_service' => 'addthis',  #addthis, socialite
+        'scale' => '2',
+        'button_size' => 'custom'
+    );
+    $socials = array(
+        'facebook_share','facebook_like','facebook_recommend_button'
+    );
+    hwss_horizontal_socials_share($socials, $options);
+</pre>
+
+<h2>Addthis Compact button</h2>
+<pre class="brush: php">
+//display compact button with given image in folder /images/addthis_compactbtn/
+echo hwss_compact_socials_share_addthis('rss.png');
+</pre>
+
+<h2>Shortcode</h2>
+
+<pre class="brush:php">
+/**
+style: horizontal, vertical
+size: medium,small
+
+*/
+[hwss_sharebuttons buttons="facebook_share,googleplus" style="horizontal" size="medium"]
+
+//compact button, compact images button store in folder /images/addthis_compactbtn/
+[hwss_compact_button img="sharebtn.png"]
+</pre>
+<h2>Widget</h2>
